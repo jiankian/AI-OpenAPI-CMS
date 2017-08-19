@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="AI-OpenAPI-CMS" target="1.5" />
+      <module name="AI-OpenAPI-CMS" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
