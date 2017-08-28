@@ -589,3 +589,73 @@ Caused by: java.sql.SQLException: Access denied for user 'ai_anline_cn'@'localho
 2017-08-28_09:49:06.210 [cli-thread-2] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
 2017-08-28_09:49:06.770 [cli-thread-2] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
 2017-08-28_09:49:06.796 [jobs-thread-2] INFO  act.Act - App[AI-Open-API] loaded in 602ms
+2017-08-29_02:08:30.281 [jobs-thread-8] INFO  act.Act - App starting ....
+2017-08-29_02:08:30.381 [jobs-thread-8] INFO  act.Act - App shutting down ....
+2017-08-29_02:08:30.396 [jobs-thread-8] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-29_02:08:30.399 [jobs-thread-8] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-08-29_02:08:30.399 [jobs-thread-8] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-08-29_02:08:30.400 [jobs-thread-8] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@696ac3dd
+2017-08-29_02:08:30.402 [jobs-thread-8] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-29_02:08:30.402 [jobs-thread-8] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-29_02:08:31.767 [jobs-thread-8] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-29_02:08:31.819 [jobs-thread-2] INFO  act.Act - App[AI-Open-API] loaded in 1538ms
+2017-08-29_02:09:30.407 [cli-thread-2] INFO  act.Act - App starting ....
+2017-08-29_02:09:30.418 [cli-thread-2] INFO  act.Act - App shutting down ....
+2017-08-29_02:09:30.425 [cli-thread-2] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-29_02:09:30.426 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-08-29_02:09:30.426 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-08-29_02:09:30.427 [cli-thread-2] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@696ac3dd
+2017-08-29_02:09:30.427 [cli-thread-2] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-29_02:09:30.427 [cli-thread-2] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-29_02:09:30.989 [cli-thread-2] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-29_02:09:31.015 [jobs-thread-1] INFO  act.Act - App[AI-Open-API] loaded in 608ms
+2017-08-29_02:10:30.434 [cli-thread-2] INFO  act.Act - App starting ....
+2017-08-29_02:10:30.440 [cli-thread-2] INFO  act.Act - App shutting down ....
+2017-08-29_02:10:30.446 [cli-thread-2] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-29_02:10:30.447 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-08-29_02:10:30.447 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-08-29_02:10:30.447 [cli-thread-2] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@696ac3dd
+2017-08-29_02:10:30.448 [cli-thread-2] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-29_02:10:30.448 [cli-thread-2] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-29_02:10:30.753 [cli-thread-2] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-29_02:10:30.779 [jobs-thread-2] INFO  act.Act - App[AI-Open-API] loaded in 345ms
+2017-08-29_02:11:30.449 [cli-thread-2] INFO  act.Act - App starting ....
+2017-08-29_02:11:30.459 [cli-thread-2] INFO  act.Act - App shutting down ....
+2017-08-29_02:11:30.466 [cli-thread-2] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-29_02:11:30.466 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-08-29_02:11:30.466 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-08-29_02:11:30.467 [cli-thread-2] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@696ac3dd
+2017-08-29_02:11:30.467 [cli-thread-2] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-29_02:11:30.467 [cli-thread-2] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-29_02:11:30.799 [cli-thread-2] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-29_02:11:30.822 [jobs-thread-1] INFO  act.Act - App[AI-Open-API] loaded in 373ms
+2017-08-29_02:13:30.476 [cli-thread-2] INFO  act.Act - App starting ....
+2017-08-29_02:13:30.485 [cli-thread-2] INFO  act.Act - App shutting down ....
+2017-08-29_02:13:30.496 [cli-thread-2] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-29_02:13:30.496 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-08-29_02:13:30.497 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-08-29_02:13:30.497 [cli-thread-2] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@696ac3dd
+2017-08-29_02:13:30.498 [cli-thread-2] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-29_02:13:30.498 [cli-thread-2] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-29_02:13:30.792 [cli-thread-2] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-29_02:13:30.814 [jobs-thread-1] INFO  act.Act - App[AI-Open-API] loaded in 338ms
+2017-08-29_02:15:30.506 [cli-thread-2] INFO  act.Act - App starting ....
+2017-08-29_02:15:30.512 [cli-thread-2] INFO  act.Act - App shutting down ....
+2017-08-29_02:15:30.520 [cli-thread-2] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-29_02:15:30.521 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-08-29_02:15:30.521 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-08-29_02:15:30.521 [cli-thread-2] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@696ac3dd
+2017-08-29_02:15:30.521 [cli-thread-2] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-29_02:15:30.522 [cli-thread-2] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-29_02:15:30.801 [cli-thread-2] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-29_02:15:30.823 [jobs-thread-1] INFO  act.Act - App[AI-Open-API] loaded in 317ms
+2017-08-29_02:16:23.299 [XNIO-1 I/O-8] INFO  act.Act - App starting ....
+2017-08-29_02:16:23.306 [XNIO-1 I/O-8] INFO  act.Act - App shutting down ....
+2017-08-29_02:16:23.311 [XNIO-1 I/O-8] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-29_02:16:23.312 [XNIO-1 I/O-8] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-08-29_02:16:23.312 [XNIO-1 I/O-8] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-08-29_02:16:23.312 [XNIO-1 I/O-8] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@696ac3dd
+2017-08-29_02:16:23.313 [XNIO-1 I/O-8] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-29_02:16:23.313 [XNIO-1 I/O-8] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-29_02:16:23.596 [XNIO-1 I/O-8] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-29_02:16:23.628 [jobs-thread-1] INFO  act.Act - App[AI-Open-API] loaded in 329ms
