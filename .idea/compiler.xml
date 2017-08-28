@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="AI-OpenAPI-CMS" />
+        <module name="ai-openapi-cms" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="AI-OpenAPI-CMS" target="1.8" />
+      <module name="ai-openapi-cms" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

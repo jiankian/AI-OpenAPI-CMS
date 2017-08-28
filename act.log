@@ -1,0 +1,591 @@
+2017-08-20_13:01:15.240 [main] INFO  act.Act - loading application(s) ...
+2017-08-20_13:01:15.326 [main] INFO  act.Act - App starting ....
+2017-08-20_13:01:15.533 [main] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-20_13:01:15.540 [main] WARN  act.handler.builtin.StaticFileGetter - file base not exists: .\asset\favicon.ico
+2017-08-20_13:01:15.541 [main] WARN  act.handler.builtin.StaticFileGetter - file base not exists: .\asset\robots.txt
+2017-08-20_13:01:15.546 [main] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@42ffbab6
+2017-08-20_13:01:15.599 [main] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-20_13:01:15.599 [main] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-20_13:01:16.531 [main] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-20_13:01:17.015 [main] INFO  act.Act - network client hooked on port: 5121
+2017-08-20_13:01:17.020 [main] INFO  act.Act - CLI server started on port: 5122
+2017-08-20_13:01:17.023 [main] INFO  act.Act - it takes 2767ms to start the app
+
+2017-08-20_13:01:18.989 [jobs-thread-1] ERROR act.Act - Block issue encountered
+org.osgl.exception.ConfigurationException: Error init SQL db service
+	at org.osgl.util.E.invalidConfiguration(E.java:127)
+	at act.db.sql.SqlDbService$1.run(SqlDbService.java:93)
+	at act.db.sql.SqlDbService$1.on(SqlDbService.java:54)
+	at act.event.EventBus.callOn(EventBus.java:236)
+	at act.event.EventBus.access$100(EventBus.java:50)
+	at act.event.EventBus$2.run(EventBus.java:268)
+	at act.job.AppJobManager$ContextualJob$1.apply(AppJobManager.java:371)
+	at act.job._Job.doJob(_Job.java:272)
+	at act.job._Job.run(_Job.java:212)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.zaxxer.hikari.pool.HikariPool$PoolInitializationException: Failed to initialize pool: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.zaxxer.hikari.pool.HikariPool.throwPoolInitializationException(HikariPool.java:543)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:535)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:111)
+	at com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:72)
+	at act.db.sql.datasource.HikariDataSourceProvider.createDataSource(HikariDataSourceProvider.java:72)
+	at act.db.sql.SqlDbService.initDataSource(SqlDbService.java:186)
+	at act.db.sql.SqlDbService.access$500(SqlDbService.java:30)
+	at act.db.sql.SqlDbService$1.run(SqlDbService.java:67)
+	... 14 common frames omitted
+Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:989)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:341)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2203)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2236)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2035)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:790)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:400)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:112)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:118)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:443)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:514)
+	... 20 common frames omitted
+Caused by: java.net.SocketException: Connection attempt exceeded defined timeout.
+	at com.mysql.jdbc.StandardSocketFactory.resetLoginTimeCountdown(StandardSocketFactory.java:249)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:216)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:300)
+	... 38 common frames omitted
+2017-08-20_15:35:53.787 [main] INFO  act.Act - loading application(s) ...
+2017-08-20_15:35:53.863 [main] INFO  act.Act - App starting ....
+2017-08-20_15:35:54.071 [main] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-20_15:35:54.078 [main] WARN  act.handler.builtin.StaticFileGetter - file base not exists: .\asset\favicon.ico
+2017-08-20_15:35:54.078 [main] WARN  act.handler.builtin.StaticFileGetter - file base not exists: .\asset\robots.txt
+2017-08-20_15:35:54.085 [main] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@42ffbab6
+2017-08-20_15:35:54.138 [main] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-20_15:35:54.138 [main] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-20_15:35:54.992 [main] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-20_15:35:55.467 [main] INFO  act.Act - network client hooked on port: 5121
+2017-08-20_15:35:55.471 [main] INFO  act.Act - CLI server started on port: 5122
+2017-08-20_15:35:55.475 [main] INFO  act.Act - it takes 2775ms to start the app
+
+2017-08-20_15:35:57.449 [jobs-thread-1] ERROR act.Act - Block issue encountered
+org.osgl.exception.ConfigurationException: Error init SQL db service
+	at org.osgl.util.E.invalidConfiguration(E.java:127)
+	at act.db.sql.SqlDbService$1.run(SqlDbService.java:93)
+	at act.db.sql.SqlDbService$1.on(SqlDbService.java:54)
+	at act.event.EventBus.callOn(EventBus.java:236)
+	at act.event.EventBus.access$100(EventBus.java:50)
+	at act.event.EventBus$2.run(EventBus.java:268)
+	at act.job.AppJobManager$ContextualJob$1.apply(AppJobManager.java:371)
+	at act.job._Job.doJob(_Job.java:272)
+	at act.job._Job.run(_Job.java:212)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.zaxxer.hikari.pool.HikariPool$PoolInitializationException: Failed to initialize pool: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.zaxxer.hikari.pool.HikariPool.throwPoolInitializationException(HikariPool.java:543)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:535)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:111)
+	at com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:72)
+	at act.db.sql.datasource.HikariDataSourceProvider.createDataSource(HikariDataSourceProvider.java:72)
+	at act.db.sql.SqlDbService.initDataSource(SqlDbService.java:186)
+	at act.db.sql.SqlDbService.access$500(SqlDbService.java:30)
+	at act.db.sql.SqlDbService$1.run(SqlDbService.java:67)
+	... 14 common frames omitted
+Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:989)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:341)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2203)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2236)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2035)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:790)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:400)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:112)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:118)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:443)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:514)
+	... 20 common frames omitted
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:300)
+	... 38 common frames omitted
+2017-08-21_10:47:54.374 [main] INFO  act.Act - loading application(s) ...
+2017-08-21_10:47:54.540 [main] INFO  act.Act - App starting ....
+2017-08-21_10:47:54.721 [main] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-21_10:47:54.728 [main] WARN  act.handler.builtin.StaticFileGetter - file base not exists: .\asset\favicon.ico
+2017-08-21_10:47:54.728 [main] WARN  act.handler.builtin.StaticFileGetter - file base not exists: .\asset\robots.txt
+2017-08-21_10:47:54.736 [main] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@42ffbab6
+2017-08-21_10:47:54.789 [main] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-21_10:47:54.789 [main] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-21_10:47:55.538 [main] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-21_10:47:55.987 [main] INFO  act.Act - network client hooked on port: 5121
+2017-08-21_10:47:55.992 [main] INFO  act.Act - CLI server started on port: 5122
+2017-08-21_10:47:55.997 [main] INFO  act.Act - it takes 2772ms to start the app
+
+2017-08-21_10:47:57.949 [jobs-thread-1] ERROR act.Act - Block issue encountered
+org.osgl.exception.ConfigurationException: Error init SQL db service
+	at org.osgl.util.E.invalidConfiguration(E.java:127)
+	at act.db.sql.SqlDbService$1.run(SqlDbService.java:93)
+	at act.db.sql.SqlDbService$1.on(SqlDbService.java:54)
+	at act.event.EventBus.callOn(EventBus.java:236)
+	at act.event.EventBus.access$100(EventBus.java:50)
+	at act.event.EventBus$2.run(EventBus.java:268)
+	at act.job.AppJobManager$ContextualJob$1.apply(AppJobManager.java:371)
+	at act.job._Job.doJob(_Job.java:272)
+	at act.job._Job.run(_Job.java:212)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.zaxxer.hikari.pool.HikariPool$PoolInitializationException: Failed to initialize pool: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.zaxxer.hikari.pool.HikariPool.throwPoolInitializationException(HikariPool.java:543)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:535)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:111)
+	at com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:72)
+	at act.db.sql.datasource.HikariDataSourceProvider.createDataSource(HikariDataSourceProvider.java:72)
+	at act.db.sql.SqlDbService.initDataSource(SqlDbService.java:186)
+	at act.db.sql.SqlDbService.access$500(SqlDbService.java:30)
+	at act.db.sql.SqlDbService$1.run(SqlDbService.java:67)
+	... 14 common frames omitted
+Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:989)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:341)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2203)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2236)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2035)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:790)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:400)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:112)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:118)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:443)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:514)
+	... 20 common frames omitted
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:300)
+	... 38 common frames omitted
+2017-08-21_10:49:21.342 [main] INFO  act.Act - loading application(s) ...
+2017-08-21_10:49:21.405 [main] INFO  act.Act - App starting ....
+2017-08-21_10:49:21.612 [main] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-21_10:49:21.619 [main] WARN  act.handler.builtin.StaticFileGetter - file base not exists: .\asset\favicon.ico
+2017-08-21_10:49:21.619 [main] WARN  act.handler.builtin.StaticFileGetter - file base not exists: .\asset\robots.txt
+2017-08-21_10:49:21.626 [main] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@42ffbab6
+2017-08-21_10:49:21.681 [main] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-21_10:49:21.681 [main] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-21_10:49:22.483 [main] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-21_10:49:22.913 [main] INFO  act.Act - network client hooked on port: 5121
+2017-08-21_10:49:22.919 [main] INFO  act.Act - CLI server started on port: 5122
+2017-08-21_10:49:22.924 [main] INFO  act.Act - it takes 2534ms to start the app
+
+2017-08-21_10:49:23.123 [jobs-thread-1] INFO  act.Act - App[AI-Open-API] loaded in 1718ms
+2017-08-21_10:49:24.391 [XNIO-1 task-1] WARN  a.c.bytecode.HandlerEnhancer - local variable table info not found. ActionContext render args might not be automatically populated
+2017-08-21_10:49:24.392 [XNIO-1 task-1] WARN  a.c.bytecode.HandlerEnhancer - Invalid render argument found in cn.anline.www.home.controller.Index.index: unknow opcode: 1
+2017-08-21_10:49:24.424 [XNIO-1 task-1] ERROR a.h.b.controller.RequestHandlerProxy - Error handling request: [GET] /
+org.osgl.exception.UnsupportedException: Template[/index.html] not found
+	at org.osgl.util.E.unsupport(E.java:153)
+	at act.view.RenderAny.apply(RenderAny.java:107)
+	at act.handler.builtin.controller.RequestHandlerProxy.onResult(RequestHandlerProxy.java:284)
+	at act.handler.builtin.controller.RequestHandlerProxy.handle(RequestHandlerProxy.java:208)
+	at act.handler.DelegateRequestHandler.handle(DelegateRequestHandler.java:47)
+	at act.route.Router$ContextualHandler.handle(Router.java:1303)
+	at act.xio.NetworkHandler$3.run(NetworkHandler.java:150)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-21_10:50:08.005 [XNIO-1 I/O-11] INFO  act.Act - App starting ....
+2017-08-21_10:50:08.009 [XNIO-1 I/O-11] INFO  act.Act - App shutting down ....
+2017-08-21_10:50:08.085 [XNIO-1 I/O-11] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-21_10:50:08.086 [XNIO-1 I/O-11] WARN  act.handler.builtin.StaticFileGetter - file base not exists: .\asset\favicon.ico
+2017-08-21_10:50:08.086 [XNIO-1 I/O-11] WARN  act.handler.builtin.StaticFileGetter - file base not exists: .\asset\robots.txt
+2017-08-21_10:50:08.088 [XNIO-1 I/O-11] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@42ffbab6
+2017-08-21_10:50:08.089 [XNIO-1 I/O-11] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-21_10:50:08.089 [XNIO-1 I/O-11] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-21_10:50:08.395 [XNIO-1 I/O-11] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-21_10:50:08.434 [jobs-thread-1] INFO  act.Act - App[AI-Open-API] loaded in 429ms
+2017-08-21_10:50:08.445 [XNIO-1 task-6] WARN  a.c.bytecode.HandlerEnhancer - local variable table info not found. ActionContext render args might not be automatically populated
+2017-08-21_10:50:08.445 [XNIO-1 task-6] WARN  a.c.bytecode.HandlerEnhancer - Invalid render argument found in cn.anline.www.home.controller.Index.index: unknow opcode: 1
+2017-08-21_10:50:08.451 [XNIO-1 task-6] ERROR a.h.b.controller.RequestHandlerProxy - Error handling request: [GET] /
+org.osgl.exception.UnsupportedException: Template[index.html] not found
+	at org.osgl.util.E.unsupport(E.java:153)
+	at act.view.RenderAny.apply(RenderAny.java:107)
+	at act.handler.builtin.controller.RequestHandlerProxy.onResult(RequestHandlerProxy.java:284)
+	at act.handler.builtin.controller.RequestHandlerProxy.handle(RequestHandlerProxy.java:208)
+	at act.handler.DelegateRequestHandler.handle(DelegateRequestHandler.java:47)
+	at act.route.Router$ContextualHandler.handle(Router.java:1303)
+	at act.xio.NetworkHandler$3.run(NetworkHandler.java:150)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-21_10:51:16.102 [XNIO-1 I/O-2] INFO  act.Act - App starting ....
+2017-08-21_10:51:16.108 [XNIO-1 I/O-2] INFO  act.Act - App shutting down ....
+2017-08-21_10:51:16.173 [XNIO-1 I/O-2] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-21_10:51:16.175 [XNIO-1 I/O-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: .\asset\favicon.ico
+2017-08-21_10:51:16.175 [XNIO-1 I/O-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: .\asset\robots.txt
+2017-08-21_10:51:16.176 [XNIO-1 I/O-2] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@42ffbab6
+2017-08-21_10:51:16.177 [XNIO-1 I/O-2] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-21_10:51:16.177 [XNIO-1 I/O-2] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-21_10:51:16.456 [XNIO-1 I/O-2] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-21_10:51:16.488 [jobs-thread-1] INFO  act.Act - App[AI-Open-API] loaded in 386ms
+2017-08-21_10:51:33.387 [XNIO-1 I/O-2] INFO  act.Act - App starting ....
+2017-08-21_10:51:33.389 [XNIO-1 I/O-2] INFO  act.Act - App shutting down ....
+2017-08-21_10:51:33.447 [XNIO-1 I/O-2] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-21_10:51:33.448 [XNIO-1 I/O-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: .\asset\favicon.ico
+2017-08-21_10:51:33.448 [XNIO-1 I/O-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: .\asset\robots.txt
+2017-08-21_10:51:33.449 [XNIO-1 I/O-2] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@42ffbab6
+2017-08-21_10:51:33.450 [XNIO-1 I/O-2] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-21_10:51:33.450 [XNIO-1 I/O-2] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-21_10:51:33.678 [XNIO-1 I/O-2] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-21_10:51:33.721 [jobs-thread-1] INFO  act.Act - App[AI-Open-API] loaded in 334ms
+2017-08-21_10:52:00.264 [XNIO-1 I/O-2] INFO  act.Act - App starting ....
+2017-08-21_10:52:00.274 [XNIO-1 I/O-2] INFO  act.Act - App shutting down ....
+2017-08-21_10:52:00.344 [XNIO-1 I/O-2] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-21_10:52:00.345 [XNIO-1 I/O-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: .\asset\favicon.ico
+2017-08-21_10:52:00.345 [XNIO-1 I/O-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: .\asset\robots.txt
+2017-08-21_10:52:00.347 [XNIO-1 I/O-2] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@42ffbab6
+2017-08-21_10:52:00.347 [XNIO-1 I/O-2] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-21_10:52:00.347 [XNIO-1 I/O-2] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-21_10:52:00.580 [XNIO-1 I/O-2] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-21_10:52:00.607 [jobs-thread-1] INFO  act.Act - App[AI-Open-API] loaded in 343ms
+2017-08-21_10:52:00.617 [XNIO-1 task-13] WARN  a.c.bytecode.HandlerEnhancer - local variable table info not found. ActionContext render args might not be automatically populated
+2017-08-21_10:52:00.617 [XNIO-1 task-13] WARN  a.c.bytecode.HandlerEnhancer - Invalid render argument found in cn.anline.www.home.controller.Index.index: unknow opcode: 1
+2017-08-21_10:52:58.988 [XNIO-1 I/O-2] INFO  act.Act - App starting ....
+2017-08-21_10:52:58.992 [XNIO-1 I/O-2] INFO  act.Act - App shutting down ....
+2017-08-21_10:52:59.052 [XNIO-1 I/O-2] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-21_10:52:59.054 [XNIO-1 I/O-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: .\asset\favicon.ico
+2017-08-21_10:52:59.054 [XNIO-1 I/O-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: .\asset\robots.txt
+2017-08-21_10:52:59.055 [XNIO-1 I/O-2] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@42ffbab6
+2017-08-21_10:52:59.056 [XNIO-1 I/O-2] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-21_10:52:59.056 [XNIO-1 I/O-2] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-21_10:52:59.253 [XNIO-1 I/O-2] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-21_10:52:59.283 [jobs-thread-1] INFO  act.Act - App[AI-Open-API] loaded in 295ms
+2017-08-21_10:53:40.506 [XNIO-1 I/O-2] INFO  act.Act - App starting ....
+2017-08-21_10:53:40.508 [XNIO-1 I/O-2] INFO  act.Act - App shutting down ....
+2017-08-21_10:53:40.568 [XNIO-1 I/O-2] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-21_10:53:40.570 [XNIO-1 I/O-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: .\asset\favicon.ico
+2017-08-21_10:53:40.570 [XNIO-1 I/O-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: .\asset\robots.txt
+2017-08-21_10:53:40.571 [XNIO-1 I/O-2] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@42ffbab6
+2017-08-21_10:53:40.572 [XNIO-1 I/O-2] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-21_10:53:40.572 [XNIO-1 I/O-2] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-21_10:53:40.805 [XNIO-1 I/O-2] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-21_10:53:40.830 [jobs-thread-1] INFO  act.Act - App[AI-Open-API] loaded in 324ms
+2017-08-21_11:36:20.392 [main] INFO  act.Act - loading application(s) ...
+2017-08-21_11:36:20.408 [main] INFO  act.Act - App starting ....
+2017-08-21_11:36:20.502 [main] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-21_11:36:20.505 [main] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-08-21_11:36:20.506 [main] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-08-21_11:36:20.515 [main] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@3e812b53
+2017-08-21_11:36:20.545 [main] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-21_11:36:20.546 [main] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-21_11:36:21.833 [main] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-21_11:36:22.331 [main] INFO  act.Act - network client hooked on port: 5121
+2017-08-21_11:36:22.334 [main] INFO  act.Act - CLI server started on port: 5122
+2017-08-21_11:36:22.338 [main] INFO  act.Act - it takes 6919ms to start the app
+
+2017-08-21_11:36:23.331 [jobs-thread-1] ERROR act.Act - Block issue encountered
+org.osgl.exception.ConfigurationException: Error init SQL db service
+	at org.osgl.util.E.invalidConfiguration(E.java:127)
+	at act.db.sql.SqlDbService$1.run(SqlDbService.java:93)
+	at act.db.sql.SqlDbService$1.on(SqlDbService.java:54)
+	at act.event.EventBus.callOn(EventBus.java:236)
+	at act.event.EventBus.access$100(EventBus.java:50)
+	at act.event.EventBus$2.run(EventBus.java:268)
+	at act.job.AppJobManager$ContextualJob$1.apply(AppJobManager.java:371)
+	at act.job._Job.doJob(_Job.java:272)
+	at act.job._Job.run(_Job.java:212)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.zaxxer.hikari.pool.HikariPool$PoolInitializationException: Failed to initialize pool: Access denied for user 'ai_anline_cn'@'localhost' (using password: YES)
+	at com.zaxxer.hikari.pool.HikariPool.throwPoolInitializationException(HikariPool.java:543)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:535)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:111)
+	at com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:72)
+	at act.db.sql.datasource.HikariDataSourceProvider.createDataSource(HikariDataSourceProvider.java:72)
+	at act.db.sql.SqlDbService.initDataSource(SqlDbService.java:186)
+	at act.db.sql.SqlDbService.access$500(SqlDbService.java:30)
+	at act.db.sql.SqlDbService$1.run(SqlDbService.java:67)
+	... 14 common frames omitted
+Caused by: java.sql.SQLException: Access denied for user 'ai_anline_cn'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:964)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3909)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:873)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1710)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1226)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2205)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2236)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2035)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:790)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:400)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:112)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:118)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:443)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:514)
+	... 20 common frames omitted
+2017-08-21_12:06:41.329 [main] INFO  act.Act - loading application(s) ...
+2017-08-21_12:06:41.345 [main] INFO  act.Act - App starting ....
+2017-08-21_12:06:41.436 [main] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-21_12:06:41.440 [main] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-08-21_12:06:41.440 [main] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-08-21_12:06:41.448 [main] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@3e812b53
+2017-08-21_12:06:41.480 [main] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-21_12:06:41.481 [main] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-21_12:06:42.853 [main] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-21_12:06:43.263 [main] INFO  act.Act - network client hooked on port: 5121
+2017-08-21_12:06:43.265 [main] INFO  act.Act - CLI server started on port: 5122
+2017-08-21_12:06:43.269 [main] INFO  act.Act - it takes 6347ms to start the app
+
+2017-08-21_12:06:44.270 [jobs-thread-2] ERROR act.Act - Block issue encountered
+org.osgl.exception.ConfigurationException: Error init SQL db service
+	at org.osgl.util.E.invalidConfiguration(E.java:127)
+	at act.db.sql.SqlDbService$1.run(SqlDbService.java:93)
+	at act.db.sql.SqlDbService$1.on(SqlDbService.java:54)
+	at act.event.EventBus.callOn(EventBus.java:236)
+	at act.event.EventBus.access$100(EventBus.java:50)
+	at act.event.EventBus$2.run(EventBus.java:268)
+	at act.job.AppJobManager$ContextualJob$1.apply(AppJobManager.java:371)
+	at act.job._Job.doJob(_Job.java:272)
+	at act.job._Job.run(_Job.java:212)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.zaxxer.hikari.pool.HikariPool$PoolInitializationException: Failed to initialize pool: Access denied for user 'ai_anline_cn'@'localhost' (using password: YES)
+	at com.zaxxer.hikari.pool.HikariPool.throwPoolInitializationException(HikariPool.java:543)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:535)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:111)
+	at com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:72)
+	at act.db.sql.datasource.HikariDataSourceProvider.createDataSource(HikariDataSourceProvider.java:72)
+	at act.db.sql.SqlDbService.initDataSource(SqlDbService.java:186)
+	at act.db.sql.SqlDbService.access$500(SqlDbService.java:30)
+	at act.db.sql.SqlDbService$1.run(SqlDbService.java:67)
+	... 14 common frames omitted
+Caused by: java.sql.SQLException: Access denied for user 'ai_anline_cn'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:964)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3909)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:873)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1710)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1226)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2205)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2236)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2035)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:790)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:400)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:112)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:118)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:443)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:514)
+	... 20 common frames omitted
+2017-08-21_15:56:38.087 [main] INFO  act.Act - loading application(s) ...
+2017-08-21_15:56:38.103 [main] INFO  act.Act - App starting ....
+2017-08-21_15:56:38.194 [main] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-21_15:56:38.197 [main] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-08-21_15:56:38.198 [main] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-08-21_15:56:38.206 [main] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@3e812b53
+2017-08-21_15:56:38.234 [main] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-21_15:56:38.235 [main] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-21_15:56:39.489 [main] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-21_15:56:40.088 [main] INFO  act.Act - network client hooked on port: 5121
+2017-08-21_15:56:40.092 [main] INFO  act.Act - CLI server started on port: 5122
+2017-08-21_15:56:40.096 [main] INFO  act.Act - it takes 6033ms to start the app
+
+2017-08-21_15:56:40.135 [jobs-thread-2] INFO  act.Act - App[AI-Open-API] loaded in 2032ms
+2017-08-28_02:31:06.161 [main] INFO  act.Act - loading application(s) ...
+2017-08-28_02:31:06.173 [main] INFO  act.Act - App starting ....
+2017-08-28_02:31:06.280 [main] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-28_02:31:06.283 [main] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-08-28_02:31:06.283 [main] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-08-28_02:31:06.292 [main] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@696ac3dd
+2017-08-28_02:31:06.328 [main] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-28_02:31:06.329 [main] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-28_02:31:07.737 [main] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-28_02:31:08.207 [main] INFO  act.Act - network client hooked on port: 5121
+2017-08-28_02:31:08.209 [main] INFO  act.Act - CLI server started on port: 5122
+2017-08-28_02:31:08.214 [main] INFO  act.Act - it takes 6332ms to start the app
+
+2017-08-28_02:31:08.278 [jobs-thread-2] INFO  act.Act - App[AI-Open-API] loaded in 2105ms
+2017-08-28_02:58:06.402 [cli-thread-2] INFO  act.Act - App starting ....
+2017-08-28_02:58:06.435 [cli-thread-2] INFO  act.Act - App shutting down ....
+2017-08-28_02:58:06.446 [cli-thread-2] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-28_02:58:06.447 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-08-28_02:58:06.447 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-08-28_02:58:06.448 [cli-thread-2] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@696ac3dd
+2017-08-28_02:58:06.449 [cli-thread-2] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-28_02:58:06.449 [cli-thread-2] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-28_02:58:06.948 [cli-thread-2] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-28_02:58:06.994 [jobs-thread-2] INFO  act.Act - App[AI-Open-API] loaded in 592ms
+2017-08-28_03:01:06.464 [cli-thread-2] INFO  act.Act - App starting ....
+2017-08-28_03:01:06.475 [cli-thread-2] INFO  act.Act - App shutting down ....
+2017-08-28_03:01:06.484 [cli-thread-2] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-28_03:01:06.485 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-08-28_03:01:06.485 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-08-28_03:01:06.486 [cli-thread-2] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@696ac3dd
+2017-08-28_03:01:06.486 [cli-thread-2] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-28_03:01:06.486 [cli-thread-2] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-28_03:01:06.886 [cli-thread-2] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-28_03:01:06.923 [jobs-thread-1] INFO  act.Act - App[AI-Open-API] loaded in 459ms
+2017-08-28_03:02:06.485 [cli-thread-2] INFO  act.Act - App starting ....
+2017-08-28_03:02:06.497 [cli-thread-2] INFO  act.Act - App shutting down ....
+2017-08-28_03:02:06.504 [cli-thread-2] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-28_03:02:06.505 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-08-28_03:02:06.505 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-08-28_03:02:06.506 [cli-thread-2] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@696ac3dd
+2017-08-28_03:02:06.506 [cli-thread-2] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-28_03:02:06.506 [cli-thread-2] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-28_03:02:06.905 [cli-thread-2] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-28_03:02:06.936 [jobs-thread-1] INFO  act.Act - App[AI-Open-API] loaded in 451ms
+2017-08-28_03:03:06.507 [cli-thread-2] INFO  act.Act - App starting ....
+2017-08-28_03:03:06.514 [cli-thread-2] INFO  act.Act - App shutting down ....
+2017-08-28_03:03:06.521 [cli-thread-2] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-28_03:03:06.522 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-08-28_03:03:06.522 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-08-28_03:03:06.523 [cli-thread-2] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@696ac3dd
+2017-08-28_03:03:06.523 [cli-thread-2] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-28_03:03:06.523 [cli-thread-2] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-28_03:03:06.807 [cli-thread-2] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-28_03:03:06.838 [jobs-thread-1] INFO  act.Act - App[AI-Open-API] loaded in 331ms
+2017-08-28_03:04:06.526 [cli-thread-2] INFO  act.Act - App starting ....
+2017-08-28_03:04:06.536 [cli-thread-2] INFO  act.Act - App shutting down ....
+2017-08-28_03:04:06.544 [cli-thread-2] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-28_03:04:06.544 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-08-28_03:04:06.545 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-08-28_03:04:06.545 [cli-thread-2] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@696ac3dd
+2017-08-28_03:04:06.546 [cli-thread-2] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-28_03:04:06.546 [cli-thread-2] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-28_03:04:06.871 [cli-thread-2] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-28_03:04:06.898 [jobs-thread-1] INFO  act.Act - App[AI-Open-API] loaded in 372ms
+2017-08-28_03:05:06.549 [cli-thread-2] INFO  act.Act - App starting ....
+2017-08-28_03:05:06.555 [cli-thread-2] INFO  act.Act - App shutting down ....
+2017-08-28_03:05:06.562 [cli-thread-2] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-28_03:05:06.562 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-08-28_03:05:06.562 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-08-28_03:05:06.563 [cli-thread-2] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@696ac3dd
+2017-08-28_03:05:06.563 [cli-thread-2] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-28_03:05:06.563 [cli-thread-2] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-28_03:05:06.866 [cli-thread-2] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-28_03:05:06.894 [jobs-thread-1] INFO  act.Act - App[AI-Open-API] loaded in 345ms
+2017-08-28_09:48:06.151 [jobs-thread-8] INFO  act.Act - App starting ....
+2017-08-28_09:48:06.173 [jobs-thread-8] INFO  act.Act - App shutting down ....
+2017-08-28_09:48:06.186 [jobs-thread-8] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-28_09:48:06.187 [jobs-thread-8] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-08-28_09:48:06.187 [jobs-thread-8] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-08-28_09:48:06.188 [jobs-thread-8] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@696ac3dd
+2017-08-28_09:48:06.190 [jobs-thread-8] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-28_09:48:06.190 [jobs-thread-8] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-28_09:48:06.794 [jobs-thread-8] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-28_09:48:06.836 [jobs-thread-1] INFO  act.Act - App[AI-Open-API] loaded in 686ms
+2017-08-28_09:49:06.194 [cli-thread-2] INFO  act.Act - App starting ....
+2017-08-28_09:49:06.201 [cli-thread-2] INFO  act.Act - App shutting down ....
+2017-08-28_09:49:06.208 [cli-thread-2] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-28_09:49:06.208 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-08-28_09:49:06.209 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-08-28_09:49:06.209 [cli-thread-2] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@696ac3dd
+2017-08-28_09:49:06.210 [cli-thread-2] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-28_09:49:06.210 [cli-thread-2] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-28_09:49:06.770 [cli-thread-2] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-28_09:49:06.796 [jobs-thread-2] INFO  act.Act - App[AI-Open-API] loaded in 602ms

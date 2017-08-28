@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/AI-OpenAPI-CMS.iml" filepath="$PROJECT_DIR$/AI-OpenAPI-CMS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ai-openapi-cms.iml" filepath="$PROJECT_DIR$/ai-openapi-cms.iml" />
     </modules>
   </component>
 </project>
