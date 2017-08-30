@@ -3134,3 +3134,383 @@ Relevant Java source lines:
 2017-08-31_03:33:36.019 [cli-thread-2] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
 2017-08-31_03:33:36.329 [cli-thread-2] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
 2017-08-31_03:33:36.356 [jobs-thread-1] INFO  act.Act - App[AI-Open-API] loaded in 355ms
+2017-08-31_03:50:36.332 [jobs-thread-2] INFO  act.Act - App starting ....
+2017-08-31_03:50:36.337 [jobs-thread-2] INFO  act.Act - App shutting down ....
+2017-08-31_03:50:36.354 [jobs-thread-2] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-31_03:50:36.355 [jobs-thread-2] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@1a3272e0
+2017-08-31_03:50:36.356 [jobs-thread-2] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-31_03:50:36.356 [jobs-thread-2] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-31_03:50:36.668 [jobs-thread-2] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-31_03:50:36.704 [jobs-thread-1] INFO  act.Act - App[AI-Open-API] loaded in 372ms
+2017-08-31_03:51:36.358 [cli-thread-2] INFO  act.Act - App starting ....
+2017-08-31_03:51:36.362 [cli-thread-2] INFO  act.Act - App shutting down ....
+2017-08-31_03:51:36.370 [cli-thread-2] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-31_03:51:36.372 [cli-thread-2] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@1a3272e0
+2017-08-31_03:51:36.372 [cli-thread-2] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-31_03:51:36.372 [cli-thread-2] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-31_03:51:36.666 [cli-thread-2] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-31_03:51:36.705 [jobs-thread-2] INFO  act.Act - App[AI-Open-API] loaded in 347ms
+2017-08-31_03:52:36.375 [cli-thread-2] INFO  act.Act - App starting ....
+2017-08-31_03:52:36.379 [cli-thread-2] INFO  act.Act - App shutting down ....
+2017-08-31_03:52:36.387 [cli-thread-2] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-31_03:52:36.388 [cli-thread-2] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@1a3272e0
+2017-08-31_03:52:36.389 [cli-thread-2] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-31_03:52:36.389 [cli-thread-2] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-31_03:52:36.698 [cli-thread-2] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-31_03:52:36.733 [jobs-thread-1] INFO  act.Act - App[AI-Open-API] loaded in 358ms
+2017-08-31_03:53:36.392 [cli-thread-2] INFO  act.Act - App starting ....
+2017-08-31_03:53:36.396 [cli-thread-2] INFO  act.Act - App shutting down ....
+2017-08-31_03:53:36.408 [cli-thread-2] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-31_03:53:36.411 [cli-thread-2] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@1a3272e0
+2017-08-31_03:53:36.412 [cli-thread-2] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-31_03:53:36.412 [cli-thread-2] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-31_03:53:36.781 [cli-thread-2] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-31_03:53:36.819 [jobs-thread-1] INFO  act.Act - App[AI-Open-API] loaded in 427ms
+2017-08-31_03:54:36.414 [cli-thread-2] INFO  act.Act - App starting ....
+2017-08-31_03:54:36.417 [cli-thread-2] INFO  act.Act - App shutting down ....
+2017-08-31_03:54:36.425 [cli-thread-2] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-31_03:54:36.426 [cli-thread-2] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@1a3272e0
+2017-08-31_03:54:36.426 [cli-thread-2] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-31_03:54:36.426 [cli-thread-2] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-31_03:54:36.792 [cli-thread-2] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-31_03:54:36.831 [jobs-thread-2] INFO  act.Act - App[AI-Open-API] loaded in 417ms
+2017-08-31_03:54:36.833 [jobs-thread-1] INFO  act.Act - App starting ....
+2017-08-31_03:57:36.476 [main] INFO  act.Act - loading application(s) ...
+2017-08-31_03:57:36.567 [main] INFO  act.Act - App starting ....
+2017-08-31_03:57:36.712 [main] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-31_03:57:36.729 [main] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@1a3272e0
+2017-08-31_03:57:36.780 [main] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-31_03:57:36.780 [main] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-31_03:57:38.167 [main] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-31_03:57:38.555 [main] INFO  act.Act - network client hooked on port: 5121
+2017-08-31_03:57:38.574 [main] INFO  act.Act - CLI server started on port: 5122
+2017-08-31_03:57:38.588 [main] INFO  act.Act - it takes 3626ms to start the app
+
+2017-08-31_03:57:38.872 [jobs-thread-2] INFO  act.Act - App[AI-Open-API] loaded in 2305ms
+2017-08-31_03:57:41.022 [XNIO-1 task-1] WARN  a.c.bytecode.HandlerEnhancer - Invalid render argument found in cn.anline.www.home.controller.Index.index: new object is not accepted
+2017-08-31_03:57:41.022 [XNIO-1 task-1] WARN  a.c.bytecode.HandlerEnhancer - Invalid render argument found in cn.anline.www.home.controller.Index.index: method with param is not supported
+2017-08-31_03:57:41.086 [XNIO-1 task-1] ERROR a.h.b.controller.RequestHandlerProxy - Error handling request: [GET] /indexaa
+org.osgl.exception.UnsupportedException: Template not found
+	at org.osgl.util.E.unsupport(E.java:153)
+	at act.view.RenderAny.apply(RenderAny.java:100)
+	at act.handler.builtin.controller.RequestHandlerProxy.onResult(RequestHandlerProxy.java:279)
+	at act.handler.builtin.controller.RequestHandlerProxy.handle(RequestHandlerProxy.java:203)
+	at act.handler.DelegateRequestHandler.handle(DelegateRequestHandler.java:47)
+	at act.route.Router$ContextualHandler.handle(Router.java:1292)
+	at act.xio.NetworkHandler$2.run(NetworkHandler.java:145)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-08-31_03:58:36.728 [cli-thread-2] INFO  act.Act - App starting ....
+2017-08-31_03:58:36.730 [cli-thread-2] INFO  act.Act - App shutting down ....
+2017-08-31_03:58:36.751 [cli-thread-2] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-31_03:58:36.753 [cli-thread-2] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@1a3272e0
+2017-08-31_03:58:36.754 [cli-thread-2] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-31_03:58:36.754 [cli-thread-2] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-31_03:58:37.309 [cli-thread-2] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-31_03:58:37.361 [jobs-thread-1] INFO  act.Act - App[AI-Open-API] loaded in 633ms
+2017-08-31_03:58:44.723 [main] INFO  act.Act - loading application(s) ...
+2017-08-31_03:58:44.917 [main] INFO  act.Act - App starting ....
+2017-08-31_03:58:45.079 [main] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-31_03:58:45.093 [main] INFO  act.Act - App shutting down ....
+2017-08-31_03:58:50.255 [main] INFO  act.Act - loading application(s) ...
+2017-08-31_03:58:50.333 [main] INFO  act.Act - App starting ....
+2017-08-31_03:58:50.481 [main] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-31_03:58:50.497 [main] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@1a3272e0
+2017-08-31_03:58:50.552 [main] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-31_03:58:50.552 [main] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-31_03:58:51.886 [main] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-31_03:58:52.288 [main] INFO  act.Act - network client hooked on port: 5121
+2017-08-31_03:58:52.305 [main] INFO  act.Act - CLI server started on port: 5122
+2017-08-31_03:58:52.320 [main] INFO  act.Act - it takes 3460ms to start the app
+
+2017-08-31_03:58:52.570 [jobs-thread-2] INFO  act.Act - App[AI-Open-API] loaded in 2237ms
+2017-08-31_03:59:50.500 [cli-thread-2] INFO  act.Act - App starting ....
+2017-08-31_03:59:50.503 [cli-thread-2] INFO  act.Act - App shutting down ....
+2017-08-31_03:59:50.523 [cli-thread-2] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-31_03:59:50.525 [cli-thread-2] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@1a3272e0
+2017-08-31_03:59:50.525 [cli-thread-2] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-31_03:59:50.525 [cli-thread-2] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-31_03:59:51.049 [cli-thread-2] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-31_03:59:51.106 [jobs-thread-2] INFO  act.Act - App[AI-Open-API] loaded in 606ms
+2017-08-31_04:00:28.316 [XNIO-1 I/O-8] INFO  act.Act - App starting ....
+2017-08-31_04:00:28.320 [XNIO-1 I/O-8] INFO  act.Act - App shutting down ....
+2017-08-31_04:00:28.333 [XNIO-1 I/O-8] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-31_04:00:28.335 [XNIO-1 I/O-8] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@1a3272e0
+2017-08-31_04:00:28.336 [XNIO-1 I/O-8] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-31_04:00:28.336 [XNIO-1 I/O-8] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-31_04:00:28.704 [XNIO-1 I/O-8] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-31_04:00:28.751 [jobs-thread-2] INFO  act.Act - App[AI-Open-API] loaded in 435ms
+2017-08-31_04:00:28.794 [XNIO-1 task-2] WARN  a.c.bytecode.HandlerEnhancer - Invalid render argument found in cn.anline.www.home.controller.Index.index: new object is not accepted
+2017-08-31_04:00:28.794 [XNIO-1 task-2] WARN  a.c.bytecode.HandlerEnhancer - Invalid render argument found in cn.anline.www.home.controller.Index.index: method with param is not supported
+2017-08-31_04:00:28.807 [XNIO-1 task-2] ERROR a.h.b.controller.RequestHandlerProxy - Error handling request: [GET] /indexaa
+org.osgl.exception.UnsupportedException: Template not found
+	at org.osgl.util.E.unsupport(E.java:153)
+	at act.view.RenderAny.apply(RenderAny.java:100)
+	at act.handler.builtin.controller.RequestHandlerProxy.onResult(RequestHandlerProxy.java:279)
+	at act.handler.builtin.controller.RequestHandlerProxy.handle(RequestHandlerProxy.java:203)
+	at act.handler.DelegateRequestHandler.handle(DelegateRequestHandler.java:47)
+	at act.route.Router$ContextualHandler.handle(Router.java:1292)
+	at act.xio.NetworkHandler$2.run(NetworkHandler.java:145)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-08-31_04:00:31.292 [XNIO-1 task-7] ERROR a.h.b.controller.RequestHandlerProxy - Error handling request: [GET] /indexaa
+org.osgl.exception.UnsupportedException: Template not found
+	at org.osgl.util.E.unsupport(E.java:153)
+	at act.view.RenderAny.apply(RenderAny.java:100)
+	at act.handler.builtin.controller.RequestHandlerProxy.onResult(RequestHandlerProxy.java:279)
+	at act.handler.builtin.controller.RequestHandlerProxy.handle(RequestHandlerProxy.java:203)
+	at act.handler.DelegateRequestHandler.handle(DelegateRequestHandler.java:47)
+	at act.route.Router$ContextualHandler.handle(Router.java:1292)
+	at act.xio.NetworkHandler$2.run(NetworkHandler.java:145)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-08-31_04:00:57.042 [XNIO-1 task-12] ERROR a.h.b.controller.RequestHandlerProxy - Error handling request: [GET] /indexaa
+org.osgl.exception.UnsupportedException: Template not found
+	at org.osgl.util.E.unsupport(E.java:153)
+	at act.view.RenderAny.apply(RenderAny.java:100)
+	at act.handler.builtin.controller.RequestHandlerProxy.onResult(RequestHandlerProxy.java:279)
+	at act.handler.builtin.controller.RequestHandlerProxy.handle(RequestHandlerProxy.java:203)
+	at act.handler.DelegateRequestHandler.handle(DelegateRequestHandler.java:47)
+	at act.route.Router$ContextualHandler.handle(Router.java:1292)
+	at act.xio.NetworkHandler$2.run(NetworkHandler.java:145)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-08-31_04:00:59.249 [XNIO-1 task-17] ERROR a.h.b.controller.RequestHandlerProxy - Error handling request: [GET] /indexaa
+org.osgl.exception.UnsupportedException: Template not found
+	at org.osgl.util.E.unsupport(E.java:153)
+	at act.view.RenderAny.apply(RenderAny.java:100)
+	at act.handler.builtin.controller.RequestHandlerProxy.onResult(RequestHandlerProxy.java:279)
+	at act.handler.builtin.controller.RequestHandlerProxy.handle(RequestHandlerProxy.java:203)
+	at act.handler.DelegateRequestHandler.handle(DelegateRequestHandler.java:47)
+	at act.route.Router$ContextualHandler.handle(Router.java:1292)
+	at act.xio.NetworkHandler$2.run(NetworkHandler.java:145)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-08-31_04:01:01.348 [XNIO-1 task-22] ERROR a.h.b.controller.RequestHandlerProxy - Error handling request: [GET] /indexaa
+org.osgl.exception.UnsupportedException: Template not found
+	at org.osgl.util.E.unsupport(E.java:153)
+	at act.view.RenderAny.apply(RenderAny.java:100)
+	at act.handler.builtin.controller.RequestHandlerProxy.onResult(RequestHandlerProxy.java:279)
+	at act.handler.builtin.controller.RequestHandlerProxy.handle(RequestHandlerProxy.java:203)
+	at act.handler.DelegateRequestHandler.handle(DelegateRequestHandler.java:47)
+	at act.route.Router$ContextualHandler.handle(Router.java:1292)
+	at act.xio.NetworkHandler$2.run(NetworkHandler.java:145)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-08-31_04:01:03.434 [XNIO-1 task-27] ERROR a.h.b.controller.RequestHandlerProxy - Error handling request: [GET] /indexaa
+org.osgl.exception.UnsupportedException: Template not found
+	at org.osgl.util.E.unsupport(E.java:153)
+	at act.view.RenderAny.apply(RenderAny.java:100)
+	at act.handler.builtin.controller.RequestHandlerProxy.onResult(RequestHandlerProxy.java:279)
+	at act.handler.builtin.controller.RequestHandlerProxy.handle(RequestHandlerProxy.java:203)
+	at act.handler.DelegateRequestHandler.handle(DelegateRequestHandler.java:47)
+	at act.route.Router$ContextualHandler.handle(Router.java:1292)
+	at act.xio.NetworkHandler$2.run(NetworkHandler.java:145)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-08-31_04:01:28.338 [cli-thread-2] INFO  act.Act - App starting ....
+2017-08-31_04:01:28.342 [cli-thread-2] INFO  act.Act - App shutting down ....
+2017-08-31_04:01:28.355 [cli-thread-2] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-31_04:01:28.357 [cli-thread-2] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@1a3272e0
+2017-08-31_04:01:28.358 [cli-thread-2] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-31_04:01:28.358 [cli-thread-2] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-31_04:01:28.895 [cli-thread-2] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-31_04:01:28.947 [jobs-thread-2] INFO  act.Act - App[AI-Open-API] loaded in 609ms
+2017-08-31_04:01:29.563 [XNIO-1 task-32] WARN  a.c.bytecode.HandlerEnhancer - Invalid render argument found in cn.anline.www.home.controller.Index.index: new object is not accepted
+2017-08-31_04:01:29.563 [XNIO-1 task-32] WARN  a.c.bytecode.HandlerEnhancer - Invalid render argument found in cn.anline.www.home.controller.Index.index: method with param is not supported
+2017-08-31_04:01:29.563 [XNIO-1 task-32] WARN  a.c.bytecode.HandlerEnhancer - Invalid render argument found in cn.anline.www.home.controller.Index.index: new object is not accepted
+2017-08-31_04:01:29.576 [XNIO-1 task-32] ERROR a.h.b.controller.RequestHandlerProxy - Error handling request: [GET] /indexaa
+org.osgl.exception.UnsupportedException: Template not found
+	at org.osgl.util.E.unsupport(E.java:153)
+	at act.view.RenderAny.apply(RenderAny.java:100)
+	at act.handler.builtin.controller.RequestHandlerProxy.onResult(RequestHandlerProxy.java:279)
+	at act.handler.builtin.controller.RequestHandlerProxy.handle(RequestHandlerProxy.java:203)
+	at act.handler.DelegateRequestHandler.handle(DelegateRequestHandler.java:47)
+	at act.route.Router$ContextualHandler.handle(Router.java:1292)
+	at act.xio.NetworkHandler$2.run(NetworkHandler.java:145)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-08-31_04:02:43.715 [XNIO-1 task-37] ERROR a.h.b.controller.RequestHandlerProxy - Error handling request: [GET] /indexaa
+org.osgl.exception.UnsupportedException: Template not found
+	at org.osgl.util.E.unsupport(E.java:153)
+	at act.view.RenderAny.apply(RenderAny.java:100)
+	at act.handler.builtin.controller.RequestHandlerProxy.onResult(RequestHandlerProxy.java:279)
+	at act.handler.builtin.controller.RequestHandlerProxy.handle(RequestHandlerProxy.java:203)
+	at act.handler.DelegateRequestHandler.handle(DelegateRequestHandler.java:47)
+	at act.route.Router$ContextualHandler.handle(Router.java:1292)
+	at act.xio.NetworkHandler$2.run(NetworkHandler.java:145)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-08-31_04:02:46.439 [XNIO-1 task-42] ERROR a.h.b.controller.RequestHandlerProxy - Error handling request: [GET] /indexaa
+org.osgl.exception.UnsupportedException: Template not found
+	at org.osgl.util.E.unsupport(E.java:153)
+	at act.view.RenderAny.apply(RenderAny.java:100)
+	at act.handler.builtin.controller.RequestHandlerProxy.onResult(RequestHandlerProxy.java:279)
+	at act.handler.builtin.controller.RequestHandlerProxy.handle(RequestHandlerProxy.java:203)
+	at act.handler.DelegateRequestHandler.handle(DelegateRequestHandler.java:47)
+	at act.route.Router$ContextualHandler.handle(Router.java:1292)
+	at act.xio.NetworkHandler$2.run(NetworkHandler.java:145)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-08-31_04:02:48.340 [XNIO-1 task-47] ERROR a.h.b.controller.RequestHandlerProxy - Error handling request: [GET] /indexaa
+org.osgl.exception.UnsupportedException: Template not found
+	at org.osgl.util.E.unsupport(E.java:153)
+	at act.view.RenderAny.apply(RenderAny.java:100)
+	at act.handler.builtin.controller.RequestHandlerProxy.onResult(RequestHandlerProxy.java:279)
+	at act.handler.builtin.controller.RequestHandlerProxy.handle(RequestHandlerProxy.java:203)
+	at act.handler.DelegateRequestHandler.handle(DelegateRequestHandler.java:47)
+	at act.route.Router$ContextualHandler.handle(Router.java:1292)
+	at act.xio.NetworkHandler$2.run(NetworkHandler.java:145)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-08-31_04:02:50.104 [XNIO-1 task-52] ERROR a.h.b.controller.RequestHandlerProxy - Error handling request: [GET] /indexaa
+org.osgl.exception.UnsupportedException: Template not found
+	at org.osgl.util.E.unsupport(E.java:153)
+	at act.view.RenderAny.apply(RenderAny.java:100)
+	at act.handler.builtin.controller.RequestHandlerProxy.onResult(RequestHandlerProxy.java:279)
+	at act.handler.builtin.controller.RequestHandlerProxy.handle(RequestHandlerProxy.java:203)
+	at act.handler.DelegateRequestHandler.handle(DelegateRequestHandler.java:47)
+	at act.route.Router$ContextualHandler.handle(Router.java:1292)
+	at act.xio.NetworkHandler$2.run(NetworkHandler.java:145)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-08-31_04:02:51.922 [XNIO-1 task-57] ERROR a.h.b.controller.RequestHandlerProxy - Error handling request: [GET] /indexaa
+org.osgl.exception.UnsupportedException: Template not found
+	at org.osgl.util.E.unsupport(E.java:153)
+	at act.view.RenderAny.apply(RenderAny.java:100)
+	at act.handler.builtin.controller.RequestHandlerProxy.onResult(RequestHandlerProxy.java:279)
+	at act.handler.builtin.controller.RequestHandlerProxy.handle(RequestHandlerProxy.java:203)
+	at act.handler.DelegateRequestHandler.handle(DelegateRequestHandler.java:47)
+	at act.route.Router$ContextualHandler.handle(Router.java:1292)
+	at act.xio.NetworkHandler$2.run(NetworkHandler.java:145)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-08-31_04:02:55.899 [XNIO-1 task-62] ERROR a.h.b.controller.RequestHandlerProxy - Error handling request: [GET] /
+org.osgl.exception.UnsupportedException: Template not found
+	at org.osgl.util.E.unsupport(E.java:153)
+	at act.view.RenderAny.apply(RenderAny.java:100)
+	at act.handler.builtin.controller.RequestHandlerProxy.onResult(RequestHandlerProxy.java:279)
+	at act.handler.builtin.controller.RequestHandlerProxy.handle(RequestHandlerProxy.java:203)
+	at act.handler.DelegateRequestHandler.handle(DelegateRequestHandler.java:47)
+	at act.route.Router$ContextualHandler.handle(Router.java:1292)
+	at act.xio.NetworkHandler$2.run(NetworkHandler.java:145)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-08-31_04:02:58.035 [XNIO-1 task-67] ERROR a.h.b.controller.RequestHandlerProxy - Error handling request: [GET] /
+org.osgl.exception.UnsupportedException: Template not found
+	at org.osgl.util.E.unsupport(E.java:153)
+	at act.view.RenderAny.apply(RenderAny.java:100)
+	at act.handler.builtin.controller.RequestHandlerProxy.onResult(RequestHandlerProxy.java:279)
+	at act.handler.builtin.controller.RequestHandlerProxy.handle(RequestHandlerProxy.java:203)
+	at act.handler.DelegateRequestHandler.handle(DelegateRequestHandler.java:47)
+	at act.route.Router$ContextualHandler.handle(Router.java:1292)
+	at act.xio.NetworkHandler$2.run(NetworkHandler.java:145)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-08-31_04:03:28.379 [cli-thread-2] INFO  act.Act - App starting ....
+2017-08-31_04:03:28.385 [cli-thread-2] INFO  act.Act - App shutting down ....
+2017-08-31_04:03:28.401 [cli-thread-2] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-31_04:03:28.402 [cli-thread-2] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@1a3272e0
+2017-08-31_04:03:28.403 [cli-thread-2] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-31_04:03:28.403 [cli-thread-2] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-31_04:03:28.822 [cli-thread-2] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-31_04:03:28.871 [jobs-thread-2] INFO  act.Act - App[AI-Open-API] loaded in 492ms
+2017-08-31_04:03:38.400 [XNIO-1 I/O-3] INFO  act.Act - App starting ....
+2017-08-31_04:03:38.406 [XNIO-1 I/O-3] INFO  act.Act - App shutting down ....
+2017-08-31_04:03:38.423 [XNIO-1 I/O-3] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-31_04:03:38.424 [XNIO-1 I/O-3] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@1a3272e0
+2017-08-31_04:03:38.425 [XNIO-1 I/O-3] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-31_04:03:38.425 [XNIO-1 I/O-3] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-31_04:03:38.777 [XNIO-1 I/O-3] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-31_04:03:38.819 [jobs-thread-2] INFO  act.Act - App[AI-Open-API] loaded in 419ms
+2017-08-31_04:03:38.869 [XNIO-1 task-72] ERROR a.h.b.controller.RequestHandlerProxy - Error handling request: [GET] /
+act.exception.ActException: Render template[/skin/star/index/index.html] not found
+	at act.view.RenderTemplate.apply(RenderTemplate.java:68)
+	at act.handler.builtin.controller.RequestHandlerProxy.onResult(RequestHandlerProxy.java:279)
+	at act.handler.builtin.controller.RequestHandlerProxy.handle(RequestHandlerProxy.java:203)
+	at act.handler.DelegateRequestHandler.handle(DelegateRequestHandler.java:47)
+	at act.route.Router$ContextualHandler.handle(Router.java:1292)
+	at act.xio.NetworkHandler$2.run(NetworkHandler.java:145)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-08-31_04:04:10.623 [XNIO-1 I/O-5] INFO  act.Act - App starting ....
+2017-08-31_04:04:10.628 [XNIO-1 I/O-5] INFO  act.Act - App shutting down ....
+2017-08-31_04:04:10.645 [XNIO-1 I/O-5] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-31_04:04:10.647 [XNIO-1 I/O-5] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@1a3272e0
+2017-08-31_04:04:10.647 [XNIO-1 I/O-5] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-31_04:04:10.647 [XNIO-1 I/O-5] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-31_04:04:11.025 [XNIO-1 I/O-5] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-31_04:04:11.065 [jobs-thread-1] INFO  act.Act - App[AI-Open-API] loaded in 443ms
+2017-08-31_04:04:11.121 [XNIO-1 task-77] ERROR a.h.b.controller.RequestHandlerProxy - Error handling request: [GET] /
+act.exception.ActException: Render template[skin/star/index/index.html] not found
+	at act.view.RenderTemplate.apply(RenderTemplate.java:68)
+	at act.handler.builtin.controller.RequestHandlerProxy.onResult(RequestHandlerProxy.java:279)
+	at act.handler.builtin.controller.RequestHandlerProxy.handle(RequestHandlerProxy.java:203)
+	at act.handler.DelegateRequestHandler.handle(DelegateRequestHandler.java:47)
+	at act.route.Router$ContextualHandler.handle(Router.java:1292)
+	at act.xio.NetworkHandler$2.run(NetworkHandler.java:145)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-08-31_04:04:13.864 [XNIO-1 task-82] ERROR a.h.b.controller.RequestHandlerProxy - Error handling request: [GET] /
+act.exception.ActException: Render template[skin/star/index/index.html] not found
+	at act.view.RenderTemplate.apply(RenderTemplate.java:68)
+	at act.handler.builtin.controller.RequestHandlerProxy.onResult(RequestHandlerProxy.java:279)
+	at act.handler.builtin.controller.RequestHandlerProxy.handle(RequestHandlerProxy.java:203)
+	at act.handler.DelegateRequestHandler.handle(DelegateRequestHandler.java:47)
+	at act.route.Router$ContextualHandler.handle(Router.java:1292)
+	at act.xio.NetworkHandler$2.run(NetworkHandler.java:145)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-08-31_04:04:15.923 [XNIO-1 task-87] ERROR a.h.b.controller.RequestHandlerProxy - Error handling request: [GET] /
+act.exception.ActException: Render template[skin/star/index/index.html] not found
+	at act.view.RenderTemplate.apply(RenderTemplate.java:68)
+	at act.handler.builtin.controller.RequestHandlerProxy.onResult(RequestHandlerProxy.java:279)
+	at act.handler.builtin.controller.RequestHandlerProxy.handle(RequestHandlerProxy.java:203)
+	at act.handler.DelegateRequestHandler.handle(DelegateRequestHandler.java:47)
+	at act.route.Router$ContextualHandler.handle(Router.java:1292)
+	at act.xio.NetworkHandler$2.run(NetworkHandler.java:145)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-08-31_04:04:44.878 [XNIO-1 I/O-5] INFO  act.Act - App starting ....
+2017-08-31_04:04:44.879 [XNIO-1 I/O-5] INFO  act.Act - App shutting down ....
+2017-08-31_04:04:44.893 [XNIO-1 I/O-5] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-31_04:04:44.894 [XNIO-1 I/O-5] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@1a3272e0
+2017-08-31_04:04:44.895 [XNIO-1 I/O-5] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-31_04:04:44.895 [XNIO-1 I/O-5] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-31_04:04:45.272 [XNIO-1 I/O-5] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-31_04:04:45.319 [jobs-thread-1] INFO  act.Act - App[AI-Open-API] loaded in 441ms
+2017-08-31_04:08:44.972 [cli-thread-2] INFO  act.Act - App starting ....
+2017-08-31_04:08:44.978 [cli-thread-2] INFO  act.Act - App shutting down ....
+2017-08-31_04:08:44.994 [cli-thread-2] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-31_04:08:44.996 [cli-thread-2] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@1a3272e0
+2017-08-31_04:08:44.996 [cli-thread-2] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-31_04:08:44.997 [cli-thread-2] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-31_04:08:45.549 [cli-thread-2] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-31_04:08:45.616 [jobs-thread-1] INFO  act.Act - App[AI-Open-API] loaded in 644ms
+2017-08-31_04:09:12.126 [XNIO-1 I/O-16] INFO  act.Act - App starting ....
+2017-08-31_04:09:12.129 [XNIO-1 I/O-16] INFO  act.Act - App shutting down ....
+2017-08-31_04:09:12.182 [XNIO-1 I/O-16] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-31_04:09:12.186 [XNIO-1 I/O-16] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@1a3272e0
+2017-08-31_04:09:12.187 [XNIO-1 I/O-16] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-31_04:09:12.187 [XNIO-1 I/O-16] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-31_04:09:13.502 [XNIO-1 I/O-16] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-31_04:09:13.584 [jobs-thread-1] INFO  act.Act - App[AI-Open-API] loaded in 1458ms
