@@ -659,3 +659,2478 @@ Caused by: java.sql.SQLException: Access denied for user 'ai_anline_cn'@'localho
 2017-08-29_02:16:23.313 [XNIO-1 I/O-8] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
 2017-08-29_02:16:23.596 [XNIO-1 I/O-8] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
 2017-08-29_02:16:23.628 [jobs-thread-1] INFO  act.Act - App[AI-Open-API] loaded in 329ms
+2017-08-29_02:38:23.423 [cli-thread-2] INFO  act.Act - App starting ....
+2017-08-29_02:38:23.434 [cli-thread-2] INFO  act.Act - App shutting down ....
+2017-08-29_02:38:23.442 [cli-thread-2] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-29_02:38:23.443 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-08-29_02:38:23.443 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-08-29_02:38:23.444 [cli-thread-2] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@696ac3dd
+2017-08-29_02:38:23.444 [cli-thread-2] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-29_02:38:23.444 [cli-thread-2] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-29_02:38:23.715 [cli-thread-2] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-29_02:38:23.738 [jobs-thread-2] INFO  act.Act - App[AI-Open-API] loaded in 315ms
+2017-08-29_02:39:23.444 [cli-thread-2] INFO  act.Act - App starting ....
+2017-08-29_02:39:23.451 [cli-thread-2] INFO  act.Act - App shutting down ....
+2017-08-29_02:39:23.456 [cli-thread-2] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-29_02:39:23.457 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-08-29_02:39:23.457 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-08-29_02:39:23.457 [cli-thread-2] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@696ac3dd
+2017-08-29_02:39:23.458 [cli-thread-2] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-29_02:39:23.458 [cli-thread-2] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-29_02:39:23.722 [cli-thread-2] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-29_02:39:23.743 [jobs-thread-2] INFO  act.Act - App[AI-Open-API] loaded in 299ms
+2017-08-29_02:40:23.460 [cli-thread-2] INFO  act.Act - App starting ....
+2017-08-29_02:40:23.470 [cli-thread-2] INFO  act.Act - App shutting down ....
+2017-08-29_02:40:23.476 [cli-thread-2] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-29_02:40:23.477 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-08-29_02:40:23.477 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-08-29_02:40:23.478 [cli-thread-2] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@696ac3dd
+2017-08-29_02:40:23.478 [cli-thread-2] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-29_02:40:23.478 [cli-thread-2] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-29_02:40:23.761 [cli-thread-2] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-29_02:40:23.783 [jobs-thread-2] INFO  act.Act - App[AI-Open-API] loaded in 323ms
+2017-08-29_03:43:21.304 [jobs-thread-8] INFO  act.Act - App starting ....
+2017-08-29_03:43:21.316 [jobs-thread-8] INFO  act.Act - App shutting down ....
+2017-08-29_03:43:21.319 [jobs-thread-8] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-29_03:43:21.319 [jobs-thread-8] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-08-29_03:43:21.319 [jobs-thread-8] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-08-29_03:43:21.320 [jobs-thread-8] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@696ac3dd
+2017-08-29_03:43:21.320 [jobs-thread-8] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-29_03:43:21.320 [jobs-thread-8] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-29_03:43:21.613 [jobs-thread-8] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-29_03:43:21.636 [jobs-thread-2] INFO  act.Act - App[AI-Open-API] loaded in 332ms
+2017-08-30_22:11:31.437 [cli-thread-2] INFO  act.Act - App starting ....
+2017-08-30_22:11:31.507 [cli-thread-2] INFO  act.Act - App shutting down ....
+2017-08-30_22:11:31.529 [cli-thread-2] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-30_22:11:31.533 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-08-30_22:11:31.534 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-08-30_22:11:31.534 [cli-thread-2] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@696ac3dd
+2017-08-30_22:11:31.539 [cli-thread-2] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-30_22:11:31.539 [cli-thread-2] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-30_22:11:32.942 [cli-thread-2] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-30_22:11:33.023 [jobs-thread-2] INFO  act.Act - App[AI-Open-API] loaded in 1587ms
+2017-08-30_22:54:31.804 [cli-thread-2] INFO  act.Act - App starting ....
+2017-08-30_22:54:31.820 [cli-thread-2] INFO  act.Act - App shutting down ....
+2017-08-30_22:54:31.828 [cli-thread-2] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-30_22:54:31.828 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-08-30_22:54:31.828 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-08-30_22:54:31.828 [cli-thread-2] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@696ac3dd
+2017-08-30_22:54:31.829 [cli-thread-2] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-30_22:54:31.829 [cli-thread-2] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-30_22:54:32.232 [cli-thread-2] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-30_22:54:32.284 [jobs-thread-1] INFO  act.Act - App[AI-Open-API] loaded in 480ms
+2017-08-30_22:55:31.833 [cli-thread-2] INFO  act.Act - App starting ....
+2017-08-30_22:55:31.855 [cli-thread-2] INFO  act.Act - App shutting down ....
+2017-08-30_22:55:31.860 [cli-thread-2] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-30_22:55:31.861 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-08-30_22:55:31.861 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-08-30_22:55:31.861 [cli-thread-2] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@696ac3dd
+2017-08-30_22:55:31.861 [cli-thread-2] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-30_22:55:31.861 [cli-thread-2] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-30_22:55:32.179 [cli-thread-2] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-30_22:55:32.206 [jobs-thread-2] INFO  act.Act - App[AI-Open-API] loaded in 373ms
+2017-08-30_23:04:31.441 [cli-thread-2] INFO  act.Act - App starting ....
+2017-08-30_23:04:31.447 [cli-thread-2] INFO  act.Act - App shutting down ....
+2017-08-30_23:04:31.460 [cli-thread-2] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-30_23:04:31.460 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-08-30_23:04:31.460 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-08-30_23:04:31.461 [cli-thread-2] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@696ac3dd
+2017-08-30_23:04:31.461 [cli-thread-2] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-30_23:04:31.461 [cli-thread-2] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-30_23:04:31.801 [cli-thread-2] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-30_23:04:31.829 [jobs-thread-2] INFO  act.Act - App[AI-Open-API] loaded in 388ms
+2017-08-30_23:05:31.463 [cli-thread-2] INFO  act.Act - App starting ....
+2017-08-30_23:05:31.472 [cli-thread-2] INFO  act.Act - App shutting down ....
+2017-08-30_23:05:31.494 [cli-thread-2] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-30_23:05:31.494 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-08-30_23:05:31.494 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-08-30_23:05:31.495 [cli-thread-2] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@696ac3dd
+2017-08-30_23:05:31.495 [cli-thread-2] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-30_23:05:31.495 [cli-thread-2] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-30_23:05:31.883 [cli-thread-2] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-30_23:05:31.930 [jobs-thread-2] INFO  act.Act - App[AI-Open-API] loaded in 467ms
+2017-08-30_23:06:31.498 [cli-thread-2] INFO  act.Act - App starting ....
+2017-08-30_23:06:31.506 [cli-thread-2] INFO  act.Act - App shutting down ....
+2017-08-30_23:06:31.514 [cli-thread-2] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-30_23:06:31.514 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-08-30_23:06:31.514 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-08-30_23:06:31.515 [cli-thread-2] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@696ac3dd
+2017-08-30_23:06:31.515 [cli-thread-2] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-30_23:06:31.515 [cli-thread-2] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-30_23:06:31.828 [cli-thread-2] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-30_23:06:31.857 [jobs-thread-2] INFO  act.Act - App[AI-Open-API] loaded in 359ms
+2017-08-30_23:14:31.552 [cli-thread-2] INFO  act.Act - App starting ....
+2017-08-30_23:14:31.560 [cli-thread-2] INFO  act.Act - App shutting down ....
+2017-08-30_23:14:31.566 [cli-thread-2] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-30_23:14:31.567 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-08-30_23:14:31.567 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-08-30_23:14:31.567 [cli-thread-2] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@696ac3dd
+2017-08-30_23:14:31.568 [cli-thread-2] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-30_23:14:31.568 [cli-thread-2] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-30_23:14:31.897 [cli-thread-2] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-30_23:14:31.926 [jobs-thread-2] INFO  act.Act - App[AI-Open-API] loaded in 374ms
+2017-08-30_23:15:31.567 [cli-thread-2] INFO  act.Act - App starting ....
+2017-08-30_23:15:31.578 [cli-thread-2] INFO  act.Act - App shutting down ....
+2017-08-30_23:15:31.585 [cli-thread-2] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-30_23:15:31.585 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-08-30_23:15:31.585 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-08-30_23:15:31.586 [cli-thread-2] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@696ac3dd
+2017-08-30_23:15:31.586 [cli-thread-2] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-30_23:15:31.586 [cli-thread-2] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-30_23:15:31.899 [cli-thread-2] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-30_23:15:31.927 [jobs-thread-2] INFO  act.Act - App[AI-Open-API] loaded in 360ms
+2017-08-30_23:16:31.588 [cli-thread-2] INFO  act.Act - App starting ....
+2017-08-30_23:16:31.594 [cli-thread-2] INFO  act.Act - App shutting down ....
+2017-08-30_23:16:31.600 [cli-thread-2] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-30_23:16:31.601 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-08-30_23:16:31.601 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-08-30_23:16:31.601 [cli-thread-2] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@696ac3dd
+2017-08-30_23:16:31.602 [cli-thread-2] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-30_23:16:31.602 [cli-thread-2] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-30_23:16:31.917 [cli-thread-2] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-30_23:16:31.943 [jobs-thread-2] INFO  act.Act - App[AI-Open-API] loaded in 355ms
+2017-08-30_23:19:31.616 [cli-thread-2] INFO  act.Act - App starting ....
+2017-08-30_23:19:31.625 [cli-thread-2] INFO  act.Act - App shutting down ....
+2017-08-30_23:19:31.633 [cli-thread-2] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-30_23:19:31.633 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-08-30_23:19:31.633 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-08-30_23:19:31.633 [cli-thread-2] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@696ac3dd
+2017-08-30_23:19:31.634 [cli-thread-2] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-30_23:19:31.634 [cli-thread-2] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-30_23:19:31.934 [cli-thread-2] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-30_23:19:31.957 [jobs-thread-2] INFO  act.Act - App[AI-Open-API] loaded in 341ms
+2017-08-30_23:23:31.649 [cli-thread-2] INFO  act.Act - App starting ....
+2017-08-30_23:23:31.658 [cli-thread-2] INFO  act.Act - App shutting down ....
+2017-08-30_23:23:31.667 [cli-thread-2] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-30_23:23:31.668 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-08-30_23:23:31.668 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-08-30_23:23:31.668 [cli-thread-2] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@696ac3dd
+2017-08-30_23:23:31.668 [cli-thread-2] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-30_23:23:31.668 [cli-thread-2] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-30_23:23:31.966 [cli-thread-2] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-30_23:23:31.993 [jobs-thread-2] INFO  act.Act - App[AI-Open-API] loaded in 344ms
+2017-08-30_23:25:31.674 [cli-thread-2] INFO  act.Act - App starting ....
+2017-08-30_23:25:31.683 [cli-thread-2] INFO  act.Act - App shutting down ....
+2017-08-30_23:25:31.691 [cli-thread-2] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-30_23:25:31.691 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-08-30_23:25:31.691 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-08-30_23:25:31.692 [cli-thread-2] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@696ac3dd
+2017-08-30_23:25:31.692 [cli-thread-2] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-30_23:25:31.692 [cli-thread-2] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-30_23:25:31.980 [cli-thread-2] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-30_23:25:32.020 [jobs-thread-2] INFO  act.Act - App[AI-Open-API] loaded in 346ms
+2017-08-30_23:26:31.694 [cli-thread-2] INFO  act.Act - App starting ....
+2017-08-30_23:26:31.700 [cli-thread-2] INFO  act.Act - App shutting down ....
+2017-08-30_23:26:31.706 [cli-thread-2] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-30_23:26:31.706 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-08-30_23:26:31.706 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-08-30_23:26:31.707 [cli-thread-2] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@696ac3dd
+2017-08-30_23:26:31.707 [cli-thread-2] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-30_23:26:31.707 [cli-thread-2] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-30_23:26:31.998 [cli-thread-2] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-30_23:26:32.032 [jobs-thread-2] INFO  act.Act - App[AI-Open-API] loaded in 338ms
+2017-08-30_23:27:31.708 [cli-thread-2] INFO  act.Act - App starting ....
+2017-08-30_23:27:31.714 [cli-thread-2] INFO  act.Act - App shutting down ....
+2017-08-30_23:27:31.720 [cli-thread-2] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-30_23:27:31.720 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-08-30_23:27:31.720 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-08-30_23:27:31.721 [cli-thread-2] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@696ac3dd
+2017-08-30_23:27:31.721 [cli-thread-2] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-30_23:27:31.721 [cli-thread-2] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-30_23:27:32.048 [cli-thread-2] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-30_23:27:32.078 [jobs-thread-2] INFO  act.Act - App[AI-Open-API] loaded in 370ms
+2017-08-30_23:28:31.727 [cli-thread-2] INFO  act.Act - App starting ....
+2017-08-30_23:28:31.731 [cli-thread-2] INFO  act.Act - App shutting down ....
+2017-08-30_23:28:31.737 [cli-thread-2] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-30_23:28:31.737 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-08-30_23:28:31.737 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-08-30_23:28:31.738 [cli-thread-2] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@696ac3dd
+2017-08-30_23:28:31.738 [cli-thread-2] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-30_23:28:31.738 [cli-thread-2] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-30_23:28:32.090 [cli-thread-2] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-30_23:28:32.113 [jobs-thread-2] INFO  act.Act - App[AI-Open-API] loaded in 386ms
+2017-08-30_23:30:31.752 [cli-thread-2] INFO  act.Act - App starting ....
+2017-08-30_23:30:31.759 [cli-thread-2] INFO  act.Act - App shutting down ....
+2017-08-30_23:30:31.769 [cli-thread-2] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-30_23:30:31.769 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-08-30_23:30:31.769 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-08-30_23:30:31.770 [cli-thread-2] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@696ac3dd
+2017-08-30_23:30:31.770 [cli-thread-2] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-30_23:30:31.770 [cli-thread-2] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-30_23:30:33.015 [cli-thread-2] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-30_23:30:33.043 [jobs-thread-2] INFO  act.Act - App[AI-Open-API] loaded in 1291ms
+2017-08-30_23:31:31.774 [cli-thread-2] INFO  act.Act - App starting ....
+2017-08-30_23:31:31.781 [cli-thread-2] INFO  act.Act - App shutting down ....
+2017-08-30_23:31:31.791 [cli-thread-2] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-30_23:31:31.791 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-08-30_23:31:31.791 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-08-30_23:31:31.792 [cli-thread-2] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@696ac3dd
+2017-08-30_23:31:31.792 [cli-thread-2] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-30_23:31:31.792 [cli-thread-2] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-30_23:31:32.087 [cli-thread-2] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-30_23:31:32.109 [jobs-thread-2] INFO  act.Act - App[AI-Open-API] loaded in 335ms
+2017-08-30_23:32:31.795 [cli-thread-2] INFO  act.Act - App starting ....
+2017-08-30_23:32:31.804 [cli-thread-2] INFO  act.Act - App shutting down ....
+2017-08-30_23:32:31.811 [cli-thread-2] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-30_23:32:31.812 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-08-30_23:32:31.812 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-08-30_23:32:31.812 [cli-thread-2] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@696ac3dd
+2017-08-30_23:32:31.813 [cli-thread-2] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-30_23:32:31.813 [cli-thread-2] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-30_23:32:32.092 [cli-thread-2] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-30_23:32:32.117 [jobs-thread-2] INFO  act.Act - App[AI-Open-API] loaded in 322ms
+2017-08-30_23:38:31.849 [cli-thread-2] INFO  act.Act - App starting ....
+2017-08-30_23:38:31.860 [cli-thread-2] INFO  act.Act - App shutting down ....
+2017-08-30_23:38:31.874 [cli-thread-2] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-30_23:38:31.875 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-08-30_23:38:31.875 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-08-30_23:38:31.876 [cli-thread-2] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@696ac3dd
+2017-08-30_23:38:31.877 [cli-thread-2] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-30_23:38:31.877 [cli-thread-2] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-30_23:38:32.411 [cli-thread-2] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-30_23:38:32.443 [jobs-thread-2] INFO  act.Act - App[AI-Open-API] loaded in 594ms
+2017-08-30_23:39:31.882 [cli-thread-2] INFO  act.Act - App starting ....
+2017-08-30_23:39:31.886 [cli-thread-2] INFO  act.Act - App shutting down ....
+2017-08-30_23:39:31.892 [cli-thread-2] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-30_23:39:31.893 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-08-30_23:39:31.893 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-08-30_23:39:31.893 [cli-thread-2] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@696ac3dd
+2017-08-30_23:39:31.893 [cli-thread-2] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-30_23:39:31.894 [cli-thread-2] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-30_23:39:32.170 [cli-thread-2] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-30_23:39:32.188 [jobs-thread-2] INFO  act.Act - App[AI-Open-API] loaded in 307ms
+2017-08-30_23:40:31.899 [cli-thread-2] INFO  act.Act - App starting ....
+2017-08-30_23:40:31.905 [cli-thread-2] INFO  act.Act - App shutting down ....
+2017-08-30_23:40:31.910 [cli-thread-2] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-30_23:40:31.911 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-08-30_23:40:31.911 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-08-30_23:40:31.911 [cli-thread-2] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@696ac3dd
+2017-08-30_23:40:31.912 [cli-thread-2] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-30_23:40:31.912 [cli-thread-2] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-30_23:40:32.188 [cli-thread-2] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-30_23:40:32.209 [jobs-thread-2] INFO  act.Act - App[AI-Open-API] loaded in 310ms
+2017-08-30_23:41:31.914 [cli-thread-2] INFO  act.Act - App starting ....
+2017-08-30_23:41:31.919 [cli-thread-2] INFO  act.Act - App shutting down ....
+2017-08-30_23:41:31.923 [cli-thread-2] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-30_23:41:31.924 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-08-30_23:41:31.924 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-08-30_23:41:31.924 [cli-thread-2] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@696ac3dd
+2017-08-30_23:41:31.925 [cli-thread-2] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-30_23:41:31.925 [cli-thread-2] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-30_23:41:32.228 [cli-thread-2] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-30_23:41:32.248 [jobs-thread-2] INFO  act.Act - App[AI-Open-API] loaded in 334ms
+2017-08-30_23:43:33.529 [main] INFO  act.Act - loading application(s) ...
+2017-08-30_23:43:33.552 [main] INFO  act.Act - App starting ....
+2017-08-30_23:43:33.702 [main] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-30_23:43:33.708 [main] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-08-30_23:43:33.709 [main] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-08-30_23:43:33.721 [main] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@2b569858
+2017-08-30_23:43:33.780 [main] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-30_23:43:33.780 [main] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-30_23:43:35.516 [main] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-30_23:45:14.807 [main] INFO  act.Act - loading application(s) ...
+2017-08-30_23:45:14.822 [main] INFO  act.Act - App starting ....
+2017-08-30_23:45:14.958 [main] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-30_23:45:14.965 [main] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-08-30_23:45:14.966 [main] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-08-30_23:45:14.976 [main] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@2b569858
+2017-08-30_23:45:15.048 [main] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-30_23:45:15.049 [main] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-30_23:45:16.462 [main] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-30_23:45:16.977 [main] INFO  act.Act - network client hooked on port: 5121
+2017-08-30_23:45:16.982 [main] INFO  act.Act - CLI server started on port: 5122
+2017-08-30_23:45:16.986 [main] INFO  act.Act - it takes 3542ms to start the app
+
+2017-08-30_23:45:17.212 [jobs-thread-2] INFO  act.Act - App[AI-Open-API] loaded in 2390ms
+2017-08-30_23:52:53.065 [main] INFO  act.Act - loading application(s) ...
+2017-08-30_23:52:53.091 [main] INFO  act.Act - App starting ....
+2017-08-30_23:52:53.246 [main] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-30_23:52:53.253 [main] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-08-30_23:52:53.253 [main] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-08-30_23:52:53.264 [main] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@1b84d03d
+2017-08-30_23:52:53.272 [main] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-30_23:52:53.272 [main] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-30_23:52:54.855 [main] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-30_23:52:55.309 [main] INFO  act.Act - network client hooked on port: 5121
+2017-08-30_23:52:55.313 [main] INFO  act.Act - CLI server started on port: 5122
+2017-08-30_23:52:55.318 [main] INFO  act.Act - it takes 5690ms to start the app
+
+2017-08-30_23:52:55.555 [jobs-thread-2] INFO  act.Act - App[AI-Open-API] loaded in 2464ms
+2017-08-30_23:53:24.903 [XNIO-1 task-1] ERROR act.app.AppClassLoader - error enhancing bytecode at cn.anline.www.home.controller.Index::index()
+act.asm.AsmException: 
+Caused by: org.osgl.exception.UnexpectedException: Invalid statement after render result statement at line 19
+	at org.osgl.util.E.unexpected(E.java:96)
+	at act.controller.bytecode.HandlerEnhancer$Transformer$InvocationHandler.injectThrowCode(HandlerEnhancer.java:524)
+	at act.controller.bytecode.HandlerEnhancer$Transformer$InvocationHandler.handle(HandlerEnhancer.java:265)
+	at act.controller.bytecode.HandlerEnhancer$Transformer$Segment.handle(HandlerEnhancer.java:245)
+	at act.controller.bytecode.HandlerEnhancer$Transformer.doIt(HandlerEnhancer.java:144)
+	at act.controller.bytecode.HandlerEnhancer.transform(HandlerEnhancer.java:121)
+	at act.controller.bytecode.HandlerEnhancer.visitEnd(HandlerEnhancer.java:105)
+	at act.asm.ClassReader.readMethod(ClassReader.java:1038)
+	at act.asm.ClassReader.accept(ClassReader.java:697)
+	at act.asm.ClassReader.accept(ClassReader.java:506)
+	at act.app.AppClassLoader.asmEnhance(AppClassLoader.java:497)
+	at act.app.AppClassLoader.enhance(AppClassLoader.java:481)
+	at act.app.AppClassLoader.loadAppClass(AppClassLoader.java:458)
+	at act.app.AppClassLoader.loadClass(AppClassLoader.java:233)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at org.osgl.Osgl.classForName(Osgl.java:5367)
+	at act.xio.WebSocketConnectionHandler.<init>(WebSocketConnectionHandler.java:95)
+	at act.xio.undertow.UndertowWebSocketConnectionHandler.<init>(UndertowWebSocketConnectionHandler.java:55)
+	at act.xio.undertow.UndertowNetwork.internalCreateWsConnHandler(UndertowNetwork.java:118)
+	at act.xio.NetworkBase.createWebSocketConnectionHandler(NetworkBase.java:127)
+	at act.handler.builtin.controller.RequestHandlerProxy.tryGenerateWebSocketConnectionHandler(RequestHandlerProxy.java:360)
+	at act.handler.builtin.controller.RequestHandlerProxy.generateHandlers(RequestHandlerProxy.java:370)
+	at act.handler.builtin.controller.RequestHandlerProxy.ensureAgentsReady(RequestHandlerProxy.java:304)
+	at act.handler.builtin.controller.RequestHandlerProxy.sessionFree(RequestHandlerProxy.java:242)
+	at act.handler.DelegateRequestHandler.sessionFree(DelegateRequestHandler.java:76)
+	at act.app.ActionContext.resolve(ActionContext.java:734)
+	at act.route.Router$ContextualHandler.handle(Router.java:1302)
+	at act.xio.NetworkHandler$3.run(NetworkHandler.java:150)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-08-30_23:54:22.588 [XNIO-1 I/O-8] INFO  act.Act - App starting ....
+2017-08-30_23:54:22.590 [XNIO-1 I/O-8] INFO  act.Act - App shutting down ....
+2017-08-30_23:54:22.612 [XNIO-1 I/O-8] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-30_23:54:22.613 [XNIO-1 I/O-8] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-08-30_23:54:22.613 [XNIO-1 I/O-8] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-08-30_23:54:22.614 [XNIO-1 I/O-8] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@1b84d03d
+2017-08-30_23:54:22.615 [XNIO-1 I/O-8] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-30_23:54:22.615 [XNIO-1 I/O-8] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-30_23:54:23.096 [XNIO-1 I/O-8] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-30_23:54:23.156 [jobs-thread-2] INFO  act.Act - App[AI-Open-API] loaded in 568ms
+2017-08-30_23:55:16.964 [main] INFO  act.Act - loading application(s) ...
+2017-08-30_23:55:16.983 [main] INFO  act.Act - App starting ....
+2017-08-30_23:55:17.149 [main] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-30_23:55:17.157 [main] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-08-30_23:55:17.157 [main] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-08-30_23:55:17.169 [main] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@1b84d03d
+2017-08-30_23:55:17.182 [main] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-30_23:55:17.182 [main] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-30_23:55:18.635 [main] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-30_23:55:19.066 [main] INFO  act.Act - network client hooked on port: 5121
+2017-08-30_23:55:19.071 [main] INFO  act.Act - CLI server started on port: 5122
+2017-08-30_23:55:19.076 [main] INFO  act.Act - it takes 4739ms to start the app
+
+2017-08-30_23:55:19.341 [jobs-thread-2] INFO  act.Act - App[AI-Open-API] loaded in 2358ms
+2017-08-30_23:56:17.169 [cli-thread-2] INFO  act.Act - App starting ....
+2017-08-30_23:56:17.171 [cli-thread-2] INFO  act.Act - App shutting down ....
+2017-08-30_23:56:17.201 [cli-thread-2] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-30_23:56:17.202 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-08-30_23:56:17.202 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-08-30_23:56:17.203 [cli-thread-2] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@1b84d03d
+2017-08-30_23:56:17.204 [cli-thread-2] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-30_23:56:17.204 [cli-thread-2] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-30_23:56:17.723 [cli-thread-2] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-30_23:56:17.780 [jobs-thread-1] INFO  act.Act - App[AI-Open-API] loaded in 611ms
+2017-08-30_23:58:17.220 [cli-thread-2] INFO  act.Act - App starting ....
+2017-08-30_23:58:17.223 [cli-thread-2] INFO  act.Act - App shutting down ....
+2017-08-30_23:58:17.239 [cli-thread-2] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-30_23:58:17.239 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-08-30_23:58:17.240 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-08-30_23:58:17.240 [cli-thread-2] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@1b84d03d
+2017-08-30_23:58:17.241 [cli-thread-2] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-30_23:58:17.241 [cli-thread-2] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-30_23:58:17.623 [cli-thread-2] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-30_23:58:17.670 [jobs-thread-2] INFO  act.Act - App[AI-Open-API] loaded in 450ms
+2017-08-30_23:58:39.028 [main] INFO  act.Act - loading application(s) ...
+2017-08-30_23:58:39.047 [main] INFO  act.Act - App starting ....
+2017-08-30_23:58:39.206 [main] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-30_23:58:39.214 [main] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-08-30_23:58:39.214 [main] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-08-30_23:58:39.223 [main] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@1b84d03d
+2017-08-30_23:58:39.231 [main] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-30_23:58:39.231 [main] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-30_23:58:40.736 [main] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-30_23:58:41.163 [main] INFO  act.Act - network client hooked on port: 5121
+2017-08-30_23:58:41.166 [main] INFO  act.Act - CLI server started on port: 5122
+2017-08-30_23:58:41.170 [main] INFO  act.Act - it takes 4778ms to start the app
+
+2017-08-30_23:58:41.429 [jobs-thread-2] INFO  act.Act - App[AI-Open-API] loaded in 2382ms
+2017-08-31_00:00:24.568 [main] INFO  act.Act - loading application(s) ...
+2017-08-31_00:00:24.589 [main] INFO  act.Act - App starting ....
+2017-08-31_00:00:24.740 [main] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-31_00:00:24.746 [main] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-08-31_00:00:24.747 [main] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-08-31_00:00:24.756 [main] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@1b84d03d
+2017-08-31_00:00:24.765 [main] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-31_00:00:24.765 [main] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-31_00:00:26.203 [main] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-31_00:00:26.621 [main] INFO  act.Act - network client hooked on port: 5121
+2017-08-31_00:00:26.624 [main] INFO  act.Act - CLI server started on port: 5122
+2017-08-31_00:00:26.628 [main] INFO  act.Act - it takes 4667ms to start the app
+
+2017-08-31_00:00:26.873 [jobs-thread-2] INFO  act.Act - App[AI-Open-API] loaded in 2284ms
+2017-08-31_00:02:03.159 [main] INFO  act.Act - loading application(s) ...
+2017-08-31_00:02:03.183 [main] INFO  act.Act - App starting ....
+2017-08-31_00:02:03.337 [main] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-31_00:02:03.343 [main] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-08-31_00:02:03.343 [main] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-08-31_00:02:03.353 [main] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@1b84d03d
+2017-08-31_00:02:03.362 [main] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-31_00:02:03.363 [main] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-31_00:02:04.907 [main] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-31_00:02:05.427 [main] INFO  act.Act - network client hooked on port: 5121
+2017-08-31_00:02:05.432 [main] INFO  act.Act - CLI server started on port: 5122
+2017-08-31_00:02:05.437 [main] INFO  act.Act - it takes 4861ms to start the app
+
+2017-08-31_00:02:05.679 [jobs-thread-2] INFO  act.Act - App[AI-Open-API] loaded in 2496ms
+2017-08-31_00:04:37.271 [main] INFO  act.Act - loading application(s) ...
+2017-08-31_00:04:37.291 [main] INFO  act.Act - App starting ....
+2017-08-31_00:04:37.425 [main] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-31_00:04:37.431 [main] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-08-31_00:04:37.431 [main] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-08-31_00:04:37.441 [main] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@1b84d03d
+2017-08-31_00:04:37.448 [main] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-31_00:04:37.448 [main] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-31_00:04:38.847 [main] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-31_00:04:39.260 [main] INFO  act.Act - network client hooked on port: 5121
+2017-08-31_00:04:39.264 [main] INFO  act.Act - CLI server started on port: 5122
+2017-08-31_00:04:39.267 [main] INFO  act.Act - it takes 4284ms to start the app
+
+2017-08-31_00:04:39.546 [jobs-thread-2] INFO  act.Act - App[AI-Open-API] loaded in 2255ms
+2017-08-31_00:39:22.731 [main] INFO  act.Act - loading application(s) ...
+2017-08-31_00:39:22.754 [main] INFO  act.Act - App starting ....
+2017-08-31_00:39:22.936 [main] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-31_00:39:22.944 [main] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-08-31_00:39:22.944 [main] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-08-31_00:39:22.956 [main] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@1b84d03d
+2017-08-31_00:39:22.966 [main] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-31_00:39:22.967 [main] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-31_00:39:24.461 [main] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-31_00:39:24.981 [main] INFO  act.Act - network client hooked on port: 5121
+2017-08-31_00:39:24.985 [main] INFO  act.Act - CLI server started on port: 5122
+2017-08-31_00:39:24.991 [main] INFO  act.Act - it takes 5419ms to start the app
+
+2017-08-31_00:39:25.231 [jobs-thread-2] INFO  act.Act - App[AI-Open-API] loaded in 2476ms
+2017-08-31_00:41:19.008 [XNIO-1 I/O-7] INFO  act.Act - App starting ....
+2017-08-31_00:41:19.010 [XNIO-1 I/O-7] INFO  act.Act - App shutting down ....
+2017-08-31_00:41:19.035 [XNIO-1 I/O-7] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-31_00:41:19.036 [XNIO-1 I/O-7] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-08-31_00:41:19.036 [XNIO-1 I/O-7] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-08-31_00:41:19.038 [XNIO-1 I/O-7] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@1b84d03d
+2017-08-31_00:41:19.038 [XNIO-1 I/O-7] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-31_00:41:19.038 [XNIO-1 I/O-7] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-31_00:41:19.570 [XNIO-1 I/O-7] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-31_00:41:19.619 [jobs-thread-2] INFO  act.Act - App[AI-Open-API] loaded in 611ms
+2017-08-31_00:41:47.457 [main] INFO  act.Act - loading application(s) ...
+2017-08-31_00:41:47.480 [main] INFO  act.Act - App starting ....
+2017-08-31_00:41:47.645 [main] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-31_00:41:47.651 [main] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-08-31_00:41:47.651 [main] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-08-31_00:41:47.663 [main] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@1b84d03d
+2017-08-31_00:41:47.675 [main] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-31_00:41:47.676 [main] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-31_00:41:49.222 [main] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-31_00:41:49.653 [main] INFO  act.Act - network client hooked on port: 5121
+2017-08-31_00:41:49.657 [main] INFO  act.Act - CLI server started on port: 5122
+2017-08-31_00:41:49.663 [main] INFO  act.Act - it takes 5021ms to start the app
+
+2017-08-31_00:41:49.923 [jobs-thread-2] INFO  act.Act - App[AI-Open-API] loaded in 2443ms
+2017-08-31_00:43:24.526 [XNIO-1 I/O-5] INFO  act.Act - App starting ....
+2017-08-31_00:43:24.527 [XNIO-1 I/O-5] INFO  act.Act - App shutting down ....
+2017-08-31_00:43:24.552 [XNIO-1 I/O-5] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-31_00:43:24.553 [XNIO-1 I/O-5] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-08-31_00:43:24.553 [XNIO-1 I/O-5] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-08-31_00:43:24.554 [XNIO-1 I/O-5] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@1b84d03d
+2017-08-31_00:43:24.555 [XNIO-1 I/O-5] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-31_00:43:24.555 [XNIO-1 I/O-5] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-31_00:43:25.090 [XNIO-1 I/O-5] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-31_00:43:25.148 [jobs-thread-1] INFO  act.Act - App[AI-Open-API] loaded in 622ms
+2017-08-31_00:44:28.191 [XNIO-1 task-9] ERROR a.h.b.controller.RequestHandlerProxy - Error handling request: [GET] /indexaa
+org.rythmengine.exception.CompileException: Syntax error on token ".", { expected
+
+Template: /index.html
+
+Relevant template source lines:
+-------------------------------------------------
+   1: <!DOCTYPE html>
+   2: <html lang="en">
+   3: <head>
+   4:     <meta charset="UTF-8">
+   5:     <title>Title</title>
+   6: </head>
+   7: <body>
+   8: Hello,@a
+   9: @(site.get("asset"))
+   10: </body>
+   11: </html>
+
+
+Relevant Java source lines:
+-------------------------------------------------
+   29: 	}
+   30: 
+   31: 	protected org.osgl.http.H.Flash _flash=null;
+   32: 	protected act.util.ActContext _ctx=null;
+   33: 	protected org.rythmengine.utils.RawData _dspField=null;
+>> 34: 	protected class java.lang.Boolean __IS_MOBILE__=null;
+   35: 	protected java.util.Map _params=null;
+   36: 	protected org.osgl.http.H.Response _resp=null;
+   37: 	protected act.app.App _app=null;
+   38: 	protected act.app.ActionContext _action=null;
+   39: 	protected java.lang.String _csrf=null;
+   40: 	protected java.lang.String _lang=null;
+
+
+2017-08-31_00:45:07.134 [XNIO-1 task-14] ERROR a.h.b.controller.RequestHandlerProxy - Error handling request: [GET] /indexaa
+org.rythmengine.exception.CompileException: Syntax error on token ".", { expected
+
+Template: /index.html
+
+Relevant template source lines:
+-------------------------------------------------
+   1: <!DOCTYPE html>
+   2: <html lang="en">
+   3: <head>
+   4:     <meta charset="UTF-8">
+   5:     <title>Title</title>
+   6: </head>
+   7: <body>
+   8: Hello,
+   9: @(site.get("asset"))
+   10: </body>
+   11: </html>
+
+
+Relevant Java source lines:
+-------------------------------------------------
+   29: 	}
+   30: 
+   31: 	protected org.osgl.http.H.Flash _flash=null;
+   32: 	protected act.util.ActContext _ctx=null;
+   33: 	protected org.rythmengine.utils.RawData _dspField=null;
+>> 34: 	protected class java.lang.Boolean __IS_MOBILE__=null;
+   35: 	protected java.util.Map _params=null;
+   36: 	protected org.osgl.http.H.Response _resp=null;
+   37: 	protected act.app.App _app=null;
+   38: 	protected act.app.ActionContext _action=null;
+   39: 	protected java.lang.String _csrf=null;
+   40: 	protected java.lang.String _lang=null;
+
+
+2017-08-31_00:46:12.629 [main] INFO  act.Act - loading application(s) ...
+2017-08-31_00:46:12.650 [main] INFO  act.Act - App starting ....
+2017-08-31_00:46:12.811 [main] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-31_00:46:12.818 [main] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-08-31_00:46:12.818 [main] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-08-31_00:46:12.831 [main] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@1b84d03d
+2017-08-31_00:46:12.841 [main] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-31_00:46:12.841 [main] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-31_00:46:14.265 [main] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-31_00:46:14.687 [main] INFO  act.Act - network client hooked on port: 5121
+2017-08-31_00:46:14.690 [main] INFO  act.Act - CLI server started on port: 5122
+2017-08-31_00:46:14.695 [main] INFO  act.Act - it takes 4755ms to start the app
+
+2017-08-31_00:46:14.970 [jobs-thread-2] INFO  act.Act - App[AI-Open-API] loaded in 2320ms
+2017-08-31_00:46:18.047 [XNIO-1 task-1] ERROR a.h.b.controller.RequestHandlerProxy - Error handling request: [GET] /indexaa
+org.rythmengine.exception.CompileException: Syntax error on token ".", { expected
+
+Template: /index.html
+
+Relevant template source lines:
+-------------------------------------------------
+   1: <!DOCTYPE html>
+   2: <html lang="en">
+   3: <head>
+   4:     <meta charset="UTF-8">
+   5:     <title>Title</title>
+   6: </head>
+   7: <body>
+   8: Hello,@a
+   9: @(site.get("asset"))
+   10: </body>
+   11: </html>
+
+
+Relevant Java source lines:
+-------------------------------------------------
+   29: 	}
+   30: 
+   31: 	protected org.osgl.http.H.Flash _flash=null;
+   32: 	protected act.util.ActContext _ctx=null;
+   33: 	protected org.rythmengine.utils.RawData _dspField=null;
+>> 34: 	protected class java.lang.Boolean __IS_MOBILE__=null;
+   35: 	protected java.util.Map _params=null;
+   36: 	protected org.osgl.http.H.Response _resp=null;
+   37: 	protected act.app.App _app=null;
+   38: 	protected act.app.ActionContext _action=null;
+   39: 	protected java.lang.String _csrf=null;
+   40: 	protected java.lang.String _lang=null;
+
+
+2017-08-31_00:46:20.607 [XNIO-1 task-6] ERROR a.h.b.controller.RequestHandlerProxy - Error handling request: [GET] /indexaa
+org.rythmengine.exception.CompileException: Syntax error on token ".", { expected
+
+Template: /index.html
+
+Relevant template source lines:
+-------------------------------------------------
+   1: <!DOCTYPE html>
+   2: <html lang="en">
+   3: <head>
+   4:     <meta charset="UTF-8">
+   5:     <title>Title</title>
+   6: </head>
+   7: <body>
+   8: Hello,@a
+   9: @(site.get("asset"))
+   10: </body>
+   11: </html>
+
+
+Relevant Java source lines:
+-------------------------------------------------
+   29: 	}
+   30: 
+   31: 	protected org.osgl.http.H.Flash _flash=null;
+   32: 	protected act.util.ActContext _ctx=null;
+   33: 	protected org.rythmengine.utils.RawData _dspField=null;
+>> 34: 	protected class java.lang.Boolean __IS_MOBILE__=null;
+   35: 	protected java.util.Map _params=null;
+   36: 	protected org.osgl.http.H.Response _resp=null;
+   37: 	protected act.app.App _app=null;
+   38: 	protected act.app.ActionContext _action=null;
+   39: 	protected java.lang.String _csrf=null;
+   40: 	protected java.lang.String _lang=null;
+
+
+2017-08-31_00:46:33.450 [XNIO-1 task-11] ERROR a.h.b.controller.RequestHandlerProxy - Error handling request: [GET] /indexaa
+org.rythmengine.exception.CompileException: Syntax error on token ".", { expected
+
+Template: /index.html
+
+Relevant template source lines:
+-------------------------------------------------
+   1: <!DOCTYPE html>
+   2: <html lang="en">
+   3: <head>
+   4:     <meta charset="UTF-8">
+   5:     <title>Title</title>
+   6: </head>
+   7: <body>
+   8: Hello,@a
+   9: @site.get("asset")
+   10: </body>
+   11: </html>
+
+
+Relevant Java source lines:
+-------------------------------------------------
+   29: 	}
+   30: 
+   31: 	protected org.osgl.http.H.Flash _flash=null;
+   32: 	protected act.util.ActContext _ctx=null;
+   33: 	protected org.rythmengine.utils.RawData _dspField=null;
+>> 34: 	protected class java.lang.Boolean __IS_MOBILE__=null;
+   35: 	protected java.util.Map _params=null;
+   36: 	protected org.osgl.http.H.Response _resp=null;
+   37: 	protected act.app.App _app=null;
+   38: 	protected act.app.ActionContext _action=null;
+   39: 	protected java.lang.String _csrf=null;
+   40: 	protected java.lang.String _lang=null;
+
+
+2017-08-31_00:46:36.374 [XNIO-1 task-16] ERROR a.h.b.controller.RequestHandlerProxy - Error handling request: [GET] /indexaa
+org.rythmengine.exception.CompileException: Syntax error on token ".", { expected
+
+Template: /index.html
+
+Relevant template source lines:
+-------------------------------------------------
+   1: <!DOCTYPE html>
+   2: <html lang="en">
+   3: <head>
+   4:     <meta charset="UTF-8">
+   5:     <title>Title</title>
+   6: </head>
+   7: <body>
+   8: Hello,@a
+   9: @site.get("asset")
+   10: </body>
+   11: </html>
+
+
+Relevant Java source lines:
+-------------------------------------------------
+   29: 	}
+   30: 
+   31: 	protected org.osgl.http.H.Flash _flash=null;
+   32: 	protected act.util.ActContext _ctx=null;
+   33: 	protected org.rythmengine.utils.RawData _dspField=null;
+>> 34: 	protected class java.lang.Boolean __IS_MOBILE__=null;
+   35: 	protected java.util.Map _params=null;
+   36: 	protected org.osgl.http.H.Response _resp=null;
+   37: 	protected act.app.App _app=null;
+   38: 	protected act.app.ActionContext _action=null;
+   39: 	protected java.lang.String _csrf=null;
+   40: 	protected java.lang.String _lang=null;
+
+
+2017-08-31_00:46:39.188 [XNIO-1 task-21] ERROR a.h.b.controller.RequestHandlerProxy - Error handling request: [GET] /indexaa
+org.rythmengine.exception.CompileException: Syntax error on token ".", { expected
+
+Template: /index.html
+
+Relevant template source lines:
+-------------------------------------------------
+   1: <!DOCTYPE html>
+   2: <html lang="en">
+   3: <head>
+   4:     <meta charset="UTF-8">
+   5:     <title>Title</title>
+   6: </head>
+   7: <body>
+   8: Hello,@a
+   9: @site.get("asset")
+   10: </body>
+   11: </html>
+
+
+Relevant Java source lines:
+-------------------------------------------------
+   29: 	}
+   30: 
+   31: 	protected org.osgl.http.H.Flash _flash=null;
+   32: 	protected act.util.ActContext _ctx=null;
+   33: 	protected org.rythmengine.utils.RawData _dspField=null;
+>> 34: 	protected class java.lang.Boolean __IS_MOBILE__=null;
+   35: 	protected java.util.Map _params=null;
+   36: 	protected org.osgl.http.H.Response _resp=null;
+   37: 	protected act.app.App _app=null;
+   38: 	protected act.app.ActionContext _action=null;
+   39: 	protected java.lang.String _csrf=null;
+   40: 	protected java.lang.String _lang=null;
+
+
+2017-08-31_00:46:42.563 [XNIO-1 task-26] ERROR a.h.b.controller.RequestHandlerProxy - Error handling request: [GET] /indexaa
+org.rythmengine.exception.CompileException: Syntax error on token ".", { expected
+
+Template: /index.html
+
+Relevant template source lines:
+-------------------------------------------------
+   1: <!DOCTYPE html>
+   2: <html lang="en">
+   3: <head>
+   4:     <meta charset="UTF-8">
+   5:     <title>Title</title>
+   6: </head>
+   7: <body>
+   8: Hello,@a
+   9: @site.get("asset")
+   10: </body>
+   11: </html>
+
+
+Relevant Java source lines:
+-------------------------------------------------
+   29: 	}
+   30: 
+   31: 	protected org.osgl.http.H.Flash _flash=null;
+   32: 	protected act.util.ActContext _ctx=null;
+   33: 	protected org.rythmengine.utils.RawData _dspField=null;
+>> 34: 	protected class java.lang.Boolean __IS_MOBILE__=null;
+   35: 	protected java.util.Map _params=null;
+   36: 	protected org.osgl.http.H.Response _resp=null;
+   37: 	protected act.app.App _app=null;
+   38: 	protected act.app.ActionContext _action=null;
+   39: 	protected java.lang.String _csrf=null;
+   40: 	protected java.lang.String _lang=null;
+
+
+2017-08-31_00:48:30.857 [XNIO-1 task-32] ERROR a.h.b.controller.RequestHandlerProxy - Error handling request: [GET] /indexaa
+org.rythmengine.exception.CompileException: Syntax error on token ".", { expected
+
+Template: /index.html
+
+Relevant template source lines:
+-------------------------------------------------
+   1: <!DOCTYPE html>
+   2: <html lang="en">
+   3: <head>
+   4:     <meta charset="UTF-8">
+   5:     <title>Title</title>
+   6: </head>
+   7: <body>
+   8: Hello,@a
+   9: @site.asset
+   10: </body>
+   11: </html>
+
+
+Relevant Java source lines:
+-------------------------------------------------
+   29: 	}
+   30: 
+   31: 	protected org.osgl.http.H.Flash _flash=null;
+   32: 	protected act.util.ActContext _ctx=null;
+   33: 	protected org.rythmengine.utils.RawData _dspField=null;
+>> 34: 	protected class java.lang.Boolean __IS_MOBILE__=null;
+   35: 	protected java.util.Map _params=null;
+   36: 	protected org.osgl.http.H.Response _resp=null;
+   37: 	protected act.app.App _app=null;
+   38: 	protected act.app.ActionContext _action=null;
+   39: 	protected java.lang.String _csrf=null;
+   40: 	protected java.lang.String _lang=null;
+
+
+2017-08-31_00:48:54.633 [XNIO-1 task-37] ERROR a.h.b.controller.RequestHandlerProxy - Error handling request: [GET] /indexaa
+org.rythmengine.exception.CompileException: Syntax error on token ".", { expected
+
+Template: /index.html
+
+Relevant template source lines:
+-------------------------------------------------
+   1: <!DOCTYPE html>
+   2: <html lang="en">
+   3: <head>
+   4:     <meta charset="UTF-8">
+   5:     <title>Title</title>
+   6: </head>
+   7: <body>
+   8: Hello,@a
+   9: @site.get("asset")
+   10: </body>
+   11: </html>
+
+
+Relevant Java source lines:
+-------------------------------------------------
+   29: 	}
+   30: 
+   31: 	protected org.osgl.http.H.Flash _flash=null;
+   32: 	protected act.util.ActContext _ctx=null;
+   33: 	protected org.rythmengine.utils.RawData _dspField=null;
+>> 34: 	protected class java.lang.Boolean __IS_MOBILE__=null;
+   35: 	protected java.util.Map _params=null;
+   36: 	protected org.osgl.http.H.Response _resp=null;
+   37: 	protected act.app.App _app=null;
+   38: 	protected act.app.ActionContext _action=null;
+   39: 	protected java.lang.String _csrf=null;
+   40: 	protected java.lang.String _lang=null;
+
+
+2017-08-31_00:49:07.990 [XNIO-1 task-42] ERROR a.h.b.controller.RequestHandlerProxy - Error handling request: [GET] /indexaa
+org.rythmengine.exception.CompileException: Syntax error on token ".", { expected
+
+Template: /index.html
+
+Relevant template source lines:
+-------------------------------------------------
+   1: <!DOCTYPE html>
+   2: <html lang="en">
+   3: <head>
+   4:     <meta charset="UTF-8">
+   5:     <title>Title</title>
+   6: </head>
+   7: <body>
+   8: Hello,@a
+   9: @(site.get("asset"))
+   10: </body>
+   11: </html>
+
+
+Relevant Java source lines:
+-------------------------------------------------
+   29: 	}
+   30: 
+   31: 	protected org.osgl.http.H.Flash _flash=null;
+   32: 	protected act.util.ActContext _ctx=null;
+   33: 	protected org.rythmengine.utils.RawData _dspField=null;
+>> 34: 	protected class java.lang.Boolean __IS_MOBILE__=null;
+   35: 	protected java.util.Map _params=null;
+   36: 	protected org.osgl.http.H.Response _resp=null;
+   37: 	protected act.app.App _app=null;
+   38: 	protected act.app.ActionContext _action=null;
+   39: 	protected java.lang.String _csrf=null;
+   40: 	protected java.lang.String _lang=null;
+
+
+2017-08-31_00:50:45.018 [XNIO-1 task-47] ERROR a.h.b.controller.RequestHandlerProxy - Error handling request: [GET] /indexaa
+org.rythmengine.exception.CompileException: Syntax error on token ".", { expected
+
+Template: /index.html
+
+Relevant template source lines:
+-------------------------------------------------
+   1: <!DOCTYPE html>
+   2: <html lang="en">
+   3: <head>
+   4:     <meta charset="UTF-8">
+   5:     <title>Title</title>
+   6: </head>
+   7: <body>
+   8: Hello,@a
+   9: @(site.get("asset"))
+   10: </body>
+   11: </html>
+
+
+Relevant Java source lines:
+-------------------------------------------------
+   29: 	}
+   30: 
+   31: 	protected org.osgl.http.H.Flash _flash=null;
+   32: 	protected act.util.ActContext _ctx=null;
+   33: 	protected org.rythmengine.utils.RawData _dspField=null;
+>> 34: 	protected class java.lang.Boolean __IS_MOBILE__=null;
+   35: 	protected java.util.Map _params=null;
+   36: 	protected org.osgl.http.H.Response _resp=null;
+   37: 	protected act.app.App _app=null;
+   38: 	protected act.app.ActionContext _action=null;
+   39: 	protected java.lang.String _csrf=null;
+   40: 	protected java.lang.String _lang=null;
+
+
+2017-08-31_00:51:14.968 [jobs-thread-3] INFO  act.Act - App starting ....
+2017-08-31_00:51:14.970 [jobs-thread-3] INFO  act.Act - App shutting down ....
+2017-08-31_00:51:15.003 [jobs-thread-3] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-31_00:51:15.003 [jobs-thread-3] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-08-31_00:51:15.004 [jobs-thread-3] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-08-31_00:51:15.004 [jobs-thread-3] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@1b84d03d
+2017-08-31_00:51:15.005 [jobs-thread-3] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-31_00:51:15.005 [jobs-thread-3] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-31_00:51:15.539 [jobs-thread-3] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-31_00:51:15.592 [jobs-thread-2] INFO  act.Act - App[AI-Open-API] loaded in 624ms
+2017-08-31_00:51:27.773 [XNIO-1 I/O-5] INFO  act.Act - App starting ....
+2017-08-31_00:51:27.774 [XNIO-1 I/O-5] INFO  act.Act - App shutting down ....
+2017-08-31_00:51:27.790 [XNIO-1 I/O-5] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-31_00:51:27.790 [XNIO-1 I/O-5] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-08-31_00:51:27.790 [XNIO-1 I/O-5] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-08-31_00:51:27.791 [XNIO-1 I/O-5] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@1b84d03d
+2017-08-31_00:51:27.791 [XNIO-1 I/O-5] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-31_00:51:27.791 [XNIO-1 I/O-5] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-31_00:51:28.265 [XNIO-1 I/O-5] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-31_00:51:28.313 [jobs-thread-2] INFO  act.Act - App[AI-Open-API] loaded in 540ms
+2017-08-31_00:51:28.345 [XNIO-1 task-52] ERROR a.h.b.controller.RequestHandlerProxy - Error handling request: [GET] /indexaa
+org.rythmengine.exception.CompileException: Syntax error on token ".", { expected
+
+Template: /index.html
+
+Relevant template source lines:
+-------------------------------------------------
+   1: <!DOCTYPE html>
+   2: <html lang="en">
+   3: <head>
+   4:     <meta charset="UTF-8">
+   5:     <title>Title</title>
+   6: </head>
+   7: <body>
+   8: Hello,@a
+   9: @(site.get("asset"))
+   10: </body>
+   11: </html>
+
+
+Relevant Java source lines:
+-------------------------------------------------
+   29: 	}
+   30: 
+   31: 	protected org.osgl.http.H.Flash _flash=null;
+   32: 	protected act.util.ActContext _ctx=null;
+   33: 	protected org.rythmengine.utils.RawData _dspField=null;
+>> 34: 	protected class java.lang.Boolean __IS_MOBILE__=null;
+   35: 	protected java.util.Map _params=null;
+   36: 	protected org.osgl.http.H.Response _resp=null;
+   37: 	protected act.app.App _app=null;
+   38: 	protected act.app.ActionContext _action=null;
+   39: 	protected java.lang.String _csrf=null;
+   40: 	protected java.lang.String _lang=null;
+
+
+2017-08-31_00:52:05.039 [XNIO-1 task-60] ERROR a.h.b.controller.RequestHandlerProxy - Error handling request: [GET] /indexaa
+org.rythmengine.exception.CompileException: Syntax error on token ".", { expected
+
+Template: /index.html
+
+Relevant template source lines:
+-------------------------------------------------
+   1: <!DOCTYPE html>
+   2: <html lang="en">
+   3: <head>
+   4:     <meta charset="UTF-8">
+   5:     <title>Title</title>
+   6: </head>
+   7: <body>
+   8: Hello,@a
+   9: @site.get(asset)
+   10: </body>
+   11: </html>
+
+
+Relevant Java source lines:
+-------------------------------------------------
+   29: 	}
+   30: 
+   31: 	protected org.osgl.http.H.Flash _flash=null;
+   32: 	protected act.util.ActContext _ctx=null;
+   33: 	protected org.rythmengine.utils.RawData _dspField=null;
+>> 34: 	protected class java.lang.Boolean __IS_MOBILE__=null;
+   35: 	protected java.util.Map _params=null;
+   36: 	protected org.osgl.http.H.Response _resp=null;
+   37: 	protected act.app.App _app=null;
+   38: 	protected act.app.ActionContext _action=null;
+   39: 	protected java.lang.String _csrf=null;
+   40: 	protected java.lang.String _lang=null;
+
+
+2017-08-31_00:52:20.416 [XNIO-1 task-65] ERROR a.h.b.controller.RequestHandlerProxy - Error handling request: [GET] /indexaa
+org.rythmengine.exception.CompileException: Syntax error on token ".", { expected
+
+Template: /index.html
+
+Relevant template source lines:
+-------------------------------------------------
+   1: <!DOCTYPE html>
+   2: <html lang="en">
+   3: <head>
+   4:     <meta charset="UTF-8">
+   5:     <title>Title</title>
+   6: </head>
+   7: <body>
+   8: Hello,@a
+   9: @site.get("asset")
+   10: </body>
+   11: </html>
+
+
+Relevant Java source lines:
+-------------------------------------------------
+   29: 	}
+   30: 
+   31: 	protected org.osgl.http.H.Flash _flash=null;
+   32: 	protected act.util.ActContext _ctx=null;
+   33: 	protected org.rythmengine.utils.RawData _dspField=null;
+>> 34: 	protected class java.lang.Boolean __IS_MOBILE__=null;
+   35: 	protected java.util.Map _params=null;
+   36: 	protected org.osgl.http.H.Response _resp=null;
+   37: 	protected act.app.App _app=null;
+   38: 	protected act.app.ActionContext _action=null;
+   39: 	protected java.lang.String _csrf=null;
+   40: 	protected java.lang.String _lang=null;
+
+
+2017-08-31_00:52:48.521 [XNIO-1 task-70] ERROR a.h.b.controller.RequestHandlerProxy - Error handling request: [GET] /indexaa
+org.rythmengine.exception.CompileException: Syntax error on token ".", { expected
+
+Template: /index.html
+
+Relevant template source lines:
+-------------------------------------------------
+   1: <!DOCTYPE html>
+   2: <html lang="en">
+   3: <head>
+   4:     <meta charset="UTF-8">
+   5:     <title>Title</title>
+   6: </head>
+   7: <body>
+   8: Hello,@a
+   9: (@site.get("asset"))
+   10: </body>
+   11: </html>
+
+
+Relevant Java source lines:
+-------------------------------------------------
+   29: 	}
+   30: 
+   31: 	protected org.osgl.http.H.Flash _flash=null;
+   32: 	protected act.util.ActContext _ctx=null;
+   33: 	protected org.rythmengine.utils.RawData _dspField=null;
+>> 34: 	protected class java.lang.Boolean __IS_MOBILE__=null;
+   35: 	protected java.util.Map _params=null;
+   36: 	protected org.osgl.http.H.Response _resp=null;
+   37: 	protected act.app.App _app=null;
+   38: 	protected act.app.ActionContext _action=null;
+   39: 	protected java.lang.String _csrf=null;
+   40: 	protected java.lang.String _lang=null;
+
+
+2017-08-31_00:53:02.806 [XNIO-1 task-75] ERROR a.h.b.controller.RequestHandlerProxy - Error handling request: [GET] /indexaa
+org.rythmengine.exception.CompileException: Syntax error on token ".", { expected
+
+Template: /index.html
+
+Relevant template source lines:
+-------------------------------------------------
+   1: <!DOCTYPE html>
+   2: <html lang="en">
+   3: <head>
+   4:     <meta charset="UTF-8">
+   5:     <title>Title</title>
+   6: </head>
+   7: <body>
+   8: Hello,@a
+   9: @(site.get("asset"))
+   10: </body>
+   11: </html>
+
+
+Relevant Java source lines:
+-------------------------------------------------
+   29: 	}
+   30: 
+   31: 	protected org.osgl.http.H.Flash _flash=null;
+   32: 	protected act.util.ActContext _ctx=null;
+   33: 	protected org.rythmengine.utils.RawData _dspField=null;
+>> 34: 	protected class java.lang.Boolean __IS_MOBILE__=null;
+   35: 	protected java.util.Map _params=null;
+   36: 	protected org.osgl.http.H.Response _resp=null;
+   37: 	protected act.app.App _app=null;
+   38: 	protected act.app.ActionContext _action=null;
+   39: 	protected java.lang.String _csrf=null;
+   40: 	protected java.lang.String _lang=null;
+
+
+2017-08-31_00:53:21.468 [XNIO-1 task-80] ERROR a.h.b.controller.RequestHandlerProxy - Error handling request: [GET] /indexaa
+org.rythmengine.exception.CompileException: Syntax error on token ".", { expected
+
+Template: /index.html
+
+Relevant template source lines:
+-------------------------------------------------
+   1: <!DOCTYPE html>
+   2: <html lang="en">
+   3: <head>
+   4:     <meta charset="UTF-8">
+   5:     <title>Title</title>
+   6: </head>
+   7: <body>
+   8: Hello,
+   9: @(site.get("asset"))
+   10: </body>
+   11: </html>
+
+
+Relevant Java source lines:
+-------------------------------------------------
+   29: 	}
+   30: 
+   31: 	protected org.osgl.http.H.Flash _flash=null;
+   32: 	protected act.util.ActContext _ctx=null;
+   33: 	protected org.rythmengine.utils.RawData _dspField=null;
+>> 34: 	protected class java.lang.Boolean __IS_MOBILE__=null;
+   35: 	protected java.util.Map _params=null;
+   36: 	protected org.osgl.http.H.Response _resp=null;
+   37: 	protected act.app.App _app=null;
+   38: 	protected act.app.ActionContext _action=null;
+   39: 	protected java.lang.String _csrf=null;
+   40: 	protected java.lang.String _lang=null;
+
+
+2017-08-31_00:53:23.551 [XNIO-1 task-85] ERROR a.h.b.controller.RequestHandlerProxy - Error handling request: [GET] /indexaa
+org.rythmengine.exception.CompileException: Syntax error on token ".", { expected
+
+Template: /index.html
+
+Relevant template source lines:
+-------------------------------------------------
+   1: <!DOCTYPE html>
+   2: <html lang="en">
+   3: <head>
+   4:     <meta charset="UTF-8">
+   5:     <title>Title</title>
+   6: </head>
+   7: <body>
+   8: Hello,
+   9: @(site.get("asset"))
+   10: </body>
+   11: </html>
+
+
+Relevant Java source lines:
+-------------------------------------------------
+   29: 	}
+   30: 
+   31: 	protected org.osgl.http.H.Flash _flash=null;
+   32: 	protected act.util.ActContext _ctx=null;
+   33: 	protected org.rythmengine.utils.RawData _dspField=null;
+>> 34: 	protected class java.lang.Boolean __IS_MOBILE__=null;
+   35: 	protected java.util.Map _params=null;
+   36: 	protected org.osgl.http.H.Response _resp=null;
+   37: 	protected act.app.App _app=null;
+   38: 	protected act.app.ActionContext _action=null;
+   39: 	protected java.lang.String _csrf=null;
+   40: 	protected java.lang.String _lang=null;
+
+
+2017-08-31_00:55:49.928 [XNIO-1 I/O-15] INFO  act.Act - App starting ....
+2017-08-31_00:55:49.929 [XNIO-1 I/O-15] INFO  act.Act - App shutting down ....
+2017-08-31_00:55:49.951 [XNIO-1 I/O-15] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-31_00:55:49.952 [XNIO-1 I/O-15] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-08-31_00:55:49.952 [XNIO-1 I/O-15] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-08-31_00:55:49.953 [XNIO-1 I/O-15] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@1b84d03d
+2017-08-31_00:55:49.953 [XNIO-1 I/O-15] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-31_00:55:49.953 [XNIO-1 I/O-15] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-31_00:55:50.297 [XNIO-1 I/O-15] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-31_00:55:50.330 [jobs-thread-2] INFO  act.Act - App[AI-Open-API] loaded in 402ms
+2017-08-31_00:55:50.359 [XNIO-1 task-90] ERROR a.h.b.controller.RequestHandlerProxy - Error handling request: [GET] /indexaa
+org.rythmengine.exception.CompileException: Syntax error on token ".", { expected
+
+Template: /index.html
+
+Relevant template source lines:
+-------------------------------------------------
+   1: <!DOCTYPE html>
+   2: <html lang="en">
+   3: <head>
+   4:     <meta charset="UTF-8">
+   5:     <title>Title</title>
+   6: </head>
+   7: <body>
+   8: Hello,
+   9: @(domains.get("asset"))
+   10: </body>
+   11: </html>
+
+
+Relevant Java source lines:
+-------------------------------------------------
+   29: 	}
+   30: 
+   31: 	protected org.osgl.http.H.Flash _flash=null;
+   32: 	protected act.util.ActContext _ctx=null;
+   33: 	protected org.rythmengine.utils.RawData _dspField=null;
+>> 34: 	protected class java.lang.Boolean __IS_MOBILE__=null;
+   35: 	protected java.util.Map _params=null;
+   36: 	protected org.osgl.http.H.Response _resp=null;
+   37: 	protected act.app.App _app=null;
+   38: 	protected act.app.ActionContext _action=null;
+   39: 	protected java.lang.String _csrf=null;
+   40: 	protected java.lang.String _lang=null;
+
+
+2017-08-31_00:55:54.368 [XNIO-1 task-95] ERROR a.h.b.controller.RequestHandlerProxy - Error handling request: [GET] /indexaa
+org.rythmengine.exception.CompileException: Syntax error on token ".", { expected
+
+Template: /index.html
+
+Relevant template source lines:
+-------------------------------------------------
+   1: <!DOCTYPE html>
+   2: <html lang="en">
+   3: <head>
+   4:     <meta charset="UTF-8">
+   5:     <title>Title</title>
+   6: </head>
+   7: <body>
+   8: Hello,
+   9: @(domains.get("asset"))
+   10: </body>
+   11: </html>
+
+
+Relevant Java source lines:
+-------------------------------------------------
+   29: 	}
+   30: 
+   31: 	protected org.osgl.http.H.Flash _flash=null;
+   32: 	protected act.util.ActContext _ctx=null;
+   33: 	protected org.rythmengine.utils.RawData _dspField=null;
+>> 34: 	protected class java.lang.Boolean __IS_MOBILE__=null;
+   35: 	protected java.util.Map _params=null;
+   36: 	protected org.osgl.http.H.Response _resp=null;
+   37: 	protected act.app.App _app=null;
+   38: 	protected act.app.ActionContext _action=null;
+   39: 	protected java.lang.String _csrf=null;
+   40: 	protected java.lang.String _lang=null;
+
+
+2017-08-31_00:56:49.956 [cli-thread-2] INFO  act.Act - App starting ....
+2017-08-31_00:56:49.958 [cli-thread-2] INFO  act.Act - App shutting down ....
+2017-08-31_00:56:49.982 [cli-thread-2] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-31_00:56:49.982 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-08-31_00:56:49.982 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-08-31_00:56:49.983 [cli-thread-2] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@1b84d03d
+2017-08-31_00:56:49.983 [cli-thread-2] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-31_00:56:49.983 [cli-thread-2] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-31_00:56:50.350 [cli-thread-2] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-31_00:56:50.379 [jobs-thread-1] INFO  act.Act - App[AI-Open-API] loaded in 423ms
+2017-08-31_00:58:49.778 [XNIO-1 task-103] ERROR a.h.b.controller.RequestHandlerProxy - Error handling request: [GET] /indexaa
+org.rythmengine.exception.CompileException: Syntax error on token ".", { expected
+
+Template: /index.html
+
+Relevant template source lines:
+-------------------------------------------------
+   1: <!DOCTYPE html>
+   2: <html lang="en">
+   3: <head>
+   4:     <meta charset="UTF-8">
+   5:     <title>Title</title>
+   6: </head>
+   7: <body>
+   8: Hello,@a
+   9: @(site.get("asset"))
+   10: </body>
+   11: </html>
+
+
+Relevant Java source lines:
+-------------------------------------------------
+   29: 	}
+   30: 
+   31: 	protected org.osgl.http.H.Flash _flash=null;
+   32: 	protected act.util.ActContext _ctx=null;
+   33: 	protected org.rythmengine.utils.RawData _dspField=null;
+>> 34: 	protected class java.lang.Boolean __IS_MOBILE__=null;
+   35: 	protected java.util.Map _params=null;
+   36: 	protected org.osgl.http.H.Response _resp=null;
+   37: 	protected act.app.App _app=null;
+   38: 	protected act.app.ActionContext _action=null;
+   39: 	protected java.lang.String _csrf=null;
+   40: 	protected java.lang.String _lang=null;
+
+
+2017-08-31_01:03:22.825 [main] INFO  act.Act - loading application(s) ...
+2017-08-31_01:03:22.844 [main] INFO  act.Act - App starting ....
+2017-08-31_01:03:22.991 [main] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-31_01:03:22.996 [main] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-08-31_01:03:22.997 [main] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-08-31_01:03:23.008 [main] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@2b569858
+2017-08-31_01:03:23.057 [main] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-31_01:03:23.058 [main] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-31_01:03:24.409 [main] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-31_01:03:24.825 [main] INFO  act.Act - network client hooked on port: 5121
+2017-08-31_01:03:24.829 [main] INFO  act.Act - CLI server started on port: 5122
+2017-08-31_01:03:24.832 [main] INFO  act.Act - it takes 3447ms to start the app
+
+2017-08-31_01:03:25.129 [jobs-thread-2] INFO  act.Act - App[AI-Open-API] loaded in 2284ms
+2017-08-31_01:03:31.738 [XNIO-1 task-1] ERROR a.h.b.controller.RequestHandlerProxy - Error handling request: [GET] /indexaa
+org.rythmengine.exception.CompileException: Syntax error on token ".", { expected
+
+Template: /index.html
+
+Relevant template source lines:
+-------------------------------------------------
+   1: <!DOCTYPE html>
+   2: <html lang="en">
+   3: <head>
+   4:     <meta charset="UTF-8">
+   5:     <title>Title</title>
+   6: </head>
+   7: <body>
+   8: Hello,@a
+   9: @(site.get("asset"))
+   10: </body>
+   11: </html>
+
+
+Relevant Java source lines:
+-------------------------------------------------
+   29: 	}
+   30: 
+   31: 	protected org.osgl.http.H.Flash _flash=null;
+   32: 	protected act.util.ActContext _ctx=null;
+   33: 	protected org.rythmengine.utils.RawData _dspField=null;
+>> 34: 	protected class java.lang.Boolean __IS_MOBILE__=null;
+   35: 	protected java.util.Map _params=null;
+   36: 	protected org.osgl.http.H.Response _resp=null;
+   37: 	protected act.app.App _app=null;
+   38: 	protected act.app.ActionContext _action=null;
+   39: 	protected java.lang.String _csrf=null;
+   40: 	protected java.lang.String _lang=null;
+
+
+2017-08-31_01:03:34.546 [XNIO-1 task-6] ERROR a.h.b.controller.RequestHandlerProxy - Error handling request: [GET] /indexaa
+org.rythmengine.exception.CompileException: Syntax error on token ".", { expected
+
+Template: /index.html
+
+Relevant template source lines:
+-------------------------------------------------
+   1: <!DOCTYPE html>
+   2: <html lang="en">
+   3: <head>
+   4:     <meta charset="UTF-8">
+   5:     <title>Title</title>
+   6: </head>
+   7: <body>
+   8: Hello,@a
+   9: @(site.get("asset"))
+   10: </body>
+   11: </html>
+
+
+Relevant Java source lines:
+-------------------------------------------------
+   29: 	}
+   30: 
+   31: 	protected org.osgl.http.H.Flash _flash=null;
+   32: 	protected act.util.ActContext _ctx=null;
+   33: 	protected org.rythmengine.utils.RawData _dspField=null;
+>> 34: 	protected class java.lang.Boolean __IS_MOBILE__=null;
+   35: 	protected java.util.Map _params=null;
+   36: 	protected org.osgl.http.H.Response _resp=null;
+   37: 	protected act.app.App _app=null;
+   38: 	protected act.app.ActionContext _action=null;
+   39: 	protected java.lang.String _csrf=null;
+   40: 	protected java.lang.String _lang=null;
+
+
+2017-08-31_01:03:37.965 [XNIO-1 task-11] ERROR a.h.b.controller.RequestHandlerProxy - Error handling request: [GET] /indexaa
+org.rythmengine.exception.CompileException: Syntax error on token ".", { expected
+
+Template: /index.html
+
+Relevant template source lines:
+-------------------------------------------------
+   1: <!DOCTYPE html>
+   2: <html lang="en">
+   3: <head>
+   4:     <meta charset="UTF-8">
+   5:     <title>Title</title>
+   6: </head>
+   7: <body>
+   8: Hello,@a
+   9: @(site.get("asset"))
+   10: </body>
+   11: </html>
+
+
+Relevant Java source lines:
+-------------------------------------------------
+   29: 	}
+   30: 
+   31: 	protected org.osgl.http.H.Flash _flash=null;
+   32: 	protected act.util.ActContext _ctx=null;
+   33: 	protected org.rythmengine.utils.RawData _dspField=null;
+>> 34: 	protected class java.lang.Boolean __IS_MOBILE__=null;
+   35: 	protected java.util.Map _params=null;
+   36: 	protected org.osgl.http.H.Response _resp=null;
+   37: 	protected act.app.App _app=null;
+   38: 	protected act.app.ActionContext _action=null;
+   39: 	protected java.lang.String _csrf=null;
+   40: 	protected java.lang.String _lang=null;
+
+
+2017-08-31_01:03:51.813 [XNIO-1 task-16] ERROR a.h.b.controller.RequestHandlerProxy - Error handling request: [GET] /indexaa
+org.rythmengine.exception.CompileException: Syntax error on token ".", { expected
+
+Template: /index.html
+
+Relevant template source lines:
+-------------------------------------------------
+   1: <!DOCTYPE html>
+   2: <html lang="en">
+   3: <head>
+   4:     <meta charset="UTF-8">
+   5:     <title>Title</title>
+   6: </head>
+   7: <body>
+   8: Hello,@a
+   9: @(site.asset))
+   10: </body>
+   11: </html>
+
+
+Relevant Java source lines:
+-------------------------------------------------
+   29: 	}
+   30: 
+   31: 	protected org.osgl.http.H.Flash _flash=null;
+   32: 	protected act.util.ActContext _ctx=null;
+   33: 	protected org.rythmengine.utils.RawData _dspField=null;
+>> 34: 	protected class java.lang.Boolean __IS_MOBILE__=null;
+   35: 	protected java.util.Map _params=null;
+   36: 	protected org.osgl.http.H.Response _resp=null;
+   37: 	protected act.app.App _app=null;
+   38: 	protected act.app.ActionContext _action=null;
+   39: 	protected java.lang.String _csrf=null;
+   40: 	protected java.lang.String _lang=null;
+
+
+2017-08-31_01:03:55.038 [XNIO-1 task-21] ERROR a.h.b.controller.RequestHandlerProxy - Error handling request: [GET] /indexaa
+org.rythmengine.exception.CompileException: Syntax error on token ".", { expected
+
+Template: /index.html
+
+Relevant template source lines:
+-------------------------------------------------
+   1: <!DOCTYPE html>
+   2: <html lang="en">
+   3: <head>
+   4:     <meta charset="UTF-8">
+   5:     <title>Title</title>
+   6: </head>
+   7: <body>
+   8: Hello,@a
+   9: @(site.asset))
+   10: </body>
+   11: </html>
+
+
+Relevant Java source lines:
+-------------------------------------------------
+   29: 	}
+   30: 
+   31: 	protected org.osgl.http.H.Flash _flash=null;
+   32: 	protected act.util.ActContext _ctx=null;
+   33: 	protected org.rythmengine.utils.RawData _dspField=null;
+>> 34: 	protected class java.lang.Boolean __IS_MOBILE__=null;
+   35: 	protected java.util.Map _params=null;
+   36: 	protected org.osgl.http.H.Response _resp=null;
+   37: 	protected act.app.App _app=null;
+   38: 	protected act.app.ActionContext _action=null;
+   39: 	protected java.lang.String _csrf=null;
+   40: 	protected java.lang.String _lang=null;
+
+
+2017-08-31_01:04:02.143 [XNIO-1 task-26] ERROR a.h.b.controller.RequestHandlerProxy - Error handling request: [GET] /indexaa
+org.rythmengine.exception.CompileException: Syntax error on token ".", { expected
+
+Template: /index.html
+
+Relevant template source lines:
+-------------------------------------------------
+   1: <!DOCTYPE html>
+   2: <html lang="en">
+   3: <head>
+   4:     <meta charset="UTF-8">
+   5:     <title>Title</title>
+   6: </head>
+   7: <body>
+   8: Hello,@a
+   9: @(site.asset)
+   10: </body>
+   11: </html>
+
+
+Relevant Java source lines:
+-------------------------------------------------
+   29: 	}
+   30: 
+   31: 	protected org.osgl.http.H.Flash _flash=null;
+   32: 	protected act.util.ActContext _ctx=null;
+   33: 	protected org.rythmengine.utils.RawData _dspField=null;
+>> 34: 	protected class java.lang.Boolean __IS_MOBILE__=null;
+   35: 	protected java.util.Map _params=null;
+   36: 	protected org.osgl.http.H.Response _resp=null;
+   37: 	protected act.app.App _app=null;
+   38: 	protected act.app.ActionContext _action=null;
+   39: 	protected java.lang.String _csrf=null;
+   40: 	protected java.lang.String _lang=null;
+
+
+2017-08-31_01:04:32.517 [XNIO-1 task-34] ERROR a.h.b.controller.RequestHandlerProxy - Error handling request: [GET] /indexaa
+org.rythmengine.exception.CompileException: Syntax error on token ".", { expected
+
+Template: /index.html
+
+Relevant template source lines:
+-------------------------------------------------
+   1: <!DOCTYPE html>
+   2: <html lang="en">
+   3: <head>
+   4:     <meta charset="UTF-8">
+   5:     <title>Title</title>
+   6: </head>
+   7: <body>
+   8: Hello,@a
+   9: @site.asset
+   10: </body>
+   11: </html>
+
+
+Relevant Java source lines:
+-------------------------------------------------
+   29: 	}
+   30: 
+   31: 	protected org.osgl.http.H.Flash _flash=null;
+   32: 	protected act.util.ActContext _ctx=null;
+   33: 	protected org.rythmengine.utils.RawData _dspField=null;
+>> 34: 	protected class java.lang.Boolean __IS_MOBILE__=null;
+   35: 	protected java.util.Map _params=null;
+   36: 	protected org.osgl.http.H.Response _resp=null;
+   37: 	protected act.app.App _app=null;
+   38: 	protected act.app.ActionContext _action=null;
+   39: 	protected java.lang.String _csrf=null;
+   40: 	protected java.lang.String _lang=null;
+
+
+2017-08-31_01:04:50.258 [XNIO-1 task-39] ERROR a.h.b.controller.RequestHandlerProxy - Error handling request: [GET] /indexaa
+org.rythmengine.exception.CompileException: Syntax error on token ".", { expected
+
+Template: /index.html
+
+Relevant template source lines:
+-------------------------------------------------
+   1: <!DOCTYPE html>
+   2: <html lang="en">
+   3: <head>
+   4:     <meta charset="UTF-8">
+   5:     <title>Title</title>
+   6: </head>
+   7: <body>
+   8: Hello,@a
+   9: @site.get("asset")
+   10: </body>
+   11: </html>
+
+
+Relevant Java source lines:
+-------------------------------------------------
+   29: 	}
+   30: 
+   31: 	protected org.osgl.http.H.Flash _flash=null;
+   32: 	protected act.util.ActContext _ctx=null;
+   33: 	protected org.rythmengine.utils.RawData _dspField=null;
+>> 34: 	protected class java.lang.Boolean __IS_MOBILE__=null;
+   35: 	protected java.util.Map _params=null;
+   36: 	protected org.osgl.http.H.Response _resp=null;
+   37: 	protected act.app.App _app=null;
+   38: 	protected act.app.ActionContext _action=null;
+   39: 	protected java.lang.String _csrf=null;
+   40: 	protected java.lang.String _lang=null;
+
+
+2017-08-31_01:05:10.550 [XNIO-1 task-44] ERROR a.h.b.controller.RequestHandlerProxy - Error handling request: [GET] /indexaa
+org.rythmengine.exception.CompileException: Syntax error on token ".", { expected
+
+Template: /index.html
+
+Relevant template source lines:
+-------------------------------------------------
+   1: <!DOCTYPE html>
+   2: <html lang="en">
+   3: <head>
+   4:     <meta charset="UTF-8">
+   5:     <title>Title</title>
+   6: </head>
+   7: <body>
+   8: Hello,@a
+   9: @site.getString("asset")
+   10: </body>
+   11: </html>
+
+
+Relevant Java source lines:
+-------------------------------------------------
+   29: 	}
+   30: 
+   31: 	protected org.osgl.http.H.Flash _flash=null;
+   32: 	protected act.util.ActContext _ctx=null;
+   33: 	protected org.rythmengine.utils.RawData _dspField=null;
+>> 34: 	protected class java.lang.Boolean __IS_MOBILE__=null;
+   35: 	protected java.util.Map _params=null;
+   36: 	protected org.osgl.http.H.Response _resp=null;
+   37: 	protected act.app.App _app=null;
+   38: 	protected act.app.ActionContext _action=null;
+   39: 	protected java.lang.String _csrf=null;
+   40: 	protected java.lang.String _lang=null;
+
+
+2017-08-31_01:05:12.765 [XNIO-1 task-49] ERROR a.h.b.controller.RequestHandlerProxy - Error handling request: [GET] /indexaa
+org.rythmengine.exception.CompileException: Syntax error on token ".", { expected
+
+Template: /index.html
+
+Relevant template source lines:
+-------------------------------------------------
+   1: <!DOCTYPE html>
+   2: <html lang="en">
+   3: <head>
+   4:     <meta charset="UTF-8">
+   5:     <title>Title</title>
+   6: </head>
+   7: <body>
+   8: Hello,@a
+   9: @site.getString("asset")
+   10: </body>
+   11: </html>
+
+
+Relevant Java source lines:
+-------------------------------------------------
+   29: 	}
+   30: 
+   31: 	protected org.osgl.http.H.Flash _flash=null;
+   32: 	protected act.util.ActContext _ctx=null;
+   33: 	protected org.rythmengine.utils.RawData _dspField=null;
+>> 34: 	protected class java.lang.Boolean __IS_MOBILE__=null;
+   35: 	protected java.util.Map _params=null;
+   36: 	protected org.osgl.http.H.Response _resp=null;
+   37: 	protected act.app.App _app=null;
+   38: 	protected act.app.ActionContext _action=null;
+   39: 	protected java.lang.String _csrf=null;
+   40: 	protected java.lang.String _lang=null;
+
+
+2017-08-31_01:05:59.141 [XNIO-1 task-54] ERROR a.h.b.controller.RequestHandlerProxy - Error handling request: [GET] /indexaa
+org.rythmengine.exception.CompileException: Syntax error on token ".", { expected
+
+Template: /index.html
+
+Relevant template source lines:
+-------------------------------------------------
+   1: <!DOCTYPE html>
+   2: <html lang="en">
+   3: <head>
+   4:     <meta charset="UTF-8">
+   5:     <title>Title</title>
+   6: </head>
+   7: <body>
+   8: Hello,@a
+   9: @site.get("asset")
+   10: </body>
+   11: </html>
+
+
+Relevant Java source lines:
+-------------------------------------------------
+   29: 	}
+   30: 
+   31: 	protected org.osgl.http.H.Flash _flash=null;
+   32: 	protected act.util.ActContext _ctx=null;
+   33: 	protected org.rythmengine.utils.RawData _dspField=null;
+>> 34: 	protected class java.lang.Boolean __IS_MOBILE__=null;
+   35: 	protected java.util.Map _params=null;
+   36: 	protected org.osgl.http.H.Response _resp=null;
+   37: 	protected act.app.App _app=null;
+   38: 	protected act.app.ActionContext _action=null;
+   39: 	protected java.lang.String _csrf=null;
+   40: 	protected java.lang.String _lang=null;
+
+
+2017-08-31_01:06:58.130 [XNIO-1 I/O-16] INFO  act.Act - App starting ....
+2017-08-31_01:06:58.132 [XNIO-1 I/O-16] INFO  act.Act - App shutting down ....
+2017-08-31_01:06:58.155 [XNIO-1 I/O-16] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-31_01:06:58.156 [XNIO-1 I/O-16] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-08-31_01:06:58.156 [XNIO-1 I/O-16] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-08-31_01:06:58.157 [XNIO-1 I/O-16] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@2b569858
+2017-08-31_01:06:58.158 [XNIO-1 I/O-16] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-31_01:06:58.158 [XNIO-1 I/O-16] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-31_01:06:58.692 [XNIO-1 I/O-16] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-31_01:06:58.737 [jobs-thread-2] INFO  act.Act - App[AI-Open-API] loaded in 607ms
+2017-08-31_01:06:58.774 [XNIO-1 task-59] ERROR a.h.b.controller.RequestHandlerProxy - Error handling request: [GET] /indexaa
+org.rythmengine.exception.CompileException: Syntax error on token ".", { expected
+
+Template: /index.html
+
+Relevant template source lines:
+-------------------------------------------------
+   1: <!DOCTYPE html>
+   2: <html lang="en">
+   3: <head>
+   4:     <meta charset="UTF-8">
+   5:     <title>Title</title>
+   6: </head>
+   7: <body>
+   8: Hello,@a
+   9: @site.get("asset")
+   10: </body>
+   11: </html>
+
+
+Relevant Java source lines:
+-------------------------------------------------
+   29: 	}
+   30: 
+   31: 	protected org.osgl.http.H.Flash _flash=null;
+   32: 	protected act.util.ActContext _ctx=null;
+   33: 	protected org.rythmengine.utils.RawData _dspField=null;
+>> 34: 	protected class java.lang.Boolean __IS_MOBILE__=null;
+   35: 	protected java.util.Map _params=null;
+   36: 	protected org.osgl.http.H.Response _resp=null;
+   37: 	protected act.app.App _app=null;
+   38: 	protected act.app.ActionContext _action=null;
+   39: 	protected java.lang.String _csrf=null;
+   40: 	protected java.lang.String _lang=null;
+
+
+2017-08-31_01:08:43.990 [XNIO-1 task-68] ERROR a.h.b.controller.RequestHandlerProxy - Error handling request: [GET] /indexaa
+org.rythmengine.exception.CompileException: Syntax error on token ".", { expected
+
+Template: /index.html
+
+Relevant template source lines:
+-------------------------------------------------
+   1: <!DOCTYPE html>
+   2: <html lang="en">
+   3: <head>
+   4:     <meta charset="UTF-8">
+   5:     <title>Title</title>
+   6: </head>
+   7: <body>
+   8: Hello,@a
+   9: @args{
+   10:     Map<String,String> site
+   11: }
+   12: @site.get("asset")
+   13: </body>
+   14: </html>
+
+
+Relevant Java source lines:
+-------------------------------------------------
+   31: 
+   32: 	protected Map<String,String> site=null; //line: 12
+   33: 	protected org.osgl.http.H.Flash _flash=null;
+   34: 	protected act.util.ActContext _ctx=null;
+   35: 	protected org.rythmengine.utils.RawData _dspField=null;
+>> 36: 	protected class java.lang.Boolean __IS_MOBILE__=null;
+   37: 	protected java.util.Map _params=null;
+   38: 	protected org.osgl.http.H.Response _resp=null;
+   39: 	protected act.app.App _app=null;
+   40: 	protected act.app.ActionContext _action=null;
+   41: 	protected java.lang.String _csrf=null;
+   42: 	protected java.lang.String _lang=null;
+
+
+2017-08-31_01:09:23.001 [XNIO-1 task-73] ERROR a.h.b.controller.RequestHandlerProxy - Error handling request: [GET] /indexaa
+org.rythmengine.exception.CompileException: Syntax error on token ".", { expected
+
+Template: /index.html
+
+Relevant template source lines:
+-------------------------------------------------
+   1: <!DOCTYPE html>
+   2: <html lang="en">
+   3: <head>
+   4:     <meta charset="UTF-8">
+   5:     <title>Title</title>
+   6: </head>
+   7: <body>
+   8: Hello,@a
+   9: @args(){
+   10:     Map<String,String> site
+   11: }
+   12: @site.get("asset")
+   13: </body>
+   14: </html>
+
+
+Relevant Java source lines:
+-------------------------------------------------
+   31: 
+   32: 	protected Map<String,String> site=null; //line: 12
+   33: 	protected org.osgl.http.H.Flash _flash=null;
+   34: 	protected act.util.ActContext _ctx=null;
+   35: 	protected org.rythmengine.utils.RawData _dspField=null;
+>> 36: 	protected class java.lang.Boolean __IS_MOBILE__=null;
+   37: 	protected java.util.Map _params=null;
+   38: 	protected org.osgl.http.H.Response _resp=null;
+   39: 	protected act.app.App _app=null;
+   40: 	protected act.app.ActionContext _action=null;
+   41: 	protected java.lang.String _csrf=null;
+   42: 	protected java.lang.String _lang=null;
+
+
+2017-08-31_01:10:20.854 [main] INFO  act.Act - loading application(s) ...
+2017-08-31_01:10:20.867 [main] INFO  act.Act - App starting ....
+2017-08-31_01:10:20.969 [main] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-31_01:10:20.981 [main] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@3e5eab74
+2017-08-31_01:10:20.988 [main] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-31_01:10:20.988 [main] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-31_01:10:22.473 [main] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-31_01:10:22.890 [main] INFO  act.Act - network client hooked on port: 5121
+2017-08-31_01:10:22.894 [main] INFO  act.Act - CLI server started on port: 5122
+2017-08-31_01:10:22.899 [main] INFO  act.Act - it takes 5677ms to start the app
+
+2017-08-31_01:10:23.023 [jobs-thread-2] INFO  act.Act - App[AI-Open-API] loaded in 2155ms
+2017-08-31_01:10:26.632 [XNIO-1 task-1] ERROR a.h.b.controller.RequestHandlerProxy - Error handling request: [GET] /indexaa
+org.rythmengine.exception.CompileException: a cannot be resolved to a variable
+
+Template: /index.html
+
+Relevant template source lines:
+-------------------------------------------------
+   3: <head>
+   4:     <meta charset="UTF-8">
+   5:     <title>Title</title>
+   6: </head>
+   7: <body>
+>> 8: Hello,@a
+   9: @site.get("asset")
+   10: </body>
+   11: </html>
+
+
+Relevant Java source lines:
+-------------------------------------------------
+   234: 
+   235: 	public org.rythmengine.utils.TextBuilder build(){
+   236: 		buffer().ensureCapacity(150);
+   237: p("<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"UTF-8\">\n<title>Title</title>\n</head>\n<body>\nHello,"); //line: 8
+   238: 
+>> 239: try{pe(a);} catch (RuntimeException e) {__handleTemplateExecutionException(e);}  //line: 8
+   240: p("\n"); //line: 9
+   241: 
+   242: try{pe(site.get("asset"));} catch (RuntimeException e) {__handleTemplateExecutionException(e);}  //line: 9
+   243: p("\n</body>\n</html>"); //line: 11
+   244: 
+   245: 		return this;
+
+
+2017-08-31_01:10:31.578 [XNIO-1 task-6] ERROR a.h.b.controller.RequestHandlerProxy - Error handling request: [GET] /indexaa
+org.rythmengine.exception.CompileException: a cannot be resolved to a variable
+
+Template: /index.html
+
+Relevant template source lines:
+-------------------------------------------------
+   3: <head>
+   4:     <meta charset="UTF-8">
+   5:     <title>Title</title>
+   6: </head>
+   7: <body>
+>> 8: Hello,@a
+   9: @site.get("asset")
+   10: </body>
+   11: </html>
+
+
+Relevant Java source lines:
+-------------------------------------------------
+   234: 
+   235: 	public org.rythmengine.utils.TextBuilder build(){
+   236: 		buffer().ensureCapacity(150);
+   237: p("<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"UTF-8\">\n<title>Title</title>\n</head>\n<body>\nHello,"); //line: 8
+   238: 
+>> 239: try{pe(a);} catch (RuntimeException e) {__handleTemplateExecutionException(e);}  //line: 8
+   240: p("\n"); //line: 9
+   241: 
+   242: try{pe(site.get("asset"));} catch (RuntimeException e) {__handleTemplateExecutionException(e);}  //line: 9
+   243: p("\n</body>\n</html>"); //line: 11
+   244: 
+   245: 		return this;
+
+
+2017-08-31_01:10:36.539 [XNIO-1 task-11] ERROR a.h.b.controller.RequestHandlerProxy - Error handling request: [GET] /indexaa
+org.rythmengine.exception.CompileException: a cannot be resolved to a variable
+
+Template: /index.html
+
+Relevant template source lines:
+-------------------------------------------------
+   3: <head>
+   4:     <meta charset="UTF-8">
+   5:     <title>Title</title>
+   6: </head>
+   7: <body>
+>> 8: Hello,@a
+   9: @site.get("asset")
+   10: </body>
+   11: </html>
+
+
+Relevant Java source lines:
+-------------------------------------------------
+   234: 
+   235: 	public org.rythmengine.utils.TextBuilder build(){
+   236: 		buffer().ensureCapacity(150);
+   237: p("<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"UTF-8\">\n<title>Title</title>\n</head>\n<body>\nHello,"); //line: 8
+   238: 
+>> 239: try{pe(a);} catch (RuntimeException e) {__handleTemplateExecutionException(e);}  //line: 8
+   240: p("\n"); //line: 9
+   241: 
+   242: try{pe(site.get("asset"));} catch (RuntimeException e) {__handleTemplateExecutionException(e);}  //line: 9
+   243: p("\n</body>\n</html>"); //line: 11
+   244: 
+   245: 		return this;
+
+
+2017-08-31_01:11:00.651 [XNIO-1 task-16] ERROR a.h.b.controller.RequestHandlerProxy - Error handling request: [GET] /indexaa
+org.rythmengine.exception.CompileException: site cannot be resolved
+
+Template: /index.html
+
+Relevant template source lines:
+-------------------------------------------------
+   4:     <meta charset="UTF-8">
+   5:     <title>Title</title>
+   6: </head>
+   7: <body>
+   8: Hello,
+>> 9: @site.get("asset")
+   10: </body>
+   11: </html>
+
+
+Relevant Java source lines:
+-------------------------------------------------
+   234: 
+   235: 	public org.rythmengine.utils.TextBuilder build(){
+   236: 		buffer().ensureCapacity(148);
+   237: p("<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"UTF-8\">\n<title>Title</title>\n</head>\n<body>\nHello,\n"); //line: 9
+   238: 
+>> 239: try{pe(site.get("asset"));} catch (RuntimeException e) {__handleTemplateExecutionException(e);}  //line: 9
+   240: p("\n</body>\n</html>"); //line: 11
+   241: 
+   242: 		return this;
+   243: 	}
+   244: 
+   245: 
+
+
+2017-08-31_01:11:04.781 [XNIO-1 task-21] ERROR a.h.b.controller.RequestHandlerProxy - Error handling request: [GET] /indexaa
+org.rythmengine.exception.CompileException: site cannot be resolved
+
+Template: /index.html
+
+Relevant template source lines:
+-------------------------------------------------
+   4:     <meta charset="UTF-8">
+   5:     <title>Title</title>
+   6: </head>
+   7: <body>
+   8: Hello,
+>> 9: @site.get("asset")
+   10: </body>
+   11: </html>
+
+
+Relevant Java source lines:
+-------------------------------------------------
+   234: 
+   235: 	public org.rythmengine.utils.TextBuilder build(){
+   236: 		buffer().ensureCapacity(148);
+   237: p("<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"UTF-8\">\n<title>Title</title>\n</head>\n<body>\nHello,\n"); //line: 9
+   238: 
+>> 239: try{pe(site.get("asset"));} catch (RuntimeException e) {__handleTemplateExecutionException(e);}  //line: 9
+   240: p("\n</body>\n</html>"); //line: 11
+   241: 
+   242: 		return this;
+   243: 	}
+   244: 
+   245: 
+
+
+2017-08-31_01:11:08.092 [XNIO-1 task-26] ERROR a.h.b.controller.RequestHandlerProxy - Error handling request: [GET] /indexaa
+org.rythmengine.exception.CompileException: site cannot be resolved
+
+Template: /index.html
+
+Relevant template source lines:
+-------------------------------------------------
+   4:     <meta charset="UTF-8">
+   5:     <title>Title</title>
+   6: </head>
+   7: <body>
+   8: Hello,
+>> 9: @site.get("asset")
+   10: </body>
+   11: </html>
+
+
+Relevant Java source lines:
+-------------------------------------------------
+   234: 
+   235: 	public org.rythmengine.utils.TextBuilder build(){
+   236: 		buffer().ensureCapacity(148);
+   237: p("<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"UTF-8\">\n<title>Title</title>\n</head>\n<body>\nHello,\n"); //line: 9
+   238: 
+>> 239: try{pe(site.get("asset"));} catch (RuntimeException e) {__handleTemplateExecutionException(e);}  //line: 9
+   240: p("\n</body>\n</html>"); //line: 11
+   241: 
+   242: 		return this;
+   243: 	}
+   244: 
+   245: 
+
+
+2017-08-31_01:11:10.816 [XNIO-1 task-31] ERROR a.h.b.controller.RequestHandlerProxy - Error handling request: [GET] /indexaa
+org.rythmengine.exception.CompileException: site cannot be resolved
+
+Template: /index.html
+
+Relevant template source lines:
+-------------------------------------------------
+   4:     <meta charset="UTF-8">
+   5:     <title>Title</title>
+   6: </head>
+   7: <body>
+   8: Hello,
+>> 9: @site.get("asset")
+   10: </body>
+   11: </html>
+
+
+Relevant Java source lines:
+-------------------------------------------------
+   234: 
+   235: 	public org.rythmengine.utils.TextBuilder build(){
+   236: 		buffer().ensureCapacity(148);
+   237: p("<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"UTF-8\">\n<title>Title</title>\n</head>\n<body>\nHello,\n"); //line: 9
+   238: 
+>> 239: try{pe(site.get("asset"));} catch (RuntimeException e) {__handleTemplateExecutionException(e);}  //line: 9
+   240: p("\n</body>\n</html>"); //line: 11
+   241: 
+   242: 		return this;
+   243: 	}
+   244: 
+   245: 
+
+
+2017-08-31_01:11:22.787 [XNIO-1 task-36] ERROR a.h.b.controller.RequestHandlerProxy - Error handling request: [GET] /indexaa
+org.rythmengine.exception.CompileException: site cannot be resolved
+
+Template: /index.html
+
+Relevant template source lines:
+-------------------------------------------------
+   4:     <meta charset="UTF-8">
+   5:     <title>Title</title>
+   6: </head>
+   7: <body>
+   8: Hello,
+>> 9: @(site.get("asset"))
+   10: </body>
+   11: </html>
+
+
+Relevant Java source lines:
+-------------------------------------------------
+   234: 
+   235: 	public org.rythmengine.utils.TextBuilder build(){
+   236: 		buffer().ensureCapacity(150);
+   237: p("<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"UTF-8\">\n<title>Title</title>\n</head>\n<body>\nHello,\n"); //line: 9
+   238: 
+>> 239: try{pe((site.get("asset")));} catch (RuntimeException e) {__handleTemplateExecutionException(e);}  //line: 9
+   240: p("\n</body>\n</html>"); //line: 11
+   241: 
+   242: 		return this;
+   243: 	}
+   244: 
+   245: 
+
+
+2017-08-31_01:11:26.041 [XNIO-1 task-41] ERROR a.h.b.controller.RequestHandlerProxy - Error handling request: [GET] /indexaa
+org.rythmengine.exception.CompileException: site cannot be resolved
+
+Template: /index.html
+
+Relevant template source lines:
+-------------------------------------------------
+   4:     <meta charset="UTF-8">
+   5:     <title>Title</title>
+   6: </head>
+   7: <body>
+   8: Hello,
+>> 9: @(site.get("asset"))
+   10: </body>
+   11: </html>
+
+
+Relevant Java source lines:
+-------------------------------------------------
+   234: 
+   235: 	public org.rythmengine.utils.TextBuilder build(){
+   236: 		buffer().ensureCapacity(150);
+   237: p("<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"UTF-8\">\n<title>Title</title>\n</head>\n<body>\nHello,\n"); //line: 9
+   238: 
+>> 239: try{pe((site.get("asset")));} catch (RuntimeException e) {__handleTemplateExecutionException(e);}  //line: 9
+   240: p("\n</body>\n</html>"); //line: 11
+   241: 
+   242: 		return this;
+   243: 	}
+   244: 
+   245: 
+
+
+2017-08-31_01:11:29.957 [XNIO-1 task-46] ERROR a.h.b.controller.RequestHandlerProxy - Error handling request: [GET] /indexaa
+org.rythmengine.exception.CompileException: site cannot be resolved
+
+Template: /index.html
+
+Relevant template source lines:
+-------------------------------------------------
+   4:     <meta charset="UTF-8">
+   5:     <title>Title</title>
+   6: </head>
+   7: <body>
+   8: Hello,
+>> 9: @(site.get("asset"))
+   10: </body>
+   11: </html>
+
+
+Relevant Java source lines:
+-------------------------------------------------
+   234: 
+   235: 	public org.rythmengine.utils.TextBuilder build(){
+   236: 		buffer().ensureCapacity(150);
+   237: p("<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"UTF-8\">\n<title>Title</title>\n</head>\n<body>\nHello,\n"); //line: 9
+   238: 
+>> 239: try{pe((site.get("asset")));} catch (RuntimeException e) {__handleTemplateExecutionException(e);}  //line: 9
+   240: p("\n</body>\n</html>"); //line: 11
+   241: 
+   242: 		return this;
+   243: 	}
+   244: 
+   245: 
+
+
+2017-08-31_01:11:58.283 [XNIO-1 I/O-4] INFO  act.Act - App starting ....
+2017-08-31_01:11:58.307 [XNIO-1 I/O-4] INFO  act.Act - App shutting down ....
+2017-08-31_01:11:58.320 [XNIO-1 I/O-4] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-31_01:11:58.321 [XNIO-1 I/O-4] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@3e5eab74
+2017-08-31_01:11:58.322 [XNIO-1 I/O-4] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-31_01:11:58.322 [XNIO-1 I/O-4] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-31_01:11:58.712 [XNIO-1 I/O-4] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-31_01:11:58.765 [jobs-thread-2] INFO  act.Act - App[AI-Open-API] loaded in 482ms
+2017-08-31_01:11:58.859 [XNIO-1 task-51] ERROR a.h.b.controller.RequestHandlerProxy - Error handling request: [GET] /indexaa
+org.rythmengine.exception.CompileException: site cannot be resolved
+
+Template: /index.html
+
+Relevant template source lines:
+-------------------------------------------------
+   4:     <meta charset="UTF-8">
+   5:     <title>Title</title>
+   6: </head>
+   7: <body>
+   8: Hello,
+>> 9: @(site.get("asset"))
+   10: </body>
+   11: </html>
+
+
+Relevant Java source lines:
+-------------------------------------------------
+   234: 
+   235: 	public org.rythmengine.utils.TextBuilder build(){
+   236: 		buffer().ensureCapacity(150);
+   237: p("<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"UTF-8\">\n<title>Title</title>\n</head>\n<body>\nHello,\n"); //line: 9
+   238: 
+>> 239: try{pe((site.get("asset")));} catch (RuntimeException e) {__handleTemplateExecutionException(e);}  //line: 9
+   240: p("\n</body>\n</html>"); //line: 11
+   241: 
+   242: 		return this;
+   243: 	}
+   244: 
+   245: 
+
+
+2017-08-31_01:12:01.690 [XNIO-1 task-56] ERROR a.h.b.controller.RequestHandlerProxy - Error handling request: [GET] /indexaa
+org.rythmengine.exception.CompileException: site cannot be resolved
+
+Template: /index.html
+
+Relevant template source lines:
+-------------------------------------------------
+   4:     <meta charset="UTF-8">
+   5:     <title>Title</title>
+   6: </head>
+   7: <body>
+   8: Hello,
+>> 9: @(site.get("asset"))
+   10: </body>
+   11: </html>
+
+
+Relevant Java source lines:
+-------------------------------------------------
+   234: 
+   235: 	public org.rythmengine.utils.TextBuilder build(){
+   236: 		buffer().ensureCapacity(150);
+   237: p("<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"UTF-8\">\n<title>Title</title>\n</head>\n<body>\nHello,\n"); //line: 9
+   238: 
+>> 239: try{pe((site.get("asset")));} catch (RuntimeException e) {__handleTemplateExecutionException(e);}  //line: 9
+   240: p("\n</body>\n</html>"); //line: 11
+   241: 
+   242: 		return this;
+   243: 	}
+   244: 
+   245: 
+
+
+2017-08-31_01:12:21.986 [main] INFO  act.Act - loading application(s) ...
+2017-08-31_01:12:22.007 [main] INFO  act.Act - App starting ....
+2017-08-31_01:12:22.221 [main] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-31_01:12:22.242 [main] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@1a3272e0
+2017-08-31_01:12:22.302 [main] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-31_01:12:22.302 [main] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-31_01:12:23.694 [main] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-31_01:12:24.129 [main] INFO  act.Act - network client hooked on port: 5121
+2017-08-31_01:12:24.131 [main] INFO  act.Act - CLI server started on port: 5122
+2017-08-31_01:12:24.135 [main] INFO  act.Act - it takes 3823ms to start the app
+
+2017-08-31_01:12:24.472 [jobs-thread-2] INFO  act.Act - App[AI-Open-API] loaded in 2465ms
+2017-08-31_01:12:24.704 [XNIO-1 task-1] ERROR a.h.b.controller.RequestHandlerProxy - Error handling request: [GET] /indexaa
+org.rythmengine.exception.CompileException: site cannot be resolved
+
+Template: /index.html
+
+Relevant template source lines:
+-------------------------------------------------
+   4:     <meta charset="UTF-8">
+   5:     <title>Title</title>
+   6: </head>
+   7: <body>
+   8: Hello,
+>> 9: @(site.get("asset"))
+   10: </body>
+   11: </html>
+
+
+Relevant Java source lines:
+-------------------------------------------------
+   234: 
+   235: 	public org.rythmengine.utils.TextBuilder build(){
+   236: 		buffer().ensureCapacity(150);
+   237: p("<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"UTF-8\">\n<title>Title</title>\n</head>\n<body>\nHello,\n"); //line: 9
+   238: 
+>> 239: try{pe((site.get("asset")));} catch (RuntimeException e) {__handleTemplateExecutionException(e);}  //line: 9
+   240: p("\n</body>\n</html>"); //line: 11
+   241: 
+   242: 		return this;
+   243: 	}
+   244: 
+   245: 
+
+
+2017-08-31_01:12:27.386 [XNIO-1 task-6] ERROR a.h.b.controller.RequestHandlerProxy - Error handling request: [GET] /indexaa
+org.rythmengine.exception.CompileException: site cannot be resolved
+
+Template: /index.html
+
+Relevant template source lines:
+-------------------------------------------------
+   4:     <meta charset="UTF-8">
+   5:     <title>Title</title>
+   6: </head>
+   7: <body>
+   8: Hello,
+>> 9: @(site.get("asset"))
+   10: </body>
+   11: </html>
+
+
+Relevant Java source lines:
+-------------------------------------------------
+   234: 
+   235: 	public org.rythmengine.utils.TextBuilder build(){
+   236: 		buffer().ensureCapacity(150);
+   237: p("<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"UTF-8\">\n<title>Title</title>\n</head>\n<body>\nHello,\n"); //line: 9
+   238: 
+>> 239: try{pe((site.get("asset")));} catch (RuntimeException e) {__handleTemplateExecutionException(e);}  //line: 9
+   240: p("\n</body>\n</html>"); //line: 11
+   241: 
+   242: 		return this;
+   243: 	}
+   244: 
+   245: 
+
+
+2017-08-31_01:12:31.080 [XNIO-1 task-11] ERROR a.h.b.controller.RequestHandlerProxy - Error handling request: [GET] /indexaa
+org.rythmengine.exception.CompileException: site cannot be resolved
+
+Template: /index.html
+
+Relevant template source lines:
+-------------------------------------------------
+   4:     <meta charset="UTF-8">
+   5:     <title>Title</title>
+   6: </head>
+   7: <body>
+   8: Hello,
+>> 9: @(site.get("asset"))
+   10: </body>
+   11: </html>
+
+
+Relevant Java source lines:
+-------------------------------------------------
+   234: 
+   235: 	public org.rythmengine.utils.TextBuilder build(){
+   236: 		buffer().ensureCapacity(150);
+   237: p("<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"UTF-8\">\n<title>Title</title>\n</head>\n<body>\nHello,\n"); //line: 9
+   238: 
+>> 239: try{pe((site.get("asset")));} catch (RuntimeException e) {__handleTemplateExecutionException(e);}  //line: 9
+   240: p("\n</body>\n</html>"); //line: 11
+   241: 
+   242: 		return this;
+   243: 	}
+   244: 
+   245: 
+
+
+2017-08-31_03:12:01.780 [main] INFO  act.Act - loading application(s) ...
+2017-08-31_03:12:01.804 [main] INFO  act.Act - App starting ....
+2017-08-31_03:12:01.965 [main] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-31_03:12:01.982 [main] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@1a3272e0
+2017-08-31_03:12:02.042 [main] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-31_03:12:02.043 [main] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-31_03:12:03.392 [main] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-31_03:12:03.792 [main] INFO  act.Act - network client hooked on port: 5121
+2017-08-31_03:12:03.797 [main] INFO  act.Act - CLI server started on port: 5122
+2017-08-31_03:12:03.801 [main] INFO  act.Act - it takes 3362ms to start the app
+
+2017-08-31_03:12:04.045 [jobs-thread-1] INFO  act.Act - App[AI-Open-API] loaded in 2241ms
+2017-08-31_03:16:35.802 [XNIO-1 I/O-14] INFO  act.Act - App starting ....
+2017-08-31_03:16:35.806 [XNIO-1 I/O-14] INFO  act.Act - App shutting down ....
+2017-08-31_03:16:35.827 [XNIO-1 I/O-14] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-31_03:16:35.829 [XNIO-1 I/O-14] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@1a3272e0
+2017-08-31_03:16:35.830 [XNIO-1 I/O-14] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-31_03:16:35.830 [XNIO-1 I/O-14] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-31_03:16:36.327 [XNIO-1 I/O-14] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-31_03:16:36.369 [jobs-thread-2] INFO  act.Act - App[AI-Open-API] loaded in 567ms
+2017-08-31_03:17:35.831 [cli-thread-2] INFO  act.Act - App starting ....
+2017-08-31_03:17:35.838 [cli-thread-2] INFO  act.Act - App shutting down ....
+2017-08-31_03:17:35.852 [cli-thread-2] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-31_03:17:35.853 [cli-thread-2] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@1a3272e0
+2017-08-31_03:17:35.854 [cli-thread-2] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-31_03:17:35.854 [cli-thread-2] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-31_03:17:36.245 [cli-thread-2] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-31_03:17:36.285 [jobs-thread-2] INFO  act.Act - App[AI-Open-API] loaded in 454ms
+2017-08-31_03:26:35.893 [cli-thread-2] INFO  act.Act - App starting ....
+2017-08-31_03:26:35.897 [cli-thread-2] INFO  act.Act - App shutting down ....
+2017-08-31_03:26:35.909 [cli-thread-2] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-31_03:26:35.910 [cli-thread-2] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@1a3272e0
+2017-08-31_03:26:35.911 [cli-thread-2] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-31_03:26:35.911 [cli-thread-2] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-31_03:26:36.240 [cli-thread-2] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-31_03:26:36.278 [jobs-thread-2] INFO  act.Act - App[AI-Open-API] loaded in 385ms
+2017-08-31_03:28:35.915 [cli-thread-2] INFO  act.Act - App starting ....
+2017-08-31_03:28:35.920 [cli-thread-2] INFO  act.Act - App shutting down ....
+2017-08-31_03:28:35.928 [cli-thread-2] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-31_03:28:35.929 [cli-thread-2] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@1a3272e0
+2017-08-31_03:28:35.929 [cli-thread-2] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-31_03:28:35.929 [cli-thread-2] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-31_03:28:36.236 [cli-thread-2] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-31_03:28:36.266 [jobs-thread-2] INFO  act.Act - App[AI-Open-API] loaded in 351ms
+2017-08-31_03:29:35.933 [cli-thread-2] INFO  act.Act - App starting ....
+2017-08-31_03:29:35.937 [cli-thread-2] INFO  act.Act - App shutting down ....
+2017-08-31_03:29:35.946 [cli-thread-2] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-31_03:29:35.948 [cli-thread-2] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@1a3272e0
+2017-08-31_03:29:35.948 [cli-thread-2] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-31_03:29:35.948 [cli-thread-2] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-31_03:29:36.244 [cli-thread-2] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-31_03:29:36.274 [jobs-thread-1] INFO  act.Act - App[AI-Open-API] loaded in 341ms
+2017-08-31_03:30:35.949 [cli-thread-2] INFO  act.Act - App starting ....
+2017-08-31_03:30:35.955 [cli-thread-2] INFO  act.Act - App shutting down ....
+2017-08-31_03:30:35.961 [cli-thread-2] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-31_03:30:35.962 [cli-thread-2] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@1a3272e0
+2017-08-31_03:30:35.963 [cli-thread-2] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-31_03:30:35.963 [cli-thread-2] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-31_03:30:36.272 [cli-thread-2] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-31_03:30:36.303 [jobs-thread-2] INFO  act.Act - App[AI-Open-API] loaded in 354ms
+2017-08-31_03:31:35.964 [cli-thread-2] INFO  act.Act - App starting ....
+2017-08-31_03:31:35.969 [cli-thread-2] INFO  act.Act - App shutting down ....
+2017-08-31_03:31:35.977 [cli-thread-2] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-31_03:31:35.978 [cli-thread-2] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@1a3272e0
+2017-08-31_03:31:35.979 [cli-thread-2] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-31_03:31:35.979 [cli-thread-2] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-31_03:31:36.271 [cli-thread-2] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-31_03:31:36.295 [jobs-thread-1] INFO  act.Act - App[AI-Open-API] loaded in 331ms
+2017-08-31_03:32:35.981 [cli-thread-2] INFO  act.Act - App starting ....
+2017-08-31_03:32:35.985 [cli-thread-2] INFO  act.Act - App shutting down ....
+2017-08-31_03:32:35.996 [cli-thread-2] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-31_03:32:35.997 [cli-thread-2] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@1a3272e0
+2017-08-31_03:32:35.997 [cli-thread-2] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-31_03:32:35.997 [cli-thread-2] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-31_03:32:36.328 [cli-thread-2] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-31_03:32:36.359 [jobs-thread-1] INFO  act.Act - App[AI-Open-API] loaded in 378ms
+2017-08-31_03:33:36.001 [cli-thread-2] INFO  act.Act - App starting ....
+2017-08-31_03:33:36.006 [cli-thread-2] INFO  act.Act - App shutting down ....
+2017-08-31_03:33:36.017 [cli-thread-2] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-08-31_03:33:36.018 [cli-thread-2] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.ebean.EbeanPlugin@1a3272e0
+2017-08-31_03:33:36.019 [cli-thread-2] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-08-31_03:33:36.019 [cli-thread-2] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-08-31_03:33:36.329 [cli-thread-2] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-08-31_03:33:36.356 [jobs-thread-1] INFO  act.Act - App[AI-Open-API] loaded in 355ms
