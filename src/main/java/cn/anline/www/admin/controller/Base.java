@@ -23,7 +23,6 @@ public class Base extends AnnBase {
     public void _init(){
         System.out.println("---后台全局构造器已执行---");
         actionContext.renderArg("asset",_AssetPath());
-
     }
     /**
      * 后台主题资源根路径
