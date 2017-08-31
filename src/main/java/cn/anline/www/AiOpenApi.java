@@ -3,7 +3,7 @@ package cn.anline.www;
 import act.Act;
 import act.app.conf.AppConfigurator;
 
-public class App extends AppConfigurator<App>{
+public class AiOpenApi extends AppConfigurator<AiOpenApi>{
 
     @Override
     public void configure() {
@@ -11,7 +11,7 @@ public class App extends AppConfigurator<App>{
     }
 
     public static void main(String[] args) throws Exception {
-        Act.start("AI-Open-API");
+        Act.start();
         System.out.println("程序已启动成功！");
     }
 }

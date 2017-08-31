@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
+
     <statusListener class="ch.qos.logback.core.status.NopStatusListener" />
 
     <!-- Send debug messages to System.out -->
     <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
         <!-- By default, encoders are assigned the type ch.qos.logback.classic.encoder.PatternLayoutEncoder -->
+        <withJansi>true</withJansi>
         <encoder>
-            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{5} - %msg%n</pattern>
+            <pattern>%date %highlight(%-5level) %cyan(%logger{5}@[%-4.30thread]) - %msg%n</pattern>
         </encoder>
     </appender>
 
@@ -23,9 +25,8 @@
             <MaxIndex>10</MaxIndex>
         </rollingPolicy>
 
-        <triggeringPolicy
-                class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
-            <MaxFileSize>20MB</MaxFileSize>
+        <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+            <MaxFileSize>2MB</MaxFileSize>
         </triggeringPolicy>
     </appender>
 
@@ -42,7 +43,7 @@
         </rollingPolicy>
 
         <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
-            <MaxFileSize>200MB</MaxFileSize>
+            <MaxFileSize>2MB</MaxFileSize>
         </triggeringPolicy>
     </appender>
 
@@ -51,15 +52,27 @@
         <appender-ref ref="STDOUT" />
     </logger>
 
-    <logger name="metric.act" level="TRACE" additivity="false">
+    <logger name="act.db" level="TRACE" additivity="false">
+        <appender-ref ref="FILE" />
+    </logger>
+
+    <logger name="act.ws" level="DEBUG" additivity="false">
+        <appender-ref ref="FILE"/>
+        <appender-ref ref="STDOUT"/>
+    </logger>
+
+    <logger name="act.mail" level="DEBUG" additivity="false">
+        <appender-ref ref="FILE"/>
+    </logger>
+
+    <logger name="metric.act" level="TRACE">
         <appender-ref ref="METRIC_FILE" />
     </logger>
 
-    <!--
-	<logger name="demo.helloworld.PersonController" level="DEBUG" additivity="false">
-		<appender-ref ref="STDOUT" />
-	</logger>
-	 -->
+    <logger name="cn.anline" level="DEBUG" additivity="false">
+        <appender-ref ref="FILE" />
+        <appender-ref ref="STDOUT" />
+    </logger>
 
     <!-- By default, the level of the root level is set to DEBUG -->
     <root level="INFO">
