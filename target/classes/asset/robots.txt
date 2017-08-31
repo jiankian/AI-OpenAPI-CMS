@@ -1,8 +1,0 @@
-User-agent:*
-Disallow:/search
-Disallow:/user
-Disallow:/asset
-Disallow:/admin
-Disallow:/Ajax
-Disallow:/Tools
-Disallow:/Editor
