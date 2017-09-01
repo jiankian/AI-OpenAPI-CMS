@@ -5,7 +5,6 @@ import act.controller.Controller;
 import act.controller.annotation.UrlContext;
 import act.view.RenderAny;
 import cn.anline.www.AnnBase;
-import com.oracle.tools.packager.Log;
 import org.osgl.mvc.annotation.GetAction;
 import org.osgl.mvc.annotation.PostAction;
 

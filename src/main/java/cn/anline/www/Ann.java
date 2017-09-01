@@ -3,7 +3,7 @@ package cn.anline.www;
 import act.Act;
 import act.app.conf.AppConfigurator;
 
-public class AiOpenApi extends AppConfigurator<AiOpenApi>{
+public class Ann extends AppConfigurator<Ann>{
 
     @Override
     public void configure() {
