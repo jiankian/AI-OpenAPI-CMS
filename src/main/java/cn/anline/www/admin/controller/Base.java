@@ -13,21 +13,18 @@ import javax.inject.Inject;
  */
 @UrlContext("/admin")
 public class Base extends AnnBase {
-    @Inject
-    public ActionContext actionContext;
     /**
      * 每次调用之前执行，检查是否登录
      * 后台全局构造器
      */
     @Before
     public void _init(){
-        System.out.println("---后台全局构造器已执行---");
-        actionContext.renderArg("asset",_AssetPath());
+        context.renderArg("asset",_AssetPath());
     }
     /**
      * 后台主题资源根路径
      * 判断是否手机版做决策
-     * @return
+     * @returnactionContext
      */
     public String _AssetPath(){
         return "/asset/admin/";
@@ -43,6 +40,5 @@ public class Base extends AnnBase {
     }
     @After
     public void _uninit(){
-        System.out.println("---后台全局析构器已执行---");
     }
 }

@@ -12,8 +12,8 @@ public class Index extends Base{
     /**
      * 后台主界面
      */
-    @GetAction({"","index","index/index"})
+    @GetAction({"","index{a}","index/index"})
     public void index(){
-        this.tpl(_ThemePath()+"index/index.html");
+        this.tpl(_ThemePath()+"index/index");
     }
 }

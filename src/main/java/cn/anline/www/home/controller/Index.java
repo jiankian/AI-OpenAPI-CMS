@@ -14,16 +14,13 @@ public class Index extends Base{
     Theme theme;
     @Before
     public void init(){
-        System.out.println("---前台index控制器构造器已经执行---");
     }
     @GetAction({"/","/index{a}"})
     public void index(@DefaultValue("安浪科技") String a){
-        System.out.println("--前台index控制器index方法已执行---");
-        System.out.println(_ThemePath()+"index/index.html");
         this.tpl(_ThemePath()+"index/index.html");
     }
     @After
     public void uninit(){
-        System.out.println("---前台index控制器析构器已执行--");
+
     }
 }

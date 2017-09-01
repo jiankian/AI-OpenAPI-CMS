@@ -31,6 +31,15 @@ public class AnnBase {
     protected H.Session session;
 
     @Inject
+    protected H.Cookie cookie;
+
+    @Inject
+    protected H.Header header;
+
+    @Inject
+    protected H.Status status;
+
+    @Inject
     protected UserAgent ua;
 
     @Inject
@@ -48,7 +57,6 @@ public class AnnBase {
     @Before
     public void __init(){
 
-        System.out.println("---程序全局构造器已执行---");
     }
 
     /**
@@ -56,7 +64,6 @@ public class AnnBase {
      */
     @After
     public void __uninit(){
-        System.out.println("---程序全局析构器已执行---");
         Map<String,String> site = new HashMap<String,String>();
         site.put("home",this.C("domain.site_home"));
         site.put("asset",this.C("domain.site_asset"));
@@ -115,7 +122,7 @@ public class AnnBase {
         context.renderArg("title",title);
         context.renderArg("msg",msg);
         context.renderArg("sleep",sleep);
-        context.templatePath("");
+        context.templatePath("success");
         throw renderTemplate();
     }
 
@@ -127,7 +134,7 @@ public class AnnBase {
         context.renderArg("title",title);
         context.renderArg("msg",msg);
         context.renderArg("sleep",sleep);
-        context.templatePath("");
+        context.templatePath("fail");
         throw renderTemplate();
     }
 

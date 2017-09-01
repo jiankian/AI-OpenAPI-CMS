@@ -20,7 +20,6 @@ public class Base extends AnnBase {
      */
     @Before
     public void _init(){
-        System.out.println("---前台全局构造器已执行---");
         actionContext.renderArg("asset",_AssetPath());
     }
 
@@ -47,6 +46,5 @@ public class Base extends AnnBase {
      */
     @After
     public void _uninit(){
-        System.out.println("---前台全局析构器已执行---");
     }
 }

@@ -12,6 +12,6 @@ public class AiOpenApi extends AppConfigurator<AiOpenApi>{
 
     public static void main(String[] args) throws Exception {
         Act.start();
-        System.out.println("程序已启动成功！");
+        Act.LOGGER.debug("APP","Started...");
     }
 }

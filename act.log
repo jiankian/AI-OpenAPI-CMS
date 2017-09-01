@@ -19936,3 +19936,524 @@ java.lang.ClassCastException: cn.anline.www.App cannot be cast to act.app.conf.A
 2017-09-01_07:13:16.035 [main] INFO  act.Act - CLI server started on port: 5122
 2017-09-01_07:13:16.044 [main] INFO  act.Act - it takes 2795ms to start the app
 
+2017-09-01_06:58:26.287 [main] INFO  act.Act - loading application(s) ...
+2017-09-01_06:58:26.353 [main] INFO  act.Act - App starting ....
+2017-09-01_06:58:26.450 [main] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-09-01_06:58:26.454 [main] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-09-01_06:58:26.455 [main] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-09-01_06:58:26.465 [main] WARN  act.app.DbServiceManager - DB service not initialized: No DB plugin found
+2017-09-01_06:58:26.466 [main] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-09-01_06:58:26.467 [main] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-09-01_06:58:28.019 [main] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-09-01_06:58:28.383 [main] INFO  act.Act - App[Ai Open Api] loaded in 2029ms
+2017-09-01_06:58:28.453 [jobs-thread-2] INFO  act.Act - start compiling API book
+2017-09-01_06:58:28.681 [main] INFO  act.Act - network client hooked on port: 5121
+2017-09-01_06:58:28.695 [main] INFO  act.Act - CLI server started on port: 5122
+2017-09-01_06:58:28.717 [main] INFO  act.Act - it takes 7633ms to start the app
+
+2017-09-01_15:24:01.770 [main] INFO  act.Act - loading application(s) ...
+2017-09-01_15:24:02.428 [main] INFO  act.Act - App starting ....
+2017-09-01_15:24:02.556 [main] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-09-01_15:24:02.563 [main] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-09-01_15:24:02.563 [main] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-09-01_15:24:02.574 [main] WARN  act.app.DbServiceManager - DB service not initialized: No DB plugin found
+2017-09-01_15:24:02.575 [main] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-09-01_15:24:02.576 [main] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-09-01_15:24:03.784 [main] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-09-01_15:24:04.036 [main] INFO  act.Act - App[Ai Open Api] loaded in 1608ms
+2017-09-01_15:24:04.071 [jobs-thread-2] INFO  act.Act - start compiling API book
+2017-09-01_15:24:04.239 [main] INFO  act.Act - network client hooked on port: 5121
+2017-09-01_15:24:04.250 [main] INFO  act.Act - CLI server started on port: 5122
+2017-09-01_15:24:04.264 [main] INFO  act.Act - it takes 5421ms to start the app
+
+2017-09-01_15:42:02.802 [cli-thread-2] INFO  act.Act - App starting ....
+2017-09-01_15:42:02.815 [cli-thread-2] INFO  act.Act - App shutting down ....
+2017-09-01_15:42:02.830 [cli-thread-2] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-09-01_15:42:02.831 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-09-01_15:42:02.831 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-09-01_15:42:02.833 [cli-thread-2] WARN  act.app.DbServiceManager - DB service not initialized: No DB plugin found
+2017-09-01_15:42:02.833 [cli-thread-2] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-09-01_15:42:02.833 [cli-thread-2] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-09-01_15:42:03.303 [cli-thread-2] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-09-01_15:42:03.356 [cli-thread-2] INFO  act.Act - App[Ai Open Api] loaded in 554ms
+2017-09-01_15:42:03.402 [jobs-thread-2] INFO  act.Act - start compiling API book
+2017-09-01_15:43:02.833 [cli-thread-2] INFO  act.Act - App starting ....
+2017-09-01_15:43:02.841 [cli-thread-2] INFO  act.Act - App shutting down ....
+2017-09-01_15:43:02.849 [cli-thread-2] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-09-01_15:43:02.850 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-09-01_15:43:02.850 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-09-01_15:43:02.851 [cli-thread-2] WARN  act.app.DbServiceManager - DB service not initialized: No DB plugin found
+2017-09-01_15:43:02.851 [cli-thread-2] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-09-01_15:43:02.851 [cli-thread-2] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-09-01_15:43:03.262 [cli-thread-2] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-09-01_15:43:03.303 [cli-thread-2] INFO  act.Act - App[Ai Open Api] loaded in 470ms
+2017-09-01_15:43:03.343 [jobs-thread-2] INFO  act.Act - start compiling API book
+2017-09-01_15:44:02.855 [cli-thread-2] INFO  act.Act - App starting ....
+2017-09-01_15:44:02.870 [cli-thread-2] INFO  act.Act - App shutting down ....
+2017-09-01_15:44:02.875 [cli-thread-2] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-09-01_15:44:02.876 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-09-01_15:44:02.876 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-09-01_15:44:02.877 [cli-thread-2] WARN  act.app.DbServiceManager - DB service not initialized: No DB plugin found
+2017-09-01_15:44:02.877 [cli-thread-2] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-09-01_15:44:02.877 [cli-thread-2] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-09-01_15:44:03.218 [cli-thread-2] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-09-01_15:44:03.255 [cli-thread-2] INFO  act.Act - App[Ai Open Api] loaded in 399ms
+2017-09-01_15:44:03.296 [jobs-thread-2] INFO  act.Act - start compiling API book
+2017-09-01_15:45:02.878 [cli-thread-2] INFO  act.Act - App starting ....
+2017-09-01_15:45:02.889 [cli-thread-2] INFO  act.Act - App shutting down ....
+2017-09-01_15:45:02.895 [cli-thread-2] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-09-01_15:45:02.896 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-09-01_15:45:02.896 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-09-01_15:45:02.897 [cli-thread-2] WARN  act.app.DbServiceManager - DB service not initialized: No DB plugin found
+2017-09-01_15:45:02.897 [cli-thread-2] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-09-01_15:45:02.897 [cli-thread-2] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-09-01_15:45:03.301 [cli-thread-2] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-09-01_15:45:03.344 [cli-thread-2] INFO  act.Act - App[Ai Open Api] loaded in 466ms
+2017-09-01_15:45:03.394 [jobs-thread-2] INFO  act.Act - start compiling API book
+2017-09-01_15:46:02.900 [cli-thread-2] INFO  act.Act - App starting ....
+2017-09-01_15:46:02.912 [cli-thread-2] INFO  act.Act - App shutting down ....
+2017-09-01_15:46:02.918 [cli-thread-2] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-09-01_15:46:02.918 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-09-01_15:46:02.918 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-09-01_15:46:02.919 [cli-thread-2] WARN  act.app.DbServiceManager - DB service not initialized: No DB plugin found
+2017-09-01_15:46:02.920 [cli-thread-2] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-09-01_15:46:02.920 [cli-thread-2] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-09-01_15:47:02.925 [cli-thread-2] INFO  act.Act - App starting ....
+2017-09-01_15:47:02.933 [cli-thread-2] INFO  act.Act - App shutting down ....
+2017-09-01_15:47:02.939 [cli-thread-2] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-09-01_15:47:02.940 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-09-01_15:47:02.940 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-09-01_15:47:02.940 [cli-thread-2] WARN  act.app.DbServiceManager - DB service not initialized: No DB plugin found
+2017-09-01_15:47:02.941 [cli-thread-2] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-09-01_15:47:02.941 [cli-thread-2] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-09-01_15:47:03.259 [cli-thread-2] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-09-01_15:47:03.293 [cli-thread-2] INFO  act.Act - App[Ai Open Api] loaded in 368ms
+2017-09-01_15:47:03.336 [jobs-thread-2] INFO  act.Act - start compiling API book
+2017-09-01_15:47:15.269 [XNIO-1 I/O-9] INFO  act.Act - App starting ....
+2017-09-01_15:47:15.277 [XNIO-1 I/O-9] INFO  act.Act - App shutting down ....
+2017-09-01_15:47:15.284 [XNIO-1 I/O-9] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-09-01_15:47:15.285 [XNIO-1 I/O-9] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-09-01_15:47:15.285 [XNIO-1 I/O-9] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-09-01_15:47:15.285 [XNIO-1 I/O-9] WARN  act.app.DbServiceManager - DB service not initialized: No DB plugin found
+2017-09-01_15:47:15.286 [XNIO-1 I/O-9] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-09-01_15:47:15.286 [XNIO-1 I/O-9] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-09-01_15:47:15.638 [XNIO-1 I/O-9] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-09-01_15:47:15.671 [XNIO-1 I/O-9] INFO  act.Act - App[Ai Open Api] loaded in 402ms
+2017-09-01_15:47:15.682 [XNIO-1 I/O-9] WARN  act.Act - cannot find job by id: __act_app__post_start
+2017-09-01_15:47:15.712 [jobs-thread-2] INFO  act.Act - start compiling API book
+2017-09-01_15:47:38.540 [XNIO-1 I/O-9] INFO  act.Act - App starting ....
+2017-09-01_15:47:38.542 [XNIO-1 I/O-9] INFO  act.Act - App shutting down ....
+2017-09-01_15:47:38.549 [XNIO-1 I/O-9] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-09-01_15:47:38.549 [XNIO-1 I/O-9] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-09-01_15:47:38.549 [XNIO-1 I/O-9] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-09-01_15:47:38.550 [XNIO-1 I/O-9] WARN  act.app.DbServiceManager - DB service not initialized: No DB plugin found
+2017-09-01_15:47:38.550 [XNIO-1 I/O-9] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-09-01_15:47:38.551 [XNIO-1 I/O-9] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-09-01_15:47:38.891 [XNIO-1 I/O-9] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-09-01_15:47:38.916 [XNIO-1 I/O-9] INFO  act.Act - App[Ai Open Api] loaded in 376ms
+2017-09-01_15:47:38.926 [XNIO-1 I/O-9] WARN  act.Act - cannot find job by id: __act_app__post_start
+2017-09-01_15:47:38.947 [jobs-thread-2] INFO  act.Act - start compiling API book
+2017-09-01_15:48:08.547 [XNIO-1 task-56] ERROR a.h.b.controller.RequestHandlerProxy - Error handling request: [GET] /login
+act.exception.ActException: Render template[/admin/auth/login] not found
+	at act.view.RenderTemplate.apply(RenderTemplate.java:73)
+	at act.handler.builtin.controller.RequestHandlerProxy.onResult(RequestHandlerProxy.java:289)
+	at act.handler.builtin.controller.RequestHandlerProxy.handle(RequestHandlerProxy.java:213)
+	at act.handler.DelegateRequestHandler.handle(DelegateRequestHandler.java:47)
+	at act.route.Router$ContextualHandler.handle(Router.java:1351)
+	at act.xio.NetworkHandler$3.run(NetworkHandler.java:150)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-09-01_15:49:35.384 [XNIO-1 I/O-12] INFO  act.Act - App starting ....
+2017-09-01_15:49:35.393 [XNIO-1 I/O-12] INFO  act.Act - App shutting down ....
+2017-09-01_15:49:35.399 [XNIO-1 I/O-12] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-09-01_15:49:35.400 [XNIO-1 I/O-12] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-09-01_15:49:35.400 [XNIO-1 I/O-12] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-09-01_15:49:35.401 [XNIO-1 I/O-12] WARN  act.app.DbServiceManager - DB service not initialized: No DB plugin found
+2017-09-01_15:49:35.401 [XNIO-1 I/O-12] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-09-01_15:49:35.401 [XNIO-1 I/O-12] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-09-01_15:49:35.730 [XNIO-1 I/O-12] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-09-01_15:49:35.757 [XNIO-1 I/O-12] INFO  act.Act - App[Ai Open Api] loaded in 373ms
+2017-09-01_15:49:35.768 [XNIO-1 I/O-12] WARN  act.Act - cannot find job by id: __act_app__post_start
+2017-09-01_15:49:35.804 [jobs-thread-2] INFO  act.Act - start compiling API book
+2017-09-01_15:50:26.708 [XNIO-1 I/O-12] INFO  act.Act - App starting ....
+2017-09-01_15:50:26.711 [XNIO-1 I/O-12] INFO  act.Act - App shutting down ....
+2017-09-01_15:50:26.717 [XNIO-1 I/O-12] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-09-01_15:50:26.718 [XNIO-1 I/O-12] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-09-01_15:50:26.718 [XNIO-1 I/O-12] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-09-01_15:50:26.718 [XNIO-1 I/O-12] WARN  act.app.DbServiceManager - DB service not initialized: No DB plugin found
+2017-09-01_15:50:26.719 [XNIO-1 I/O-12] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-09-01_15:50:26.719 [XNIO-1 I/O-12] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-09-01_15:50:27.155 [XNIO-1 I/O-12] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-09-01_15:50:27.181 [XNIO-1 I/O-12] INFO  act.Act - App[Ai Open Api] loaded in 473ms
+2017-09-01_15:50:27.195 [XNIO-1 I/O-12] WARN  act.Act - cannot find job by id: __act_app__post_start
+2017-09-01_15:50:27.214 [jobs-thread-2] INFO  act.Act - start compiling API book
+2017-09-01_15:52:58.547 [XNIO-1 I/O-1] INFO  act.Act - App starting ....
+2017-09-01_15:52:58.554 [XNIO-1 I/O-1] INFO  act.Act - App shutting down ....
+2017-09-01_15:52:58.562 [XNIO-1 I/O-1] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-09-01_15:52:58.562 [XNIO-1 I/O-1] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-09-01_15:52:58.562 [XNIO-1 I/O-1] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-09-01_15:52:58.563 [XNIO-1 I/O-1] WARN  act.app.DbServiceManager - DB service not initialized: No DB plugin found
+2017-09-01_15:52:58.563 [XNIO-1 I/O-1] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-09-01_15:52:58.563 [XNIO-1 I/O-1] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-09-01_15:52:58.889 [XNIO-1 I/O-1] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-09-01_15:52:58.916 [XNIO-1 I/O-1] INFO  act.Act - App[Ai Open Api] loaded in 369ms
+2017-09-01_15:52:58.926 [XNIO-1 I/O-1] WARN  act.Act - cannot find job by id: __act_app__post_start
+2017-09-01_15:52:58.947 [jobs-thread-2] INFO  act.Act - start compiling API book
+2017-09-01_15:55:36.848 [XNIO-1 I/O-4] INFO  act.Act - App starting ....
+2017-09-01_15:55:36.855 [XNIO-1 I/O-4] INFO  act.Act - App shutting down ....
+2017-09-01_15:55:36.862 [XNIO-1 I/O-4] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-09-01_15:55:36.862 [XNIO-1 I/O-4] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-09-01_15:55:36.862 [XNIO-1 I/O-4] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-09-01_15:55:36.863 [XNIO-1 I/O-4] WARN  act.app.DbServiceManager - DB service not initialized: No DB plugin found
+2017-09-01_15:55:36.863 [XNIO-1 I/O-4] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-09-01_15:55:36.863 [XNIO-1 I/O-4] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-09-01_15:55:37.211 [XNIO-1 I/O-4] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-09-01_15:55:37.238 [XNIO-1 I/O-4] INFO  act.Act - App[Ai Open Api] loaded in 390ms
+2017-09-01_15:55:37.249 [XNIO-1 I/O-4] WARN  act.Act - cannot find job by id: __act_app__post_start
+2017-09-01_15:55:37.270 [jobs-thread-2] INFO  act.Act - start compiling API book
+2017-09-01_16:01:34.310 [cli-thread-2] INFO  act.Act - App starting ....
+2017-09-01_16:01:34.318 [cli-thread-2] INFO  act.Act - App shutting down ....
+2017-09-01_16:01:34.323 [cli-thread-2] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-09-01_16:01:34.323 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-09-01_16:01:34.323 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-09-01_16:01:34.324 [cli-thread-2] WARN  act.app.DbServiceManager - DB service not initialized: No DB plugin found
+2017-09-01_16:01:34.324 [cli-thread-2] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-09-01_16:01:34.324 [cli-thread-2] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-09-01_16:01:34.653 [cli-thread-2] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-09-01_16:01:34.678 [cli-thread-2] INFO  act.Act - App[Ai Open Api] loaded in 368ms
+2017-09-01_16:01:34.709 [jobs-thread-2] INFO  act.Act - start compiling API book
+2017-09-01_16:02:34.327 [cli-thread-2] INFO  act.Act - App starting ....
+2017-09-01_16:02:34.335 [cli-thread-2] INFO  act.Act - App shutting down ....
+2017-09-01_16:02:34.339 [cli-thread-2] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-09-01_16:02:34.340 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-09-01_16:02:34.340 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-09-01_16:02:34.341 [cli-thread-2] WARN  act.app.DbServiceManager - DB service not initialized: No DB plugin found
+2017-09-01_16:02:34.341 [cli-thread-2] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-09-01_16:02:34.341 [cli-thread-2] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-09-01_16:02:34.648 [cli-thread-2] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-09-01_16:02:34.664 [cli-thread-2] INFO  act.Act - App[Ai Open Api] loaded in 336ms
+2017-09-01_16:02:34.705 [jobs-thread-2] INFO  act.Act - start compiling API book
+2017-09-01_16:05:00.472 [XNIO-1 I/O-4] INFO  act.Act - App starting ....
+2017-09-01_16:05:00.478 [XNIO-1 I/O-4] INFO  act.Act - App shutting down ....
+2017-09-01_16:05:00.485 [XNIO-1 I/O-4] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-09-01_16:05:00.486 [XNIO-1 I/O-4] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-09-01_16:05:00.486 [XNIO-1 I/O-4] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-09-01_16:05:00.487 [XNIO-1 I/O-4] WARN  act.app.DbServiceManager - DB service not initialized: No DB plugin found
+2017-09-01_16:05:00.487 [XNIO-1 I/O-4] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-09-01_16:05:00.487 [XNIO-1 I/O-4] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-09-01_16:05:00.808 [XNIO-1 I/O-4] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-09-01_16:05:00.836 [XNIO-1 I/O-4] INFO  act.Act - App[Ai Open Api] loaded in 364ms
+2017-09-01_16:05:00.847 [XNIO-1 I/O-4] WARN  act.Act - cannot find job by id: __act_app__post_start
+2017-09-01_16:05:00.878 [jobs-thread-2] INFO  act.Act - start compiling API book
+2017-09-01_16:05:26.395 [XNIO-1 task-8] ERROR a.h.b.controller.RequestHandlerProxy - Error handling request: [POST] /admin/login.php
+org.osgl.exception.UnsupportedException: Template[cn/anline/www/admin/controller/Auth/login_] not found
+	at org.osgl.util.E.unsupport(E.java:153)
+	at act.view.RenderAny.apply(RenderAny.java:107)
+	at act.handler.builtin.controller.RequestHandlerProxy.onResult(RequestHandlerProxy.java:289)
+	at act.handler.builtin.controller.RequestHandlerProxy.handle(RequestHandlerProxy.java:213)
+	at act.handler.DelegateRequestHandler.handle(DelegateRequestHandler.java:47)
+	at act.route.Router$ContextualHandler.handle(Router.java:1351)
+	at act.xio.NetworkHandler$3.run(NetworkHandler.java:150)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-09-01_16:06:00.491 [cli-thread-2] INFO  act.Act - App starting ....
+2017-09-01_16:06:00.498 [cli-thread-2] INFO  act.Act - App shutting down ....
+2017-09-01_16:06:00.502 [cli-thread-2] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-09-01_16:06:00.502 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-09-01_16:06:00.502 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-09-01_16:06:00.503 [cli-thread-2] WARN  act.app.DbServiceManager - DB service not initialized: No DB plugin found
+2017-09-01_16:06:00.503 [cli-thread-2] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-09-01_16:06:00.503 [cli-thread-2] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-09-01_16:06:00.855 [cli-thread-2] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-09-01_16:06:00.873 [cli-thread-2] INFO  act.Act - App[Ai Open Api] loaded in 382ms
+2017-09-01_16:06:00.923 [jobs-thread-2] INFO  act.Act - start compiling API book
+2017-09-01_16:06:55.286 [XNIO-1 I/O-3] INFO  act.Act - App starting ....
+2017-09-01_16:06:55.292 [XNIO-1 I/O-3] INFO  act.Act - App shutting down ....
+2017-09-01_16:06:55.295 [XNIO-1 I/O-3] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-09-01_16:06:55.296 [XNIO-1 I/O-3] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-09-01_16:06:55.296 [XNIO-1 I/O-3] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-09-01_16:06:55.296 [XNIO-1 I/O-3] WARN  act.app.DbServiceManager - DB service not initialized: No DB plugin found
+2017-09-01_16:06:55.297 [XNIO-1 I/O-3] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-09-01_16:06:55.297 [XNIO-1 I/O-3] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-09-01_16:06:55.655 [XNIO-1 I/O-3] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-09-01_16:06:55.672 [XNIO-1 I/O-3] INFO  act.Act - App[Ai Open Api] loaded in 386ms
+2017-09-01_16:06:55.684 [XNIO-1 I/O-3] WARN  act.Act - cannot find job by id: __act_app__post_start
+2017-09-01_16:06:55.704 [jobs-thread-2] INFO  act.Act - start compiling API book
+2017-09-01_16:06:55.741 [XNIO-1 task-13] ERROR a.h.b.controller.RequestHandlerProxy - Error handling request: [POST] /admin/login.php
+org.osgl.exception.UnsupportedException: Template[cn/anline/www/admin/controller/Auth/login_] not found
+	at org.osgl.util.E.unsupport(E.java:153)
+	at act.view.RenderAny.apply(RenderAny.java:107)
+	at act.handler.builtin.controller.RequestHandlerProxy.onResult(RequestHandlerProxy.java:289)
+	at act.handler.builtin.controller.RequestHandlerProxy.handle(RequestHandlerProxy.java:213)
+	at act.handler.DelegateRequestHandler.handle(DelegateRequestHandler.java:47)
+	at act.route.Router$ContextualHandler.handle(Router.java:1351)
+	at act.xio.NetworkHandler$3.run(NetworkHandler.java:150)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-09-01_16:08:15.101 [XNIO-1 I/O-16] INFO  act.Act - App starting ....
+2017-09-01_16:08:15.107 [XNIO-1 I/O-16] INFO  act.Act - App shutting down ....
+2017-09-01_16:08:15.112 [XNIO-1 I/O-16] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-09-01_16:08:15.112 [XNIO-1 I/O-16] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-09-01_16:08:15.112 [XNIO-1 I/O-16] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-09-01_16:08:15.113 [XNIO-1 I/O-16] WARN  act.app.DbServiceManager - DB service not initialized: No DB plugin found
+2017-09-01_16:08:15.113 [XNIO-1 I/O-16] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-09-01_16:08:15.113 [XNIO-1 I/O-16] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-09-01_16:08:15.429 [XNIO-1 I/O-16] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-09-01_16:08:15.453 [XNIO-1 I/O-16] INFO  act.Act - App[Ai Open Api] loaded in 352ms
+2017-09-01_16:08:15.464 [XNIO-1 I/O-16] WARN  act.Act - cannot find job by id: __act_app__post_start
+2017-09-01_16:08:15.485 [jobs-thread-2] INFO  act.Act - start compiling API book
+2017-09-01_16:08:15.521 [XNIO-1 task-18] ERROR a.h.b.controller.RequestHandlerProxy - Error handling request: [POST] /admin/login.php
+act.exception.ActException: Render template[/admin/auth/login_] not found
+	at act.view.RenderTemplate.apply(RenderTemplate.java:73)
+	at act.handler.builtin.controller.RequestHandlerProxy.onResult(RequestHandlerProxy.java:289)
+	at act.handler.builtin.controller.RequestHandlerProxy.handle(RequestHandlerProxy.java:213)
+	at act.handler.DelegateRequestHandler.handle(DelegateRequestHandler.java:47)
+	at act.route.Router$ContextualHandler.handle(Router.java:1351)
+	at act.xio.NetworkHandler$3.run(NetworkHandler.java:150)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-09-01_16:08:21.575 [XNIO-1 task-23] ERROR a.h.b.controller.RequestHandlerProxy - Error handling request: [POST] /admin/login.php
+act.exception.ActException: Render template[/admin/auth/login_] not found
+	at act.view.RenderTemplate.apply(RenderTemplate.java:73)
+	at act.handler.builtin.controller.RequestHandlerProxy.onResult(RequestHandlerProxy.java:289)
+	at act.handler.builtin.controller.RequestHandlerProxy.handle(RequestHandlerProxy.java:213)
+	at act.handler.DelegateRequestHandler.handle(DelegateRequestHandler.java:47)
+	at act.route.Router$ContextualHandler.handle(Router.java:1351)
+	at act.xio.NetworkHandler$3.run(NetworkHandler.java:150)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-09-01_16:08:52.821 [XNIO-1 I/O-12] INFO  act.Act - App starting ....
+2017-09-01_16:08:52.828 [XNIO-1 I/O-12] INFO  act.Act - App shutting down ....
+2017-09-01_16:08:52.833 [XNIO-1 I/O-12] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-09-01_16:08:52.833 [XNIO-1 I/O-12] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-09-01_16:08:52.833 [XNIO-1 I/O-12] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-09-01_16:08:52.834 [XNIO-1 I/O-12] WARN  act.app.DbServiceManager - DB service not initialized: No DB plugin found
+2017-09-01_16:08:52.834 [XNIO-1 I/O-12] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-09-01_16:08:52.834 [XNIO-1 I/O-12] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-09-01_16:08:53.160 [XNIO-1 I/O-12] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-09-01_16:08:53.188 [XNIO-1 I/O-12] INFO  act.Act - App[Ai Open Api] loaded in 366ms
+2017-09-01_16:08:53.197 [XNIO-1 I/O-12] WARN  act.Act - cannot find job by id: __act_app__post_start
+2017-09-01_16:08:53.227 [jobs-thread-2] INFO  act.Act - start compiling API book
+2017-09-01_16:08:53.251 [XNIO-1 task-28] ERROR a.h.b.controller.RequestHandlerProxy - Error handling request: [POST] /admin/login.php
+org.osgl.exception.UnsupportedException: Template[cn/anline/www/admin/controller/Auth/login_] not found
+	at org.osgl.util.E.unsupport(E.java:153)
+	at act.view.RenderAny.apply(RenderAny.java:107)
+	at act.handler.builtin.controller.RequestHandlerProxy.onResult(RequestHandlerProxy.java:289)
+	at act.handler.builtin.controller.RequestHandlerProxy.handle(RequestHandlerProxy.java:213)
+	at act.handler.DelegateRequestHandler.handle(DelegateRequestHandler.java:47)
+	at act.route.Router$ContextualHandler.handle(Router.java:1351)
+	at act.xio.NetworkHandler$3.run(NetworkHandler.java:150)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-09-01_16:09:06.022 [XNIO-1 I/O-3] INFO  act.Act - App starting ....
+2017-09-01_16:09:06.029 [XNIO-1 I/O-3] INFO  act.Act - App shutting down ....
+2017-09-01_16:09:06.034 [XNIO-1 I/O-3] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-09-01_16:09:06.034 [XNIO-1 I/O-3] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-09-01_16:09:06.034 [XNIO-1 I/O-3] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-09-01_16:09:06.035 [XNIO-1 I/O-3] WARN  act.app.DbServiceManager - DB service not initialized: No DB plugin found
+2017-09-01_16:09:06.035 [XNIO-1 I/O-3] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-09-01_16:09:06.035 [XNIO-1 I/O-3] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-09-01_16:09:06.356 [XNIO-1 I/O-3] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-09-01_16:09:06.392 [XNIO-1 I/O-3] INFO  act.Act - App[Ai Open Api] loaded in 370ms
+2017-09-01_16:09:06.403 [XNIO-1 I/O-3] WARN  act.Act - cannot find job by id: __act_app__post_start
+2017-09-01_16:09:06.433 [jobs-thread-2] INFO  act.Act - start compiling API book
+2017-09-01_16:13:06.089 [cli-thread-2] INFO  act.Act - App starting ....
+2017-09-01_16:13:06.093 [cli-thread-2] INFO  act.Act - App shutting down ....
+2017-09-01_16:13:06.100 [cli-thread-2] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-09-01_16:13:06.100 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-09-01_16:13:06.100 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-09-01_16:13:06.101 [cli-thread-2] WARN  act.app.DbServiceManager - DB service not initialized: No DB plugin found
+2017-09-01_16:13:06.101 [cli-thread-2] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-09-01_16:13:06.101 [cli-thread-2] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-09-01_16:13:06.439 [cli-thread-2] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-09-01_16:13:06.466 [cli-thread-2] INFO  act.Act - App[Ai Open Api] loaded in 377ms
+2017-09-01_16:13:06.505 [jobs-thread-2] INFO  act.Act - start compiling API book
+2017-09-01_16:13:28.924 [XNIO-1 I/O-5] INFO  act.Act - App starting ....
+2017-09-01_16:13:28.928 [XNIO-1 I/O-5] INFO  act.Act - App shutting down ....
+2017-09-01_16:13:28.935 [XNIO-1 I/O-5] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-09-01_16:13:28.935 [XNIO-1 I/O-5] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-09-01_16:13:28.935 [XNIO-1 I/O-5] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-09-01_16:13:28.936 [XNIO-1 I/O-5] WARN  act.app.DbServiceManager - DB service not initialized: No DB plugin found
+2017-09-01_16:13:28.936 [XNIO-1 I/O-5] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-09-01_16:13:28.936 [XNIO-1 I/O-5] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-09-01_16:13:29.279 [XNIO-1 I/O-5] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-09-01_16:13:29.303 [XNIO-1 I/O-5] INFO  act.Act - App[Ai Open Api] loaded in 379ms
+2017-09-01_16:13:29.315 [XNIO-1 I/O-5] WARN  act.Act - cannot find job by id: __act_app__post_start
+2017-09-01_16:13:29.350 [jobs-thread-2] INFO  act.Act - start compiling API book
+2017-09-01_16:14:28.939 [cli-thread-2] INFO  act.Act - App starting ....
+2017-09-01_16:14:28.943 [cli-thread-2] INFO  act.Act - App shutting down ....
+2017-09-01_16:14:28.946 [cli-thread-2] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-09-01_16:14:28.947 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-09-01_16:14:28.947 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-09-01_16:14:28.947 [cli-thread-2] WARN  act.app.DbServiceManager - DB service not initialized: No DB plugin found
+2017-09-01_16:14:28.947 [cli-thread-2] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-09-01_16:14:28.948 [cli-thread-2] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-09-01_16:14:29.260 [cli-thread-2] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-09-01_16:14:29.280 [cli-thread-2] INFO  act.Act - App[Ai Open Api] loaded in 341ms
+2017-09-01_16:14:29.326 [jobs-thread-2] INFO  act.Act - start compiling API book
+2017-09-01_16:14:33.732 [XNIO-1 I/O-12] INFO  act.Act - App starting ....
+2017-09-01_16:14:33.736 [XNIO-1 I/O-12] INFO  act.Act - App shutting down ....
+2017-09-01_16:14:33.739 [XNIO-1 I/O-12] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-09-01_16:14:33.739 [XNIO-1 I/O-12] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-09-01_16:14:33.739 [XNIO-1 I/O-12] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-09-01_16:14:33.740 [XNIO-1 I/O-12] WARN  act.app.DbServiceManager - DB service not initialized: No DB plugin found
+2017-09-01_16:14:33.740 [XNIO-1 I/O-12] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-09-01_16:14:33.740 [XNIO-1 I/O-12] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-09-01_16:14:34.063 [XNIO-1 I/O-12] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-09-01_16:14:34.085 [XNIO-1 I/O-12] INFO  act.Act - App[Ai Open Api] loaded in 353ms
+2017-09-01_16:14:34.098 [XNIO-1 I/O-12] WARN  act.Act - cannot find job by id: __act_app__post_start
+2017-09-01_16:14:34.117 [jobs-thread-2] INFO  act.Act - start compiling API book
+2017-09-01_16:15:33.745 [cli-thread-2] INFO  act.Act - App starting ....
+2017-09-01_16:15:33.749 [cli-thread-2] INFO  act.Act - App shutting down ....
+2017-09-01_16:15:33.754 [cli-thread-2] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-09-01_16:15:33.755 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-09-01_16:15:33.755 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-09-01_16:15:33.755 [cli-thread-2] WARN  act.app.DbServiceManager - DB service not initialized: No DB plugin found
+2017-09-01_16:15:33.755 [cli-thread-2] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-09-01_16:15:33.756 [cli-thread-2] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-09-01_16:15:34.081 [cli-thread-2] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-09-01_16:15:34.105 [cli-thread-2] INFO  act.Act - App[Ai Open Api] loaded in 360ms
+2017-09-01_16:15:34.133 [jobs-thread-2] INFO  act.Act - start compiling API book
+2017-09-01_16:16:11.052 [XNIO-1 I/O-14] INFO  act.Act - App starting ....
+2017-09-01_16:16:11.056 [XNIO-1 I/O-14] INFO  act.Act - App shutting down ....
+2017-09-01_16:16:11.062 [XNIO-1 I/O-14] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-09-01_16:16:11.062 [XNIO-1 I/O-14] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-09-01_16:16:11.062 [XNIO-1 I/O-14] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-09-01_16:16:11.063 [XNIO-1 I/O-14] WARN  act.app.DbServiceManager - DB service not initialized: No DB plugin found
+2017-09-01_16:16:11.063 [XNIO-1 I/O-14] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-09-01_16:16:11.063 [XNIO-1 I/O-14] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-09-01_16:16:11.383 [XNIO-1 I/O-14] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-09-01_16:16:11.409 [XNIO-1 I/O-14] INFO  act.Act - App[Ai Open Api] loaded in 357ms
+2017-09-01_16:16:11.420 [XNIO-1 I/O-14] WARN  act.Act - cannot find job by id: __act_app__post_start
+2017-09-01_16:16:11.439 [jobs-thread-2] INFO  act.Act - start compiling API book
+2017-09-01_16:16:11.481 [XNIO-1 task-79] ERROR a.h.b.controller.RequestHandlerProxy - Error handling request: [POST] /admin/login.php
+act.exception.ActException: Render template[cn/anline/www/admin/controller/Auth/login_] not found
+	at act.view.RenderTemplate.apply(RenderTemplate.java:73)
+	at act.handler.builtin.controller.RequestHandlerProxy.onResult(RequestHandlerProxy.java:289)
+	at act.handler.builtin.controller.RequestHandlerProxy.handle(RequestHandlerProxy.java:213)
+	at act.handler.DelegateRequestHandler.handle(DelegateRequestHandler.java:47)
+	at act.route.Router$ContextualHandler.handle(Router.java:1351)
+	at act.xio.NetworkHandler$3.run(NetworkHandler.java:150)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-09-01_16:17:11.066 [cli-thread-2] INFO  act.Act - App starting ....
+2017-09-01_16:17:11.070 [cli-thread-2] INFO  act.Act - App shutting down ....
+2017-09-01_16:17:11.076 [cli-thread-2] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-09-01_16:17:11.077 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-09-01_16:17:11.077 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-09-01_16:17:11.078 [cli-thread-2] WARN  act.app.DbServiceManager - DB service not initialized: No DB plugin found
+2017-09-01_16:17:11.078 [cli-thread-2] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-09-01_16:17:11.078 [cli-thread-2] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-09-01_16:17:11.408 [cli-thread-2] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-09-01_16:17:11.430 [cli-thread-2] INFO  act.Act - App[Ai Open Api] loaded in 364ms
+2017-09-01_16:17:11.464 [jobs-thread-2] INFO  act.Act - start compiling API book
+2017-09-01_16:17:38.131 [XNIO-1 I/O-5] INFO  act.Act - App starting ....
+2017-09-01_16:17:38.133 [XNIO-1 I/O-5] INFO  act.Act - App shutting down ....
+2017-09-01_16:17:38.138 [XNIO-1 I/O-5] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-09-01_16:17:38.139 [XNIO-1 I/O-5] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-09-01_16:17:38.139 [XNIO-1 I/O-5] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-09-01_16:17:38.139 [XNIO-1 I/O-5] WARN  act.app.DbServiceManager - DB service not initialized: No DB plugin found
+2017-09-01_16:17:38.139 [XNIO-1 I/O-5] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-09-01_16:17:38.139 [XNIO-1 I/O-5] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-09-01_16:17:38.470 [XNIO-1 I/O-5] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-09-01_16:17:38.494 [XNIO-1 I/O-5] INFO  act.Act - App[Ai Open Api] loaded in 363ms
+2017-09-01_16:17:38.507 [XNIO-1 I/O-5] WARN  act.Act - cannot find job by id: __act_app__post_start
+2017-09-01_16:17:38.546 [jobs-thread-2] INFO  act.Act - start compiling API book
+2017-09-01_16:17:38.573 [XNIO-1 task-85] ERROR a.h.b.controller.RequestHandlerProxy - Error handling request: [POST] /admin/login.php
+act.exception.ActException: Render template[fail] not found
+	at act.view.RenderTemplate.apply(RenderTemplate.java:73)
+	at act.handler.builtin.controller.RequestHandlerProxy.onResult(RequestHandlerProxy.java:289)
+	at act.handler.builtin.controller.RequestHandlerProxy.handle(RequestHandlerProxy.java:213)
+	at act.handler.DelegateRequestHandler.handle(DelegateRequestHandler.java:47)
+	at act.route.Router$ContextualHandler.handle(Router.java:1351)
+	at act.xio.NetworkHandler$3.run(NetworkHandler.java:150)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-09-01_16:18:38.145 [cli-thread-2] INFO  act.Act - App starting ....
+2017-09-01_16:18:38.150 [cli-thread-2] INFO  act.Act - App shutting down ....
+2017-09-01_16:18:38.155 [cli-thread-2] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-09-01_16:18:38.156 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-09-01_16:18:38.156 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-09-01_16:18:38.157 [cli-thread-2] WARN  act.app.DbServiceManager - DB service not initialized: No DB plugin found
+2017-09-01_16:18:38.157 [cli-thread-2] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-09-01_16:18:38.157 [cli-thread-2] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-09-01_16:18:38.463 [cli-thread-2] ERROR act.app.AppClassLoader - Error scanning bytecode at cn.anline.www.admin.controller.Auth::login()
+act.asm.AsmException: Duplicate action/interceptor method name found: login
+2017-09-01_16:18:38.463 [cli-thread-2] ERROR act.Act - Block issue encountered
+act.view.ActErrorResult: Duplicate action/interceptor method name found: login
+2017-09-01_16:19:12.536 [XNIO-1 I/O-13] INFO  act.Act - App starting ....
+2017-09-01_16:19:12.537 [XNIO-1 I/O-13] INFO  act.Act - App shutting down ....
+2017-09-01_16:19:12.544 [XNIO-1 I/O-13] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-09-01_16:19:12.544 [XNIO-1 I/O-13] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-09-01_16:19:12.544 [XNIO-1 I/O-13] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-09-01_16:19:12.545 [XNIO-1 I/O-13] WARN  act.app.DbServiceManager - DB service not initialized: No DB plugin found
+2017-09-01_16:19:12.545 [XNIO-1 I/O-13] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-09-01_16:19:12.545 [XNIO-1 I/O-13] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-09-01_16:19:12.863 [XNIO-1 I/O-13] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-09-01_16:19:12.887 [XNIO-1 I/O-13] INFO  act.Act - App[Ai Open Api] loaded in 351ms
+2017-09-01_16:19:12.899 [XNIO-1 I/O-13] WARN  act.Act - cannot find job by id: __act_app__post_start
+2017-09-01_16:19:12.920 [jobs-thread-2] INFO  act.Act - start compiling API book
+2017-09-01_16:20:46.157 [XNIO-1 I/O-6] INFO  act.Act - App starting ....
+2017-09-01_16:20:46.161 [XNIO-1 I/O-6] INFO  act.Act - App shutting down ....
+2017-09-01_16:20:46.167 [XNIO-1 I/O-6] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-09-01_16:20:46.167 [XNIO-1 I/O-6] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-09-01_16:20:46.168 [XNIO-1 I/O-6] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-09-01_16:20:46.168 [XNIO-1 I/O-6] WARN  act.app.DbServiceManager - DB service not initialized: No DB plugin found
+2017-09-01_16:20:46.168 [XNIO-1 I/O-6] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-09-01_16:20:46.168 [XNIO-1 I/O-6] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-09-01_16:20:46.500 [XNIO-1 I/O-6] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-09-01_16:20:46.525 [XNIO-1 I/O-6] INFO  act.Act - App[Ai Open Api] loaded in 368ms
+2017-09-01_16:20:46.536 [XNIO-1 I/O-6] WARN  act.Act - cannot find job by id: __act_app__post_start
+2017-09-01_16:20:46.568 [jobs-thread-2] INFO  act.Act - start compiling API book
+2017-09-01_16:20:48.094 [XNIO-1 task-120] ERROR a.h.b.controller.RequestHandlerProxy - Error handling request: [POST] /admin/login.php
+act.exception.ActException: Render template[/admin/auth/login__] not found
+	at act.view.RenderTemplate.apply(RenderTemplate.java:73)
+	at act.handler.builtin.controller.RequestHandlerProxy.onResult(RequestHandlerProxy.java:289)
+	at act.handler.builtin.controller.RequestHandlerProxy.handle(RequestHandlerProxy.java:213)
+	at act.handler.DelegateRequestHandler.handle(DelegateRequestHandler.java:47)
+	at act.route.Router$ContextualHandler.handle(Router.java:1351)
+	at act.xio.NetworkHandler$3.run(NetworkHandler.java:150)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-09-01_16:55:46.518 [jobs-thread-8] INFO  act.Act - App starting ....
+2017-09-01_16:55:46.533 [jobs-thread-8] INFO  act.Act - App shutting down ....
+2017-09-01_16:55:46.548 [jobs-thread-8] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-09-01_16:55:46.550 [jobs-thread-8] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-09-01_16:55:46.551 [jobs-thread-8] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-09-01_16:55:46.552 [jobs-thread-8] WARN  act.app.DbServiceManager - DB service not initialized: No DB plugin found
+2017-09-01_16:55:46.553 [jobs-thread-8] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-09-01_16:55:46.553 [jobs-thread-8] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-09-01_16:55:47.356 [jobs-thread-8] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-09-01_16:55:47.398 [jobs-thread-8] INFO  act.Act - App[Ai Open Api] loaded in 881ms
+2017-09-01_16:55:47.443 [jobs-thread-2] INFO  act.Act - start compiling API book
+2017-09-01_16:56:46.555 [cli-thread-2] INFO  act.Act - App starting ....
+2017-09-01_16:56:46.558 [cli-thread-2] INFO  act.Act - App shutting down ....
+2017-09-01_16:56:46.565 [cli-thread-2] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-09-01_16:56:46.566 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-09-01_16:56:46.566 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-09-01_16:56:46.567 [cli-thread-2] WARN  act.app.DbServiceManager - DB service not initialized: No DB plugin found
+2017-09-01_16:56:46.567 [cli-thread-2] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-09-01_16:56:46.567 [cli-thread-2] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-09-01_16:56:47.495 [cli-thread-2] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-09-01_16:56:47.535 [cli-thread-2] INFO  act.Act - App[Ai Open Api] loaded in 980ms
+2017-09-01_16:56:47.599 [jobs-thread-2] INFO  act.Act - start compiling API book
+2017-09-01_17:03:25.017 [XNIO-1 task-125] ERROR a.h.b.controller.RequestHandlerProxy - Error handling request: [POST] /admin/login.php
+act.exception.ActException: Render template[/admin/auth/login__] not found
+	at act.view.RenderTemplate.apply(RenderTemplate.java:73)
+	at act.handler.builtin.controller.RequestHandlerProxy.onResult(RequestHandlerProxy.java:289)
+	at act.handler.builtin.controller.RequestHandlerProxy.handle(RequestHandlerProxy.java:213)
+	at act.handler.DelegateRequestHandler.handle(DelegateRequestHandler.java:47)
+	at act.route.Router$ContextualHandler.handle(Router.java:1351)
+	at act.xio.NetworkHandler$3.run(NetworkHandler.java:150)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
