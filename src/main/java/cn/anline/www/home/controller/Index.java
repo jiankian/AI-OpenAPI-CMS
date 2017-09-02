@@ -1,6 +1,5 @@
 package cn.anline.www.home.controller;
 
-import act.controller.Controller;
 import act.inject.DefaultValue;
 import cn.anline.www.common.config.Theme;
 import org.osgl.mvc.annotation.After;
@@ -9,7 +8,7 @@ import org.osgl.mvc.annotation.GetAction;
 
 import javax.inject.Inject;
 
-public class Index extends Base{
+public class Index extends HomeBaseController {
     @Inject
     Theme theme;
     @Before

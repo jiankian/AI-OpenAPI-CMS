@@ -7,7 +7,7 @@ import org.osgl.mvc.annotation.GetAction;
  * 后台主页控制器
  */
 @Controller
-public class Index extends Base{
+public class Index extends AdminBaseController {
 
     /**
      * 后台主界面

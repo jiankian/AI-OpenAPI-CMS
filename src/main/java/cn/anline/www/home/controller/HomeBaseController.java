@@ -10,7 +10,7 @@ import javax.inject.Inject;
 /**
  * 前台总基类
  */
-public class Base extends AnnBase {
+public class HomeBaseController extends AnnBase {
 
     @Inject
     ActionContext actionContext;

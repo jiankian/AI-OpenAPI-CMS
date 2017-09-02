@@ -12,7 +12,7 @@ import javax.inject.Inject;
  * 后台基类，主要进行会员身份检查等
  */
 @UrlContext("/admin")
-public class Base extends AnnBase {
+public class AdminBaseController extends AnnBase {
     /**
      * 每次调用之前执行，检查是否登录
      * 后台全局构造器
