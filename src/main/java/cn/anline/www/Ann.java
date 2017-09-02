@@ -12,6 +12,5 @@ public class Ann extends AppConfigurator<Ann>{
 
     public static void main(String[] args) throws Exception {
         Act.start();
-        Act.LOGGER.debug("APP","Started...");
     }
 }

@@ -23,7 +23,7 @@
         </profile>
     </profiles>
     <properties>
-        <scm.url>git@git.oschina.net:greenlaw110/AI-OpenAPI-CMS.git</scm.url>
+        <scm.url>git@git.oschina.net:jiankian/AI-OpenAPI-CMS.git</scm.url>
         <project.version>1.0.0Beta</project.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
