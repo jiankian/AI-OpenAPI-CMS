@@ -93,17 +93,17 @@
             <artifactId>act-storage</artifactId>
             <version>${act-storage.version}</version>
         </dependency>
-        <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-            <version>${mysql.version}</version>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>mysql</groupId>-->
+            <!--<artifactId>mysql-connector-java</artifactId>-->
+            <!--<version>${mysql.version}</version>-->
+        <!--</dependency>-->
         <!-- https://mvnrepository.com/artifact/org.actframework/act-sql-common -->
-        <dependency>
-            <groupId>org.actframework</groupId>
-            <artifactId>act-sql-common</artifactId>
-            <version>${act-sql-common.version}</version>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>org.actframework</groupId>-->
+            <!--<artifactId>act-sql-common</artifactId>-->
+            <!--<version>${act-sql-common.version}</version>-->
+        <!--</dependency>-->
         <!-- https://mvnrepository.com/artifact/org.actframework/act-asm -->
         <dependency>
             <groupId>org.actframework</groupId>

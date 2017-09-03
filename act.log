@@ -21033,3 +21033,511 @@ java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.Sched
 2017-09-03_16:39:49.215 [cli-thread-2] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
 2017-09-03_16:39:49.270 [cli-thread-2] INFO  act.Act - App[Ann] loaded in 1620ms
 2017-09-03_16:39:49.450 [jobs-thread-2] INFO  act.Act - start compiling API book
+2017-09-04_01:48:34.985 [main] INFO  act.Act - loading application(s) ...
+2017-09-04_01:48:35.168 [main] INFO  act.Act - App starting ....
+2017-09-04_01:48:35.263 [main] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-09-04_01:48:35.266 [main] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-09-04_01:48:35.267 [main] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-09-04_01:48:35.276 [main] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.morphia.MorphiaPlugin@76a0762
+2017-09-04_01:48:35.690 [main] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-09-04_01:48:35.690 [main] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-09-04_01:48:35.721 [main] WARN  act.job.Job - error executing job act.storage.db.DbProbe$1@4fed6dd1
+java.lang.IncompatibleClassChangeError: Expecting non-static method act.db.morphia.MorphiaService.mapper()Lorg/mongodb/morphia/mapping/Mapper;
+	at act.storage.db.impl.morphia.MorphiaDbHooker.hookLifecycleInterceptors(MorphiaDbHooker.java:59)
+	at act.storage.StorageServiceManager.addDbHooker(StorageServiceManager.java:298)
+	at act.storage.db.DbProbe$1.run(DbProbe.java:43)
+	at act.job.Job$3.apply(Job.java:347)
+	at act.job.Job.doJob(Job.java:309)
+	at act.job.Job.run(Job.java:249)
+	at act.job.Job$LockableJobList.runSubJobs(Job.java:95)
+	at act.job.Job$LockableJobList.runSubJobs(Job.java:76)
+	at act.job.Job.runPrecedenceJobs(Job.java:324)
+	at act.job.Job.run(Job.java:244)
+	at act.job.AppJobManager$_AppEventListener.on(AppJobManager.java:388)
+	at act.event.EventBus.callOn(EventBus.java:236)
+	at act.event.EventBus.callOn(EventBus.java:260)
+	at act.event.EventBus.callOn(EventBus.java:281)
+	at act.event.EventBus.emit(EventBus.java:309)
+	at act.event.EventBus.emit(EventBus.java:298)
+	at act.app.App.emit(App.java:954)
+	at act.app.App.refresh(App.java:588)
+	at act.app.AppManager.load(AppManager.java:83)
+	at act.app.AppManager$_F$1.visit(AppManager.java:155)
+	at act.app.AppManager$_F$1.visit(AppManager.java:151)
+	at org.osgl.Osgl$Visitor.apply(Osgl.java:2226)
+	at org.osgl.Osgl$Visitor.apply(Osgl.java:2216)
+	at act.app.AppScanner.scan(AppScanner.java:94)
+	at act.app.AppScanner.scan(AppScanner.java:74)
+	at act.app.AppManager.loadSingleApp(AppManager.java:61)
+	at act.Act.start(Act.java:354)
+	at act.Act.startApp(Act.java:310)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.osgl.Osgl.invokeStatic(Osgl.java:5837)
+	at act.boot.app.RunApp.start(RunApp.java:81)
+	at act.Act.start(Act.java:637)
+	at cn.anline.www.Ann.main(Ann.java:14)
+2017-09-04_01:48:37.118 [main] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-09-04_01:48:37.605 [main] INFO  act.Act - App[Ann] loaded in 2437ms
+2017-09-04_01:48:37.678 [jobs-thread-2] INFO  act.Act - start compiling API book
+2017-09-04_01:48:37.900 [main] INFO  act.Act - network client hooked on port: 5121
+2017-09-04_01:48:37.922 [main] INFO  act.Act - CLI server started on port: 5122
+2017-09-04_01:48:37.942 [main] INFO  act.Act - it takes 8098ms to start the app
+
+2017-09-04_01:52:35.327 [cli-thread-2] INFO  act.Act - App starting ....
+2017-09-04_01:52:35.333 [cli-thread-2] DEBUG act.db.DbService - Morphia shutdown: default
+2017-09-04_01:52:35.339 [cli-thread-2] INFO  act.Act - App shutting down ....
+2017-09-04_01:52:35.349 [cli-thread-2] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-09-04_01:52:35.349 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-09-04_01:52:35.350 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-09-04_01:52:35.351 [cli-thread-2] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.morphia.MorphiaPlugin@76a0762
+2017-09-04_01:52:35.354 [cli-thread-2] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-09-04_01:52:35.354 [cli-thread-2] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-09-04_01:52:35.362 [cli-thread-2] WARN  act.job.Job - error executing job act.storage.db.DbProbe$1@2261c110
+java.lang.IncompatibleClassChangeError: Expecting non-static method act.db.morphia.MorphiaService.mapper()Lorg/mongodb/morphia/mapping/Mapper;
+	at act.storage.db.impl.morphia.MorphiaDbHooker.hookLifecycleInterceptors(MorphiaDbHooker.java:59)
+	at act.storage.StorageServiceManager.addDbHooker(StorageServiceManager.java:298)
+	at act.storage.db.DbProbe$1.run(DbProbe.java:43)
+	at act.job.Job$3.apply(Job.java:347)
+	at act.job.Job.doJob(Job.java:309)
+	at act.job.Job.run(Job.java:249)
+	at act.job.Job$LockableJobList.runSubJobs(Job.java:95)
+	at act.job.Job$LockableJobList.runSubJobs(Job.java:76)
+	at act.job.Job.runPrecedenceJobs(Job.java:324)
+	at act.job.Job.run(Job.java:244)
+	at act.job.AppJobManager$_AppEventListener.on(AppJobManager.java:388)
+	at act.event.EventBus.callOn(EventBus.java:236)
+	at act.event.EventBus.callOn(EventBus.java:260)
+	at act.event.EventBus.callOn(EventBus.java:281)
+	at act.event.EventBus.emit(EventBus.java:309)
+	at act.event.EventBus.emit(EventBus.java:298)
+	at act.app.App.emit(App.java:954)
+	at act.app.App.refresh(App.java:588)
+	at act.app.App.refresh(App.java:517)
+	at act.app.App.checkUpdates(App.java:415)
+	at act.app.CliServer$1.run(CliServer.java:153)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-09-04_01:52:35.862 [cli-thread-2] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-09-04_01:52:35.899 [cli-thread-2] INFO  act.Act - App[Ann] loaded in 572ms
+2017-09-04_01:52:35.942 [jobs-thread-3] INFO  act.Act - start compiling API book
+2017-09-04_01:52:45.796 [XNIO-1 task-1] ERROR a.h.b.controller.RequestHandlerProxy - Error handling request: [GET] /
+org.osgl.inject.InjectException: cannot instantiate class org.osgl.http.H$Cookie(cookie)
+	at org.osgl.inject.Genie.buildFieldMethodInjector(Genie.java:788)
+	at org.osgl.inject.Genie.buildProvider(Genie.java:731)
+	at org.osgl.inject.Genie.findProvider(Genie.java:689)
+	at org.osgl.inject.Genie.fieldInjector(Genie.java:823)
+	at org.osgl.inject.Genie.fieldInjectors(Genie.java:810)
+	at org.osgl.inject.Genie.buildFieldMethodInjector(Genie.java:751)
+	at org.osgl.inject.Genie.buildProvider(Genie.java:731)
+	at org.osgl.inject.Genie.findProvider(Genie.java:689)
+	at org.osgl.inject.Genie.getProvider(Genie.java:369)
+	at act.inject.genie.GenieInjector.getProvider(GenieInjector.java:81)
+	at act.inject.param.ParamValueLoaderService.findBeanLoader(ParamValueLoaderService.java:214)
+	at act.inject.param.ParamValueLoaderService.loadHostBean(ParamValueLoaderService.java:146)
+	at act.handler.builtin.controller.impl.ReflectedHandlerInvoker.controllerInstance(ReflectedHandlerInvoker.java:497)
+	at act.handler.builtin.controller.impl.ReflectedHandlerInvoker.handle(ReflectedHandlerInvoker.java:272)
+	at act.handler.builtin.controller.impl.ReflectedHandlerInvoker$_Before.handle(ReflectedHandlerInvoker.java:737)
+	at act.handler.builtin.controller.RequestHandlerProxy$GroupInterceptorWithResult.apply(RequestHandlerProxy.java:615)
+	at act.handler.builtin.controller.RequestHandlerProxy.handleBefore(RequestHandlerProxy.java:487)
+	at act.handler.builtin.controller.RequestHandlerProxy.handle(RequestHandlerProxy.java:200)
+	at act.handler.DelegateRequestHandler.handle(DelegateRequestHandler.java:47)
+	at act.route.Router$ContextualHandler.handle(Router.java:1351)
+	at act.xio.NetworkHandler$3.run(NetworkHandler.java:150)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NoSuchMethodException: org.osgl.http.H$Cookie.<init>()
+	at java.lang.Class.getConstructor0(Class.java:3082)
+	at java.lang.Class.getDeclaredConstructor(Class.java:2178)
+	at org.osgl.inject.Genie.buildFieldMethodInjector(Genie.java:754)
+	... 23 common frames omitted
+2017-09-04_01:52:45.815 [XNIO-1 task-1] ERROR a.h.b.controller.RequestHandlerProxy - error rendering exception handle  result
+org.osgl.inject.InjectException: cannot instantiate class org.osgl.http.H$Cookie(cookie)
+	at org.osgl.inject.Genie.buildFieldMethodInjector(Genie.java:788)
+	at org.osgl.inject.Genie.buildProvider(Genie.java:731)
+	at org.osgl.inject.Genie.findProvider(Genie.java:689)
+	at org.osgl.inject.Genie.fieldInjector(Genie.java:823)
+	at org.osgl.inject.Genie.fieldInjectors(Genie.java:810)
+	at org.osgl.inject.Genie.buildFieldMethodInjector(Genie.java:751)
+	at org.osgl.inject.Genie.buildProvider(Genie.java:731)
+	at org.osgl.inject.Genie.findProvider(Genie.java:689)
+	at org.osgl.inject.Genie.getProvider(Genie.java:369)
+	at org.osgl.inject.Genie.get(Genie.java:342)
+	at act.inject.genie.GenieInjector.get(GenieInjector.java:76)
+	at act.app.App.getInstance(App.java:871)
+	at act.view.ImplicitVariableProvider$TemplateVariableScanner$ReflectedActionViewVarDef.getValue(ImplicitVariableProvider.java:294)
+	at act.view.ImplicitVariableProvider$TemplateVariableScanner$4.eval(ImplicitVariableProvider.java:223)
+	at act.view.TemplateBase.exposeImplicitVariables(TemplateBase.java:88)
+	at act.view.TemplateBase.render(TemplateBase.java:50)
+	at act.util.ActErrorPageRender.renderTemplate(ActErrorPageRender.java:108)
+	at org.osgl.mvc.ErrorPageRenderer.apply(ErrorPageRenderer.java:26)
+	at org.osgl.mvc.result.ErrorResult.applyMessage(ErrorResult.java:175)
+	at org.osgl.mvc.result.Result.apply(Result.java:218)
+	at act.handler.builtin.controller.RequestHandlerProxy.onResult(RequestHandlerProxy.java:293)
+	at act.handler.builtin.controller.RequestHandlerProxy.handle(RequestHandlerProxy.java:229)
+	at act.handler.DelegateRequestHandler.handle(DelegateRequestHandler.java:47)
+	at act.route.Router$ContextualHandler.handle(Router.java:1351)
+	at act.xio.NetworkHandler$3.run(NetworkHandler.java:150)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NoSuchMethodException: org.osgl.http.H$Cookie.<init>()
+	at java.lang.Class.getConstructor0(Class.java:3082)
+	at java.lang.Class.getDeclaredConstructor(Class.java:2178)
+	at org.osgl.inject.Genie.buildFieldMethodInjector(Genie.java:754)
+	... 27 common frames omitted
+2017-09-04_01:52:45.824 [XNIO-1 task-1] ERROR act.xio.NetworkHandler - Error handling network request
+java.lang.IllegalStateException: UT000002: The response has already been started
+	at io.undertow.server.HttpServerExchange.setStatusCode(HttpServerExchange.java:1388)
+	at act.xio.undertow.UndertowResponse.status(UndertowResponse.java:166)
+	at act.xio.undertow.UndertowResponse.status(UndertowResponse.java:44)
+	at org.osgl.mvc.result.Result.applyStatus(Result.java:194)
+	at org.osgl.mvc.result.Result.apply(Result.java:214)
+	at act.handler.builtin.controller.RequestHandlerProxy.onResult(RequestHandlerProxy.java:293)
+	at act.handler.builtin.controller.RequestHandlerProxy.handle(RequestHandlerProxy.java:232)
+	at act.handler.DelegateRequestHandler.handle(DelegateRequestHandler.java:47)
+	at act.route.Router$ContextualHandler.handle(Router.java:1351)
+	at act.xio.NetworkHandler$3.run(NetworkHandler.java:150)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-09-04_01:52:55.342 [XNIO-1 task-3] ERROR a.h.b.controller.RequestHandlerProxy - Error handling request: [GET] /
+org.osgl.inject.InjectException: cannot instantiate class org.osgl.http.H$Cookie(cookie)
+	at org.osgl.inject.Genie.buildFieldMethodInjector(Genie.java:788)
+	at org.osgl.inject.Genie.buildProvider(Genie.java:731)
+	at org.osgl.inject.Genie.findProvider(Genie.java:689)
+	at org.osgl.inject.Genie.fieldInjector(Genie.java:823)
+	at org.osgl.inject.Genie.fieldInjectors(Genie.java:810)
+	at org.osgl.inject.Genie.buildFieldMethodInjector(Genie.java:751)
+	at org.osgl.inject.Genie.buildProvider(Genie.java:731)
+	at org.osgl.inject.Genie.findProvider(Genie.java:689)
+	at org.osgl.inject.Genie.getProvider(Genie.java:369)
+	at act.inject.genie.GenieInjector.getProvider(GenieInjector.java:81)
+	at act.inject.param.ParamValueLoaderService.findBeanLoader(ParamValueLoaderService.java:214)
+	at act.inject.param.ParamValueLoaderService.loadHostBean(ParamValueLoaderService.java:146)
+	at act.handler.builtin.controller.impl.ReflectedHandlerInvoker.controllerInstance(ReflectedHandlerInvoker.java:497)
+	at act.handler.builtin.controller.impl.ReflectedHandlerInvoker.handle(ReflectedHandlerInvoker.java:272)
+	at act.handler.builtin.controller.impl.ReflectedHandlerInvoker$_Before.handle(ReflectedHandlerInvoker.java:737)
+	at act.handler.builtin.controller.RequestHandlerProxy$GroupInterceptorWithResult.apply(RequestHandlerProxy.java:615)
+	at act.handler.builtin.controller.RequestHandlerProxy.handleBefore(RequestHandlerProxy.java:487)
+	at act.handler.builtin.controller.RequestHandlerProxy.handle(RequestHandlerProxy.java:200)
+	at act.handler.DelegateRequestHandler.handle(DelegateRequestHandler.java:47)
+	at act.route.Router$ContextualHandler.handle(Router.java:1351)
+	at act.xio.NetworkHandler$3.run(NetworkHandler.java:150)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NoSuchMethodException: org.osgl.http.H$Cookie.<init>()
+	at java.lang.Class.getConstructor0(Class.java:3082)
+	at java.lang.Class.getDeclaredConstructor(Class.java:2178)
+	at org.osgl.inject.Genie.buildFieldMethodInjector(Genie.java:754)
+	... 23 common frames omitted
+2017-09-04_01:52:55.344 [XNIO-1 task-3] ERROR a.h.b.controller.RequestHandlerProxy - error rendering exception handle  result
+org.osgl.inject.InjectException: cannot instantiate class org.osgl.http.H$Cookie(cookie)
+	at org.osgl.inject.Genie.buildFieldMethodInjector(Genie.java:788)
+	at org.osgl.inject.Genie.buildProvider(Genie.java:731)
+	at org.osgl.inject.Genie.findProvider(Genie.java:689)
+	at org.osgl.inject.Genie.fieldInjector(Genie.java:823)
+	at org.osgl.inject.Genie.fieldInjectors(Genie.java:810)
+	at org.osgl.inject.Genie.buildFieldMethodInjector(Genie.java:751)
+	at org.osgl.inject.Genie.buildProvider(Genie.java:731)
+	at org.osgl.inject.Genie.findProvider(Genie.java:689)
+	at org.osgl.inject.Genie.getProvider(Genie.java:369)
+	at org.osgl.inject.Genie.get(Genie.java:342)
+	at act.inject.genie.GenieInjector.get(GenieInjector.java:76)
+	at act.app.App.getInstance(App.java:871)
+	at act.view.ImplicitVariableProvider$TemplateVariableScanner$ReflectedActionViewVarDef.getValue(ImplicitVariableProvider.java:294)
+	at act.view.ImplicitVariableProvider$TemplateVariableScanner$4.eval(ImplicitVariableProvider.java:223)
+	at act.view.TemplateBase.exposeImplicitVariables(TemplateBase.java:88)
+	at act.view.TemplateBase.render(TemplateBase.java:50)
+	at act.util.ActErrorPageRender.renderTemplate(ActErrorPageRender.java:108)
+	at org.osgl.mvc.ErrorPageRenderer.apply(ErrorPageRenderer.java:26)
+	at org.osgl.mvc.result.ErrorResult.applyMessage(ErrorResult.java:175)
+	at org.osgl.mvc.result.Result.apply(Result.java:218)
+	at act.handler.builtin.controller.RequestHandlerProxy.onResult(RequestHandlerProxy.java:293)
+	at act.handler.builtin.controller.RequestHandlerProxy.handle(RequestHandlerProxy.java:229)
+	at act.handler.DelegateRequestHandler.handle(DelegateRequestHandler.java:47)
+	at act.route.Router$ContextualHandler.handle(Router.java:1351)
+	at act.xio.NetworkHandler$3.run(NetworkHandler.java:150)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NoSuchMethodException: org.osgl.http.H$Cookie.<init>()
+	at java.lang.Class.getConstructor0(Class.java:3082)
+	at java.lang.Class.getDeclaredConstructor(Class.java:2178)
+	at org.osgl.inject.Genie.buildFieldMethodInjector(Genie.java:754)
+	... 27 common frames omitted
+2017-09-04_01:52:55.345 [XNIO-1 task-3] ERROR act.xio.NetworkHandler - Error handling network request
+java.lang.IllegalStateException: UT000002: The response has already been started
+	at io.undertow.server.HttpServerExchange.setStatusCode(HttpServerExchange.java:1388)
+	at act.xio.undertow.UndertowResponse.status(UndertowResponse.java:166)
+	at act.xio.undertow.UndertowResponse.status(UndertowResponse.java:44)
+	at org.osgl.mvc.result.Result.applyStatus(Result.java:194)
+	at org.osgl.mvc.result.Result.apply(Result.java:214)
+	at act.handler.builtin.controller.RequestHandlerProxy.onResult(RequestHandlerProxy.java:293)
+	at act.handler.builtin.controller.RequestHandlerProxy.handle(RequestHandlerProxy.java:232)
+	at act.handler.DelegateRequestHandler.handle(DelegateRequestHandler.java:47)
+	at act.route.Router$ContextualHandler.handle(Router.java:1351)
+	at act.xio.NetworkHandler$3.run(NetworkHandler.java:150)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-09-04_01:53:35.354 [cli-thread-2] INFO  act.Act - App starting ....
+2017-09-04_01:53:35.359 [cli-thread-2] DEBUG act.db.DbService - Morphia shutdown: default
+2017-09-04_01:53:35.364 [cli-thread-2] INFO  act.Act - App shutting down ....
+2017-09-04_01:53:35.370 [cli-thread-2] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-09-04_01:53:35.371 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-09-04_01:53:35.371 [cli-thread-2] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-09-04_01:53:35.372 [cli-thread-2] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.morphia.MorphiaPlugin@76a0762
+2017-09-04_01:53:35.375 [cli-thread-2] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-09-04_01:53:35.375 [cli-thread-2] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-09-04_01:53:35.383 [cli-thread-2] WARN  act.job.Job - error executing job act.storage.db.DbProbe$1@515c9911
+java.lang.IncompatibleClassChangeError: Expecting non-static method act.db.morphia.MorphiaService.mapper()Lorg/mongodb/morphia/mapping/Mapper;
+	at act.storage.db.impl.morphia.MorphiaDbHooker.hookLifecycleInterceptors(MorphiaDbHooker.java:59)
+	at act.storage.StorageServiceManager.addDbHooker(StorageServiceManager.java:298)
+	at act.storage.db.DbProbe$1.run(DbProbe.java:43)
+	at act.job.Job$3.apply(Job.java:347)
+	at act.job.Job.doJob(Job.java:309)
+	at act.job.Job.run(Job.java:249)
+	at act.job.Job$LockableJobList.runSubJobs(Job.java:95)
+	at act.job.Job$LockableJobList.runSubJobs(Job.java:76)
+	at act.job.Job.runPrecedenceJobs(Job.java:324)
+	at act.job.Job.run(Job.java:244)
+	at act.job.AppJobManager$_AppEventListener.on(AppJobManager.java:388)
+	at act.event.EventBus.callOn(EventBus.java:236)
+	at act.event.EventBus.callOn(EventBus.java:260)
+	at act.event.EventBus.callOn(EventBus.java:281)
+	at act.event.EventBus.emit(EventBus.java:309)
+	at act.event.EventBus.emit(EventBus.java:298)
+	at act.app.App.emit(App.java:954)
+	at act.app.App.refresh(App.java:588)
+	at act.app.App.refresh(App.java:517)
+	at act.app.App.checkUpdates(App.java:415)
+	at act.app.CliServer$1.run(CliServer.java:153)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-09-04_01:53:35.844 [cli-thread-2] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-09-04_01:53:35.877 [cli-thread-2] INFO  act.Act - App[Ann] loaded in 523ms
+2017-09-04_01:53:35.908 [jobs-thread-1] INFO  act.Act - start compiling API book
+2017-09-04_01:53:43.779 [main] INFO  act.Act - loading application(s) ...
+2017-09-04_01:53:44.102 [main] INFO  act.Act - App starting ....
+2017-09-04_01:53:44.222 [main] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-09-04_01:53:44.228 [main] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-09-04_01:53:44.228 [main] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-09-04_01:53:44.239 [main] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.morphia.MorphiaPlugin@15ade272
+2017-09-04_01:53:44.651 [main] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-09-04_01:53:44.651 [main] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-09-04_01:53:44.681 [main] WARN  act.job.Job - error executing job act.storage.db.DbProbe$1@4b407ac7
+java.lang.IncompatibleClassChangeError: Expecting non-static method act.db.morphia.MorphiaService.mapper()Lorg/mongodb/morphia/mapping/Mapper;
+	at act.storage.db.impl.morphia.MorphiaDbHooker.hookLifecycleInterceptors(MorphiaDbHooker.java:59)
+	at act.storage.StorageServiceManager.addDbHooker(StorageServiceManager.java:298)
+	at act.storage.db.DbProbe$1.run(DbProbe.java:43)
+	at act.job.Job$3.apply(Job.java:347)
+	at act.job.Job.doJob(Job.java:309)
+	at act.job.Job.run(Job.java:249)
+	at act.job.Job$LockableJobList.runSubJobs(Job.java:95)
+	at act.job.Job$LockableJobList.runSubJobs(Job.java:76)
+	at act.job.Job.runPrecedenceJobs(Job.java:324)
+	at act.job.Job.run(Job.java:244)
+	at act.job.AppJobManager$_AppEventListener.on(AppJobManager.java:388)
+	at act.event.EventBus.callOn(EventBus.java:236)
+	at act.event.EventBus.callOn(EventBus.java:260)
+	at act.event.EventBus.callOn(EventBus.java:281)
+	at act.event.EventBus.emit(EventBus.java:309)
+	at act.event.EventBus.emit(EventBus.java:298)
+	at act.app.App.emit(App.java:954)
+	at act.app.App.refresh(App.java:588)
+	at act.app.AppManager.load(AppManager.java:83)
+	at act.app.AppManager$_F$1.visit(AppManager.java:155)
+	at act.app.AppManager$_F$1.visit(AppManager.java:151)
+	at org.osgl.Osgl$Visitor.apply(Osgl.java:2226)
+	at org.osgl.Osgl$Visitor.apply(Osgl.java:2216)
+	at act.app.AppScanner.scan(AppScanner.java:94)
+	at act.app.AppScanner.scan(AppScanner.java:74)
+	at act.app.AppManager.loadSingleApp(AppManager.java:61)
+	at act.Act.start(Act.java:354)
+	at act.Act.startApp(Act.java:310)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.osgl.Osgl.invokeStatic(Osgl.java:5837)
+	at act.boot.app.RunApp.start(RunApp.java:81)
+	at act.Act.start(Act.java:637)
+	at cn.anline.www.Ann.main(Ann.java:14)
+2017-09-04_01:53:45.771 [main] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-09-04_01:53:46.053 [main] INFO  act.Act - App[Ann] loaded in 1951ms
+2017-09-04_01:53:46.106 [jobs-thread-2] INFO  act.Act - start compiling API book
+2017-09-04_01:53:46.318 [main] INFO  act.Act - network client hooked on port: 5121
+2017-09-04_01:53:46.334 [main] INFO  act.Act - CLI server started on port: 5122
+2017-09-04_01:53:46.349 [main] INFO  act.Act - it takes 4775ms to start the app
+
+2017-09-04_01:59:08.191 [main] INFO  act.Act - loading application(s) ...
+2017-09-04_01:59:08.357 [main] INFO  act.Act - App starting ....
+2017-09-04_01:59:08.457 [main] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-09-04_01:59:08.461 [main] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-09-04_01:59:08.462 [main] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-09-04_01:59:08.472 [main] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.morphia.MorphiaPlugin@7cd1d235
+2017-09-04_01:59:08.828 [main] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-09-04_01:59:08.829 [main] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-09-04_01:59:08.860 [main] WARN  act.job.Job - error executing job act.storage.db.DbProbe$1@ce52252
+java.lang.IncompatibleClassChangeError: Expecting non-static method act.db.morphia.MorphiaService.mapper()Lorg/mongodb/morphia/mapping/Mapper;
+	at act.storage.db.impl.morphia.MorphiaDbHooker.hookLifecycleInterceptors(MorphiaDbHooker.java:59)
+	at act.storage.StorageServiceManager.addDbHooker(StorageServiceManager.java:298)
+	at act.storage.db.DbProbe$1.run(DbProbe.java:43)
+	at act.job.Job$3.apply(Job.java:347)
+	at act.job.Job.doJob(Job.java:309)
+	at act.job.Job.run(Job.java:249)
+	at act.job.Job$LockableJobList.runSubJobs(Job.java:95)
+	at act.job.Job$LockableJobList.runSubJobs(Job.java:76)
+	at act.job.Job.runPrecedenceJobs(Job.java:324)
+	at act.job.Job.run(Job.java:244)
+	at act.job.AppJobManager$_AppEventListener.on(AppJobManager.java:388)
+	at act.event.EventBus.callOn(EventBus.java:236)
+	at act.event.EventBus.callOn(EventBus.java:260)
+	at act.event.EventBus.callOn(EventBus.java:281)
+	at act.event.EventBus.emit(EventBus.java:309)
+	at act.event.EventBus.emit(EventBus.java:298)
+	at act.app.App.emit(App.java:954)
+	at act.app.App.refresh(App.java:588)
+	at act.app.AppManager.load(AppManager.java:83)
+	at act.app.AppManager$_F$1.visit(AppManager.java:155)
+	at act.app.AppManager$_F$1.visit(AppManager.java:151)
+	at org.osgl.Osgl$Visitor.apply(Osgl.java:2226)
+	at org.osgl.Osgl$Visitor.apply(Osgl.java:2216)
+	at act.app.AppScanner.scan(AppScanner.java:94)
+	at act.app.AppScanner.scan(AppScanner.java:74)
+	at act.app.AppManager.loadSingleApp(AppManager.java:61)
+	at act.Act.start(Act.java:354)
+	at act.Act.startApp(Act.java:310)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.osgl.Osgl.invokeStatic(Osgl.java:5837)
+	at act.boot.app.RunApp.start(RunApp.java:81)
+	at act.Act.start(Act.java:637)
+	at cn.anline.www.Ann.main(Ann.java:14)
+2017-09-04_01:59:10.520 [main] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-09-04_01:59:10.806 [main] INFO  act.Act - App[Ann] loaded in 2448ms
+2017-09-04_01:59:10.863 [jobs-thread-2] INFO  act.Act - start compiling API book
+2017-09-04_01:59:10.996 [main] INFO  act.Act - network client hooked on port: 5121
+2017-09-04_01:59:11.010 [main] INFO  act.Act - CLI server started on port: 5122
+2017-09-04_01:59:11.025 [main] INFO  act.Act - it takes 7434ms to start the app
+
+2017-09-04_04:51:36.624 [main] INFO  act.Act - loading application(s) ...
+2017-09-04_04:51:36.869 [main] INFO  act.Act - App starting ....
+2017-09-04_04:51:36.984 [main] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-09-04_04:51:36.989 [main] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-09-04_04:51:36.990 [main] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-09-04_04:51:36.998 [main] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.morphia.MorphiaPlugin@2b4ba2d9
+2017-09-04_04:51:37.403 [main] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-09-04_04:51:37.403 [main] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-09-04_04:51:37.472 [main] WARN  act.job.Job - error executing job act.storage.db.DbProbe$1@3f22ce2a
+java.lang.IncompatibleClassChangeError: Expecting non-static method act.db.morphia.MorphiaService.mapper()Lorg/mongodb/morphia/mapping/Mapper;
+	at act.storage.db.impl.morphia.MorphiaDbHooker.hookLifecycleInterceptors(MorphiaDbHooker.java:59)
+	at act.storage.StorageServiceManager.addDbHooker(StorageServiceManager.java:298)
+	at act.storage.db.DbProbe$1.run(DbProbe.java:43)
+	at act.job.Job$3.apply(Job.java:347)
+	at act.job.Job.doJob(Job.java:309)
+	at act.job.Job.run(Job.java:249)
+	at act.job.Job$LockableJobList.runSubJobs(Job.java:95)
+	at act.job.Job$LockableJobList.runSubJobs(Job.java:76)
+	at act.job.Job.runPrecedenceJobs(Job.java:324)
+	at act.job.Job.run(Job.java:244)
+	at act.job.AppJobManager$_AppEventListener.on(AppJobManager.java:388)
+	at act.event.EventBus.callOn(EventBus.java:236)
+	at act.event.EventBus.callOn(EventBus.java:260)
+	at act.event.EventBus.callOn(EventBus.java:281)
+	at act.event.EventBus.emit(EventBus.java:309)
+	at act.event.EventBus.emit(EventBus.java:298)
+	at act.app.App.emit(App.java:954)
+	at act.app.App.refresh(App.java:588)
+	at act.app.AppManager.load(AppManager.java:83)
+	at act.app.AppManager$_F$1.visit(AppManager.java:155)
+	at act.app.AppManager$_F$1.visit(AppManager.java:151)
+	at org.osgl.Osgl$Visitor.apply(Osgl.java:2226)
+	at org.osgl.Osgl$Visitor.apply(Osgl.java:2216)
+	at act.app.AppScanner.scan(AppScanner.java:94)
+	at act.app.AppScanner.scan(AppScanner.java:74)
+	at act.app.AppManager.loadSingleApp(AppManager.java:61)
+	at act.Act.start(Act.java:354)
+	at act.Act.startApp(Act.java:310)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.osgl.Osgl.invokeStatic(Osgl.java:5837)
+	at act.boot.app.RunApp.start(RunApp.java:81)
+	at act.Act.start(Act.java:637)
+	at cn.anline.www.Ann.main(Ann.java:14)
+2017-09-04_04:51:38.430 [main] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-09-04_04:51:38.695 [main] INFO  act.Act - App[Ann] loaded in 1826ms
+2017-09-04_04:51:38.745 [jobs-thread-3] INFO  act.Act - start compiling API book
+2017-09-04_04:51:38.922 [main] INFO  act.Act - network client hooked on port: 5121
+2017-09-04_04:51:38.933 [main] INFO  act.Act - CLI server started on port: 5122
+2017-09-04_04:51:38.944 [main] INFO  act.Act - it takes 5312ms to start the app
+
+2017-09-04_07:15:09.078 [XNIO-1 I/O-9] INFO  act.Act - App starting ....
+2017-09-04_07:15:09.088 [XNIO-1 I/O-9] DEBUG act.db.DbService - Morphia shutdown: default
+2017-09-04_07:15:09.088 [XNIO-1 I/O-9] INFO  act.Act - App shutting down ....
+2017-09-04_07:15:09.109 [XNIO-1 I/O-9] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-09-04_07:15:09.110 [XNIO-1 I/O-9] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-09-04_07:15:09.110 [XNIO-1 I/O-9] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-09-04_07:15:09.111 [XNIO-1 I/O-9] WARN  act.app.DbServiceManager - DB configuration not found. Will try to init default service with the sole db plugin: act.db.morphia.MorphiaPlugin@2b4ba2d9
+2017-09-04_07:15:09.115 [XNIO-1 I/O-9] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-09-04_07:15:09.115 [XNIO-1 I/O-9] WARN  act.storage.StorageServiceManager - Storage service configuration not found. Use the sole one storage service[upload] as default service
+2017-09-04_07:15:09.140 [XNIO-1 I/O-9] WARN  act.job.Job - error executing job act.storage.db.DbProbe$1@4d92ee6f
+java.lang.IncompatibleClassChangeError: Expecting non-static method act.db.morphia.MorphiaService.mapper()Lorg/mongodb/morphia/mapping/Mapper;
+	at act.storage.db.impl.morphia.MorphiaDbHooker.hookLifecycleInterceptors(MorphiaDbHooker.java:59)
+	at act.storage.StorageServiceManager.addDbHooker(StorageServiceManager.java:298)
+	at act.storage.db.DbProbe$1.run(DbProbe.java:43)
+	at act.job.Job$3.apply(Job.java:347)
+	at act.job.Job.doJob(Job.java:309)
+	at act.job.Job.run(Job.java:249)
+	at act.job.Job$LockableJobList.runSubJobs(Job.java:95)
+	at act.job.Job$LockableJobList.runSubJobs(Job.java:76)
+	at act.job.Job.runPrecedenceJobs(Job.java:324)
+	at act.job.Job.run(Job.java:244)
+	at act.job.AppJobManager$_AppEventListener.on(AppJobManager.java:388)
+	at act.event.EventBus.callOn(EventBus.java:236)
+	at act.event.EventBus.callOn(EventBus.java:260)
+	at act.event.EventBus.callOn(EventBus.java:281)
+	at act.event.EventBus.emit(EventBus.java:309)
+	at act.event.EventBus.emit(EventBus.java:298)
+	at act.app.App.emit(App.java:954)
+	at act.app.App.refresh(App.java:588)
+	at act.app.App.refresh(App.java:517)
+	at act.app.App.checkUpdates(App.java:415)
+	at act.xio.NetworkHandler.handle(NetworkHandler.java:105)
+	at act.xio.undertow.ActHttpHandler.handleRequest(ActHttpHandler.java:47)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:326)
+	at io.undertow.server.protocol.http.HttpReadListener.handleEventWithNoRunningRequest(HttpReadListener.java:254)
+	at io.undertow.server.protocol.http.HttpReadListener.handleEvent(HttpReadListener.java:136)
+	at io.undertow.server.protocol.http.HttpOpenListener.handleEvent(HttpOpenListener.java:148)
+	at io.undertow.server.protocol.http.HttpOpenListener.handleEvent(HttpOpenListener.java:92)
+	at io.undertow.server.protocol.http.HttpOpenListener.handleEvent(HttpOpenListener.java:51)
+	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92)
+	at org.xnio.ChannelListeners$10.handleEvent(ChannelListeners.java:291)
+	at org.xnio.ChannelListeners$10.handleEvent(ChannelListeners.java:286)
+	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92)
+	at org.xnio.nio.QueuedNioTcpServer$1.run(QueuedNioTcpServer.java:129)
+	at org.xnio.nio.WorkerThread.safeRun(WorkerThread.java:582)
+	at org.xnio.nio.WorkerThread.run(WorkerThread.java:466)
+2017-09-04_07:15:09.520 [XNIO-1 I/O-9] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-09-04_07:15:09.569 [XNIO-1 I/O-9] INFO  act.Act - App[Ann] loaded in 491ms
+2017-09-04_07:15:09.580 [XNIO-1 I/O-9] WARN  act.Act - cannot find job by id: __act_app__post_start
+2017-09-04_07:15:09.599 [jobs-thread-5] INFO  act.Act - start compiling API book

@@ -31,15 +31,6 @@ public class AnnBase {
     protected H.Session session;
 
     @Inject
-    protected H.Cookie cookie;
-
-    @Inject
-    protected H.Header header;
-
-    @Inject
-    protected H.Status status;
-
-    @Inject
     protected UserAgent ua;
 
     @Inject

@@ -14,8 +14,8 @@ public class Index extends HomeBaseController {
     @Before
     public void init(){
     }
-    @GetAction("/")
-    public void index(){
+    @GetAction({"/","/index","/index.{a}"})
+    public void index(String a){
         tpl(_ThemePath()+"index/index.html");
     }
     @After
