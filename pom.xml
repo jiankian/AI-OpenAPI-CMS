@@ -82,6 +82,7 @@
             <artifactId>logback-classic</artifactId>
             <version>${logback-classic.version}</version>
         </dependency>
+        <!--使用MysQL数据库-->
         <!--<dependency>-->
             <!--<groupId>org.actframework</groupId>-->
             <!--<artifactId>act-ebean</artifactId>-->
@@ -110,13 +111,12 @@
             <version>${act-asm.version}</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.actframework/act-morphia -->
-        <!--
+        <!--使用MongoDb数据库-->
         <dependency>
             <groupId>org.actframework</groupId>
             <artifactId>act-morphia</artifactId>
             <version>${act-morphia.version}</version>
         </dependency>
-        -->
         <dependency>
             <groupId>commons-beanutils</groupId>
             <artifactId>commons-beanutils-core</artifactId>

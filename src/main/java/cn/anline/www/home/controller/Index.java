@@ -14,9 +14,9 @@ public class Index extends HomeBaseController {
     @Before
     public void init(){
     }
-    @GetAction({"/","/index{a}"})
-    public void index(@DefaultValue("安浪科技") String a){
-        this.tpl(_ThemePath()+"index/index.html");
+    @GetAction("/")
+    public void index(){
+        tpl(_ThemePath()+"index/index.html");
     }
     @After
     public void uninit(){

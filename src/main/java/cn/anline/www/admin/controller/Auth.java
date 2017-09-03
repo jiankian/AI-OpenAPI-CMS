@@ -26,14 +26,14 @@ public class Auth extends AdminBaseController {
     /**
      * 后台登录页面
      */
-    @GetAction("login{a}")
+    @GetAction("login")
     public void login(){
-        this.tpl(_ThemePath()+"auth/login");
+        tpl(_ThemePath()+"auth/login");
     }
 
-    @PostAction("login{a}")
+    @PostAction("login")
     public RenderAny login_(String username, String password, String remember){
-        return this.tpl(_ThemePath()+"auth/login__");
+        return tpl(_ThemePath()+"auth/login__");
     }
     /**
      * 检查是否登录

@@ -1,17 +1,10 @@
-package cn.anline.www.admin.controller;
+package cn.anline.www.console.controller;
 
 import act.controller.Controller;
 import org.osgl.mvc.annotation.GetAction;
 
-/**
- * 后台主页控制器
- */
 @Controller
-public class Index extends AdminBaseController {
-
-    /**
-     * 后台主界面
-     */
+public class Index extends ConsoleBaseController{
     @GetAction({"","index","index/index"})
     public void index(){
         tpl(_ThemePath()+"index/index");
