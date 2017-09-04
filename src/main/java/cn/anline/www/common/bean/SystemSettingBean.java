@@ -4,8 +4,8 @@ import act.db.morphia.MorphiaModel;
 import org.mongodb.morphia.annotations.Entity;
 
 /**
- * 用户权限模型
+ * 系统配置模型
  */
-@Entity("user_permisson")
-public class UserPermissionBean extends MorphiaModel<UserPermissionBean> {
+@Entity("system_setting")
+public class SystemSettingBean extends MorphiaModel<SystemSettingBean> {
 }
