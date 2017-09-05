@@ -1,7 +1,10 @@
 <!DOCTYPE html>
+@args{
+UserBean user
+}
 <html>
 <head>
-    <title>后台主页-安浪创想AI管理平台</title>
+    <title>@render("title"){安浪人工智能管理系统后台管理中心}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
     <!-- Bootstrap -->
@@ -44,7 +47,50 @@
 
         <!--navigation start-->
         <ul class="navigation">
-            <li><a class="active" href="index.html"><i class="fa fa-dashboard"></i><span>仪表盘</span></a></li>
+            <li><a href="/admin"><i class="fa fa-dashboard"></i><span>仪表盘</span></a></li>
+            <li class="sub"><a href="#"><i class="fa fa-cog"></i><span>系统</span></a>
+                <ul class="navigation-sub">
+                    <li><a href=""><i class="fa fa-cogs"></i><span>系统配置</span></a></li>
+                    <li><a href=""><i class="fa fa-folder-open"></i><span>附件管理</span></a></li>
+                    <li><a href=""><i class="fa  fa-picture-o"></i><span>首页Banner</span></a></li>
+                    <li><a href=""><i class="fa fa-chain"></i><span>合作伙伴</span></a></li>
+                    <li><a href=""><i class="fa fa-jpy"></i><span>支付接口</span></a></li>
+                    <li><a href=""><i class="fa fa-money"></i><span>财务管理</span></a></li>
+                    <li><a href=""><i class="fa fa-comments"></i><span>短信配置</span></a></li>
+                    <li><a href=""><i class="fa fa-envelope"></i><span>邮件配置</span></a></li>
+                    <li><a href=""><i class="fa fa-shield"></i><span>安全配置</span></a></li>
+                    <li><a href=""><i class="fa  fa-puzzle-piece"></i><span>API配置</span></a></li>
+                    <li><a href=""><i class="fa  fa-cloud-upload"></i><span>数据备份</span></a></li>
+                    <li><a href=""><i class="fa  fa-comments-o"></i><span>留言管理</span></a></li>
+                    <li><a href=""><i class="fa  fa-warning"></i><span>系统日志</span></a></li>
+                </ul>
+            </li>
+            <li class="sub"><a href="#"><i class="fa fa-users"></i><span>会员</span></a>
+                <ul class="navigation-sub">
+                    <li><a href=""><i class="fa fa-th-list"></i><span>会员管理</span></a></li>
+                    <li><a href=""><i class="fa fa-sitemap"></i><span>权限设置</span></a></li>
+                </ul>
+            </li>
+            <li class="sub"><a href="#"><i class="fa fa-comments"></i><span>微信</span></a>
+                <ul class="navigation-sub">
+                    <li><a href=""><i class="fa fa-cogs"></i><span>微信公众号配置</span></a></li>
+                    <li><a href=""><i class="fa fa-cogs"></i><span>微信小程序配置</span></a></li>
+                    <li><a href=""><i class="fa fa-cogs"></i><span>微信开放平台配置</span></a></li>
+                    <li><a href=""><i class="fa fa-sitemap"></i><span>公众号菜单设计</span></a></li>
+                </ul>
+            </li>
+            <li class="sub"><a href="#"><i class="fa fa-shopping-cart"></i><span>商城</span></a>
+                <ul class="navigation-sub">
+                    <li><a href=""><i class="fa fa-th-list"></i><span>商品管理</span></a></li>
+                    <li><a href=""><i class="fa fa-sitemap"></i><span>商品分类</span></a></li>
+                    <li><a href=""><i class="fa fa-truck"></i><span>订单管理</span></a></li>
+                    <li><a href=""><i class="fa fa-trophy"></i><span>品牌管理</span></a></li>
+                    <li><a href=""><i class="fa fa-comments"></i><span>用户评论</span></a></li>
+                    <li><a href=""><i class="fa fa-camera-retro"></i><span>用户晒单</span></a></li>
+                    <li><a href=""><i class="fa fa-tags"></i><span>标签管理</span></a></li>
+                    <li><a href=""><i class="fa fa-pencil-square"></i><span>属性管理</span></a></li>
+                </ul>
+            </li>
             <li class="sub"> <a href="#"><i class="fa fa-inbox"></i><span>产品与服务</span></a>
                 <ul class="navigation-sub">
                     <li><a href=""><i class="fa fa-th-list"></i><span>产品与服务管理</span></a></li>
@@ -83,49 +129,8 @@
                     <li><a href=""><i class="fa fa-th-large"></i><span>企业管理</span></a></li>
                 </ul>
             </li>
-            <li class="sub"><a href="#"><i class="fa fa-shopping-cart"></i><span>商城</span></a>
-                <ul class="navigation-sub">
-                    <li><a href=""><i class="fa fa-th-list"></i><span>商品管理</span></a></li>
-                    <li><a href=""><i class="fa fa-sitemap"></i><span>商品分类</span></a></li>
-                    <li><a href=""><i class="fa fa-truck"></i><span>订单管理</span></a></li>
-                    <li><a href=""><i class="fa fa-trophy"></i><span>品牌管理</span></a></li>
-                    <li><a href=""><i class="fa fa-comments"></i><span>用户评论</span></a></li>
-                    <li><a href=""><i class="fa fa-camera-retro"></i><span>用户晒单</span></a></li>
-                    <li><a href=""><i class="fa fa-tags"></i><span>标签管理</span></a></li>
-                    <li><a href=""><i class="fa fa-pencil-square"></i><span>属性管理</span></a></li>
-                </ul>
-            </li>
-            <li class="sub"><a href="#"><i class="fa fa-users"></i><span>会员</span></a>
-                <ul class="navigation-sub">
-                    <li><a href=""><i class="fa fa-th-list"></i><span>会员管理</span></a></li>
-                    <li><a href=""><i class="fa fa-sitemap"></i><span>权限设置</span></a></li>
-                </ul>
-            </li>
-            <li class="sub"><a href="#"><i class="fa fa-cog"></i><span>系统</span></a>
-                <ul class="navigation-sub">
-                    <li><a href=""><i class="fa fa-cogs"></i><span>系统配置</span></a></li>
-                    <li><a href=""><i class="fa fa-folder-open"></i><span>附件管理</span></a></li>
-                    <li><a href=""><i class="fa  fa-picture-o"></i><span>首页Banner</span></a></li>
-                    <li><a href=""><i class="fa fa-chain"></i><span>合作伙伴</span></a></li>
-                    <li><a href=""><i class="fa fa-jpy"></i><span>支付接口</span></a></li>
-                    <li><a href=""><i class="fa fa-money"></i><span>财务管理</span></a></li>
-                    <li><a href=""><i class="fa fa-comments"></i><span>短信配置</span></a></li>
-                    <li><a href=""><i class="fa fa-envelope"></i><span>邮件配置</span></a></li>
-                    <li><a href=""><i class="fa fa-shield"></i><span>安全配置</span></a></li>
-                    <li><a href=""><i class="fa  fa-puzzle-piece"></i><span>API配置</span></a></li>
-                    <li><a href=""><i class="fa  fa-cloud-upload"></i><span>数据备份</span></a></li>
-                    <li><a href=""><i class="fa  fa-comments-o"></i><span>留言管理</span></a></li>
-                    <li><a href=""><i class="fa  fa-warning"></i><span>系统日志</span></a></li>
-                </ul>
-            </li>
-            <li class="sub"><a href="#"><i class="fa fa-comments"></i><span>微信</span></a>
-                <ul class="navigation-sub">
-                    <li><a href=""><i class="fa fa-cogs"></i><span>微信公众号配置</span></a></li>
-                    <li><a href=""><i class="fa fa-cogs"></i><span>微信小程序配置</span></a></li>
-                    <li><a href=""><i class="fa fa-cogs"></i><span>微信开放平台配置</span></a></li>
-                    <li><a href=""><i class="fa fa-sitemap"></i><span>公众号菜单设计</span></a></li>
-                </ul>
-            </li>
+
+
         </ul>
         <!--navigation end-->
     </div>
@@ -147,12 +152,13 @@
                         <li class="profile-info dropdown">
                             <a data-toggle="dropdown" class="dropdown-toggle" href="#">
                                 <img class="img-circle" alt="" src="@(asset)images/avatar.jpg">
-                                绿血贵族（超级管理员）
+                                @(user.getNickname())（@(user.getUsername())）
                             </a>
                             <ul class="dropdown-menu">
                                 <li class="caret"></li>
-                                <li> <a href="edit-profile.html"> <i class="fa fa-user"></i> 编辑个人信息 </a> </li>
-                                <li> <a href="login.html"> <i class="fa fa-clipboard"></i> 安全注销</a> </li>
+                                <li> <a href="/admin/user/profile"> <i class="fa fa-user"></i> 查看个人信息 </a> </li>
+                                <li> <a href="/admin/user/edit"> <i class="fa fa-pencil"></i> 编辑个人信息 </a> </li>
+                                <li> <a href="/admin/auth/signout"> <i class="fa fa-clipboard"></i> 安全注销</a> </li>
                             </ul>
                         </li>
                         <li class="hidden-xs"><a class="toggle-menu menu-right push-body jPushMenuBtn rightbar-switch" href="javascript:;"><i class="fa fa-bars"></i></a></li>

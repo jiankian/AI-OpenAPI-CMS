@@ -116,6 +116,9 @@ public class AnnBase {
         context.templatePath("success");
         throw renderTemplate();
     }
+    public RenderAny successMsg(String url){
+        throw Controller.Util.redirect(url);
+    }
 
     public RenderAny failMsg(String url,String title,String msg,Integer sleep,boolean isRedirect){
         if (isRedirect){
@@ -128,7 +131,9 @@ public class AnnBase {
         context.templatePath("fail");
         throw renderTemplate();
     }
-
+    public RenderAny failMsg(String url){
+        throw Controller.Util.redirect(url);
+    }
     /**
      * 获取配置信息
      * @return
@@ -159,5 +164,19 @@ public class AnnBase {
     public RenderAny tpl(String path){
         context.templatePath(path);
         return renderTemplate();
+    }
+
+    /**
+     * 调用模板啦
+     */
+    public RenderAny tpl(String path,Object... args){
+        context.templatePath(path);
+        return renderTemplate(args);
+    }
+    /**
+     * 统一跳转页面
+     */
+    public void AnnGo(String url){
+        throw Controller.Util.redirect(url);
     }
 }

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Atom-Admin</title>
+<title>登录-安浪人工智能AI后台管理系统</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
 <!-- Bootstrap -->
@@ -31,21 +31,21 @@
   <div class="login-logo"><img src="@(asset)images/logo.png"></div>
     <h2 class="login-form-signin-heading">登录安浪人工智能官网管理中心！</h2>
         <div class="login-wrap">
-            <input type="text" name="username" autofocus placeholder="User ID" class="form-control">
-            <input type="password" name="password" placeholder="Password" class="form-control">
+            <input type="text" name="username" autofocus placeholder="请输入用户名" class="form-control">
+            <input type="password" name="password" placeholder="请输入密码" class="form-control">
             <label class="checkbox">
-                <input type="checkbox" name="remember" value="remember-me"> Remember me
+                <input type="checkbox" name="remember" value="remember-me"> 记住帐号
                 <span class="pull-right">
-                    <a href="#myModal" data-toggle="modal"> Forgot Password?</a>
+                    <a href="/user/forget-password" data-toggle="modal"> 忘记密码?</a>
 
                 </span>
             </label>
-            <button type="submit" class="btn btn-lg btn-primary btn-block">Sign in</button>
+            <button type="submit" class="btn btn-lg btn-primary btn-block">登录</button>
           
             
             <div class="registration">
-                Don't have an account yet?
-                <a href="index.html">Create an account</a>
+                还没有帐号？
+                <a href="/user/signup">注册帐号</a>
             </div>
 
         </div>
