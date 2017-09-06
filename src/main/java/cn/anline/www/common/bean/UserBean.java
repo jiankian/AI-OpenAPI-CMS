@@ -1,11 +1,14 @@
 package cn.anline.www.common.bean;
 
 import act.db.morphia.MorphiaModel;
+import act.storage.Store;
 import org.bson.types.ObjectId;
 import org.mongodb.morphia.annotations.Entity;
 import org.mongodb.morphia.annotations.Id;
 import org.mongodb.morphia.annotations.Indexed;
 import org.mongodb.morphia.utils.IndexDirection;
+import org.osgl.$;
+import org.osgl.storage.ISObject;
 
 /**
  * 用户模型
@@ -34,7 +37,7 @@ public class UserBean extends MorphiaModel<UserBean> {
     public UserBean(String username, String password, String avatar, String nickname, String firstname, String lastname, String aboutme, String country, String birthday, String email, String mobile, String website, String occupation, String tel, String company, String uuid) {
         this.username = username;
         this.password = password;
-        this.avatar = avatar;
+        this.avatar   = avatar;
         this.nickname = nickname;
         this.firstname = firstname;
         this.lastname = lastname;
@@ -52,6 +55,10 @@ public class UserBean extends MorphiaModel<UserBean> {
 
     public UserBean() {
 
+    }
+
+    public UserBean(String avatar) {
+        this.avatar = avatar;
     }
 
     public String getOccupation() {

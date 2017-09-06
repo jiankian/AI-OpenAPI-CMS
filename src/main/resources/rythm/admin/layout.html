@@ -151,7 +151,7 @@ UserBean user
                         </li>
                         <li class="profile-info dropdown">
                             <a data-toggle="dropdown" class="dropdown-toggle" href="#">
-                                <img class="img-circle" alt="" src="@(asset)images/avatar.jpg">
+                                <img class="img-circle" width="50px" alt="" src="@(user.getAvatar())">
                                 @(user.getNickname())（@(user.getUsername())）
                             </a>
                             <ul class="dropdown-menu">

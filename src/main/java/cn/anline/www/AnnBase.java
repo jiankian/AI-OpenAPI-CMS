@@ -55,11 +55,7 @@ public class AnnBase {
      */
     @After
     public void __uninit(){
-        Map<String,String> site = new HashMap<String,String>();
-        site.put("home",this.C("domain.site_home"));
-        site.put("asset",this.C("domain.site_asset"));
-        context.renderArg("site",site);
-        context.renderArg("site1","安浪科技");
+
     }
 
 
