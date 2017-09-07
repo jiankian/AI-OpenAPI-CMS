@@ -1,0 +1,2 @@
+#!/bin/bash
+/home/www/wwwroot/ai.anline.cn/run $* &
