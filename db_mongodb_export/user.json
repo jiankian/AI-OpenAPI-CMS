@@ -1,0 +1,23 @@
+{ 
+    "_id" : ObjectId("59ae7223c86e66fdfddee4ac"), 
+    "className" : "cn.anline.www.common.bean.UserBean", 
+    "username" : "jiankian", 
+    "password" : "600c9d2dae3396fa84e22eab33e3a63c", 
+    "avatar" : "/upload/2017/09/07/08/36/00/2CmLgW5fd.png", 
+    "nickname" : "绿血贵族", 
+    "firstname" : "Zhengan", 
+    "lastname" : "Luo", 
+    "aboutme" : "技术专属", 
+    "country" : "中国", 
+    "birthday" : "1995-03-20", 
+    "email" : "i@anline.cn", 
+    "mobile" : "13529513104", 
+    "website" : "http://www.anline.cn", 
+    "occupation" : "CTO", 
+    "tel" : "0878-8970223", 
+    "company" : "云南安浪科技有限公司", 
+    "uuid" : "", 
+    "_created" : NumberLong(1504604707118), 
+    "_modified" : NumberLong(1504748543898), 
+    "v" : NumberLong(33)
+}
