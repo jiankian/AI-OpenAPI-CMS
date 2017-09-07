@@ -1,5 +1,5 @@
 premain loading Transformer with args:debug=1;packages=cn.anline.www
-2017-09-07 03:57:46,219 [31mWARN [0;39m [36ma.j.Job@[main][0;39m - error executing job act.storage.db.DbProbe$1@4a84beb7
+2017-09-07 09:46:33,528 [31mWARN [0;39m [36ma.j.Job@[main][0;39m - error executing job act.storage.db.DbProbe$1@4a84beb7
 java.lang.IncompatibleClassChangeError: Expecting non-static method act.db.morphia.MorphiaService.mapper()Lorg/mongodb/morphia/mapping/Mapper;
 	at act.storage.db.impl.morphia.MorphiaDbHooker.hookLifecycleInterceptors(MorphiaDbHooker.java:59)
 	at act.storage.StorageServiceManager.addDbHooker(StorageServiceManager.java:298)

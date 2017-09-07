@@ -47,7 +47,8 @@ public class AnnBase {
      */
     @Before
     public void __init(){
-
+//        总的asset目录
+        context.renderArg("__asset","/asset/");
     }
 
     /**

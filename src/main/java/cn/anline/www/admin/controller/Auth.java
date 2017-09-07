@@ -44,7 +44,7 @@ public class Auth extends AdminBaseController {
     public void login(String username, String password, String remember){
         UserBean user = userBeanMorphiaDao.findOneBy("username",username.trim());
         if (null == user){
-            failMsg("/admin/auth/signin");
+            failMsg("/admin/auth/signin","登录失败！","请输入帐号后再重新登录",3000,false);
         }
 //        System.out.println("输入的MD5:"+Md5.gen(password.trim()));
 //        System.out.println("登录用户查询结果：");
@@ -52,9 +52,9 @@ public class Auth extends AdminBaseController {
         if (user.password.equals(Md5.gen(password.trim()))){
             session.put("admin_username",user.getUsername());
             session.put("admin_id",user.getId());
-            successMsg("/admin/index");
+            successMsg("/admin/index","登录成功","欢迎登录，正在为您打开后台首页",3000,false);
         }
-         failMsg("/admin/auth/signin");
+         failMsg("/admin/auth/signin","登录失败","请输入正确的超级管理员帐号和密码",3000,false);
     }
 
     @GetAction("signout")
