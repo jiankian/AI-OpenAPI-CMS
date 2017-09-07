@@ -1,9 +1,12 @@
 
 <!DOCTYPE html>
+@args{
+    String title
+}
 <html lang="en" class="wide wow-animation">
 <head>
     <!-- Site Title-->
-    <title>Home</title>
+    <title>@(title)-安浪人工智能AI官网管理平台</title>
     <meta name="format-detection" content="telephone=no">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -413,7 +416,7 @@
                                 </div>
                                 <div class="cell-md-5">
                                     <div class="form-group form-group-transparent">
-                                        <input type="email" name="email" data-constraints="@Email @Required" class="form-control">
+                                        <input type="email" name="email" data-constraints="@@Email @@Required" class="form-control">
                                     </div>
                                 </div>
                                 <div class="cell-md-3 text-center text-md-left offset-top-10 offset-md-top-0">

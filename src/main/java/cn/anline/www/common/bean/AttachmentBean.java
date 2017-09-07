@@ -1,13 +1,14 @@
 package cn.anline.www.common.bean;
 
 import act.db.morphia.MorphiaDao;
+import act.db.morphia.MorphiaModel;
 import org.mongodb.morphia.annotations.Entity;
 
 /**
  * 附件管理模型
  */
 @Entity("attachment")
-public final class AttachmentBean extends MorphiaDao<AttachmentBean>{
+public final class AttachmentBean extends MorphiaModel<AttachmentBean> {
 
     private String file;
     private String type;

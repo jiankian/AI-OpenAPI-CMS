@@ -14,8 +14,9 @@ public class Index extends HomeBaseController {
     @Before
     public void init(){
     }
-    @GetAction({"/","/index","/index.{a}"})
+    @GetAction({"","index","index.{a}"})
     public void index(String a){
+        context.renderArg("title","首页");
         tpl(_ThemePath()+"index/index.html");
     }
     @After

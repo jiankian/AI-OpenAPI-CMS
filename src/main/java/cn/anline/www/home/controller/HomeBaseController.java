@@ -1,6 +1,7 @@
 package cn.anline.www.home.controller;
 
 import act.app.ActionContext;
+import act.controller.annotation.UrlContext;
 import cn.anline.www.AnnBase;
 import org.osgl.mvc.annotation.After;
 import org.osgl.mvc.annotation.Before;
@@ -10,6 +11,7 @@ import javax.inject.Inject;
 /**
  * 前台总基类
  */
+@UrlContext("/")
 public class HomeBaseController extends AnnBase {
 
     @Inject
@@ -21,6 +23,7 @@ public class HomeBaseController extends AnnBase {
     @Before
     public void _init(){
         actionContext.renderArg("asset",_AssetPath());
+        actionContext.resp().addHeader("Hacking","AnnSecure");
     }
 
     /**
