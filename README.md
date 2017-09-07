@@ -16,7 +16,14 @@ JAVA8+Act.Framework+MongoDb+MySQL+AngularJS(BlurAdmin)+Bootstrap（三端都在�
 
 **团队：安浪创想(Anline)**
 
-**官网:[安浪创想](http://www.anline.cn)**
+**安浪创想官网:[http://www.anline.cn](http://www.anline.cn)**
+
+#AI官网 
+[http://ai.anline.cn](http://ai.anline.cn)
+
+后台：
+
+[/admin](http://ai.anline.cn/admin)
 
 ![](/screenshot/Jietu20170908-055455@2x.jpg)
 ![](/screenshot/Jietu20170908-055504@2x.jpg)
