@@ -14,6 +14,11 @@ JAVA8+Act.Framework+MongoDb+MySQL+AngularJS(BlurAdmin)+Bootstrap（三端都在�
 
 **作者：Jiankian(绿血贵族)**
 
+**QQ:51412708**
+
+**微信：jiankian**
+
+
 **团队：安浪创想(Anline)**
 
 **安浪创想官网:[http://www.anline.cn](http://www.anline.cn)**
