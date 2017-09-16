@@ -57531,3 +57531,75 @@ java.lang.IncompatibleClassChangeError: Expecting non-static method act.db.morph
 2017-09-11_13:46:37.406 [jobs-thread-5] INFO  act.app.App - App[Cn Anline Www Ann] loaded in 986ms
 2017-09-11_13:46:37.530 [jobs-thread-3] INFO  act.Act - start compiling API book
 2017-09-11_13:46:37.554 [jobs-thread-5] TRACE act.db.DbService - db-svc-init event triggered: db2
+2017-09-16_19:55:52.787 [main] INFO  act.Act - loading application(s) ...
+2017-09-16_19:55:53.138 [main] INFO  act.app.App - App starting ....
+2017-09-16_19:55:53.251 [main] WARN  act.conf.AppConfig - resource.preload.size.limit is set to zero or below, resource preload is disabled!
+2017-09-16_19:55:53.255 [main] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/favicon.ico
+2017-09-16_19:55:53.255 [main] WARN  act.handler.builtin.StaticFileGetter - file base not exists: ./asset/robots.txt
+2017-09-16_19:55:53.636 [main] INFO  act.app.DbServiceManager - db service[db1] initialized
+2017-09-16_19:55:53.643 [main] TRACE act.db.ebean.EbeanService - "agentPackage" configured: cn.anline.www
+2017-09-16_19:55:53.643 [main] INFO  act.app.DbServiceManager - db service[db2] initialized
+2017-09-16_19:55:53.644 [main] WARN  act.app.DbServiceManager - Default service not specified. Use the first db instance as default service: db1
+2017-09-16_19:55:53.673 [main] INFO  act.storage.StorageServiceManager - storage service[upload] initialized
+2017-09-16_19:55:53.673 [main] INFO  act.storage.StorageServiceManager - storage service[store1] initialized
+2017-09-16_19:55:53.674 [main] INFO  act.storage.StorageServiceManager - storage service[store2] initialized
+2017-09-16_19:55:53.678 [main] TRACE act.db.ebean.EbeanAgentLoader - loading agent: /Users/jiankian/.m2/repository/org/avaje/ebean/ebean-agent/8.1.1/ebean-agent-8.1.1.jar
+2017-09-16_19:55:53.919 [main] TRACE act.db.ebean.EbeanAgentLoader - javaagent loaded: /Users/jiankian/.m2/repository/org/avaje/ebean/ebean-agent/8.1.1/ebean-agent-8.1.1.jar
+2017-09-16_19:55:53.953 [main] WARN  act.job.Job - error executing job act.storage.db.DbProbe$1@74561d30
+java.lang.IncompatibleClassChangeError: Expecting non-static method act.db.morphia.MorphiaService.mapper()Lorg/mongodb/morphia/mapping/Mapper;
+	at act.storage.db.impl.morphia.MorphiaDbHooker.hookLifecycleInterceptors(MorphiaDbHooker.java:59)
+	at act.storage.StorageServiceManager.addDbHooker(StorageServiceManager.java:298)
+	at act.storage.db.DbProbe$1.run(DbProbe.java:43)
+	at act.job.Job$3.apply(Job.java:347)
+	at act.job.Job.doJob(Job.java:309)
+	at act.job.Job.run(Job.java:249)
+	at act.job.Job$LockableJobList.runSubJobs(Job.java:95)
+	at act.job.Job$LockableJobList.runSubJobs(Job.java:76)
+	at act.job.Job.runPrecedenceJobs(Job.java:324)
+	at act.job.Job.run(Job.java:244)
+	at act.job.AppJobManager$_AppEventListener.on(AppJobManager.java:388)
+	at act.event.EventBus.callOn(EventBus.java:236)
+	at act.event.EventBus.callOn(EventBus.java:260)
+	at act.event.EventBus.callOn(EventBus.java:281)
+	at act.event.EventBus.emit(EventBus.java:309)
+	at act.event.EventBus.emit(EventBus.java:298)
+	at act.app.App.emit(App.java:956)
+	at act.app.App.refresh(App.java:591)
+	at act.app.AppManager.load(AppManager.java:77)
+	at act.app.AppManager$_F$1.visit(AppManager.java:145)
+	at act.app.AppManager$_F$1.visit(AppManager.java:141)
+	at org.osgl.Osgl$Visitor.apply(Osgl.java:2249)
+	at org.osgl.Osgl$Visitor.apply(Osgl.java:2239)
+	at act.app.AppScanner.scan(AppScanner.java:95)
+	at act.app.AppScanner.scan(AppScanner.java:75)
+	at act.app.AppManager.loadSingleApp(AppManager.java:55)
+	at act.Act.startup(Act.java:287)
+	at act.Act.startup(Act.java:927)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.osgl.Osgl.invokeStatic(Osgl.java:5860)
+	at act.Act.bootstrap(Act.java:840)
+	at act.Act.start(Act.java:562)
+	at cn.anline.www.Ann.main(Ann.java:14)
+2017-09-16_19:55:55.947 [main] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-09-16_19:55:56.388 [jobs-thread-5] TRACE act.db.DbService - trigger on SINGLETON_PROVISIONED event: db2
+2017-09-16_19:55:56.389 [jobs-thread-5] TRACE act.db.DbService - initializing db2
+2017-09-16_19:55:56.391 [jobs-thread-5] TRACE act.db.DbService - configured: db2
+2017-09-16_19:55:56.391 [jobs-thread-5] TRACE act.db.DbService - init data source: db2
+2017-09-16_19:55:56.396 [jobs-thread-5] TRACE a.d.s.d.HikariDataSourceProvider - creating HikariCP data source ...
+2017-09-16_19:55:56.397 [jobs-thread-5] TRACE a.d.s.d.HikariDataSourceProvider - url: jdbc:mysql://localhost:3306/ai_anline_cn?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+2017-09-16_19:55:56.397 [jobs-thread-5] TRACE a.d.s.d.HikariDataSourceProvider - driver: com.mysql.jdbc.Driver
+2017-09-16_19:55:56.397 [jobs-thread-5] TRACE a.d.s.d.HikariDataSourceProvider - max conn: 10
+2017-09-16_19:55:56.398 [jobs-thread-5] TRACE a.d.s.d.HikariDataSourceProvider - min conn: 2
+2017-09-16_19:55:56.398 [jobs-thread-5] TRACE a.d.s.d.HikariDataSourceProvider - autoCommit: false
+2017-09-16_19:55:56.757 [main] INFO  act.Act - network client hooked on port: 5121
+2017-09-16_19:55:56.796 [main] INFO  act.Act - CLI server started on port: 5122
+2017-09-16_19:55:56.824 [main] INFO  act.Act - it takes 10498ms to start the app
+
+2017-09-16_19:55:57.002 [jobs-thread-5] TRACE act.db.DbService - data source initialized: db2
+2017-09-16_19:55:57.002 [jobs-thread-5] TRACE act.db.DbService - emitting db-svc-init event: db2
+2017-09-16_19:55:57.216 [jobs-thread-5] INFO  act.app.App - App[ANN OPEN AI CMS] loaded in 4078ms
+2017-09-16_19:55:57.311 [jobs-thread-5] TRACE act.db.DbService - db-svc-init event triggered: db2
+2017-09-16_19:55:57.335 [jobs-thread-3] INFO  act.Act - start compiling API book

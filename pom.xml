@@ -30,7 +30,7 @@
         <java.version>1.8</java.version>
         <junit.version>4.10</junit.version>
         <commons-lang3.version>3.5</commons-lang3.version>
-        <act.version>1.4.11</act.version>
+        <act.version>1.4.12</act.version>
         <logback-classic.version>1.1.6</logback-classic.version>
         <act-ebean.version>1.2.2</act-ebean.version>
         <act-storage.version>0.11.0-SNAPSHOT</act-storage.version>
