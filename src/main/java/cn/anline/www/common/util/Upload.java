@@ -4,13 +4,12 @@ import act.app.ActionContext;
 import act.data.SObjectResolver;
 import act.storage.StorageServiceManager;
 import cn.anline.www.common.bean.AttachmentBean;
-import com.avaje.ebean.annotation.Transactional;
+import io.ebean.annotation.Transactional;
 import org.osgl.storage.ISObject;
 import org.osgl.storage.IStorageService;
 
-import javax.inject.Inject;
 import java.io.File;
-import java.io.IOException;
+import javax.inject.Inject;
 
 public class Upload {
 

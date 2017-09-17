@@ -32,13 +32,12 @@
         <commons-lang3.version>3.5</commons-lang3.version>
         <act.version>1.4.12</act.version>
         <logback-classic.version>1.1.6</logback-classic.version>
-        <act-ebean.version>1.2.2</act-ebean.version>
-        <act-storage.version>0.11.0-SNAPSHOT</act-storage.version>
-        <act-sql-common.version>1.1.1</act-sql-common.version>
+        <act-ebean.version>1.1.4</act-ebean.version>
+        <act-storage.version>0.11.0</act-storage.version>
         <act-asm.version>5.0.2</act-asm.version>
-        <act-morphia.version>1.2.0</act-morphia.version>
+        <act-morphia.version>1.2.1</act-morphia.version>
         <mysql.version>5.1.41</mysql.version>
-        <HikariCP.version>2.6.3</HikariCP.version>
+        <HikariCP.version>2.7.1</HikariCP.version>
         <beanutils.version>1.8.3</beanutils.version>
         <jieba-analysis.version>1.0.2</jieba-analysis.version>
         <pinyin4j.version>2.5.1</pinyin4j.version>
@@ -85,7 +84,7 @@
         <!--使用MysQL数据库-->
         <dependency>
             <groupId>org.actframework</groupId>
-            <artifactId>act-ebean</artifactId>
+            <artifactId>act-ebean2</artifactId>
             <version>${act-ebean.version}</version>
         </dependency>
         <dependency>
@@ -98,19 +97,11 @@
             <artifactId>mysql-connector-java</artifactId>
             <version>${mysql.version}</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/org.actframework/act-sql-common -->
-        <dependency>
-            <groupId>org.actframework</groupId>
-            <artifactId>act-sql-common</artifactId>
-            <version>${act-sql-common.version}</version>
-        </dependency>
-        <!-- https://mvnrepository.com/artifact/org.actframework/act-asm -->
         <dependency>
             <groupId>org.actframework</groupId>
             <artifactId>act-asm</artifactId>
             <version>${act-asm.version}</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/org.actframework/act-morphia -->
         <!--使用MongoDb数据库-->
         <dependency>
             <groupId>org.actframework</groupId>
