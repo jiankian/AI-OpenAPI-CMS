@@ -15,6 +15,7 @@ store1/
 test.mv.db
 test.trace.db
 act.pid
+*.log
 /src/main/resources/conf/prod/
 /src/main/bin/start_abs
 /upload
