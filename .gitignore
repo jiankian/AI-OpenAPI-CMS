@@ -17,3 +17,4 @@ test.trace.db
 act.pid
 /src/main/resources/conf/prod/
 /src/main/bin/start_abs
+/upload
