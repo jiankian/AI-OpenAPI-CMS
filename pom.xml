@@ -44,7 +44,7 @@
         <commons-httpclient.version>3.1</commons-httpclient.version>
         <dom4j.version>2.0.0</dom4j.version>
         <solrj.version>6.5.1</solrj.version>
-        <jwt.version>3.2.0</jwt.version>
+        <jwt.version>2.2.0</jwt.version>
         <buildnumber-maven-plugin.version>1.4</buildnumber-maven-plugin.version>
         <app.entry>cn.anline.www.Ann</app.entry>
     </properties>
