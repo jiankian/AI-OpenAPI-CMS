@@ -23,8 +23,12 @@ JAVA8+Act.Framework+MongoDb+MySQL+AngularJS(BlurAdmin)+Bootstrap（三端都在�
 
 **安浪创想官网:[http://www.anline.cn](http://www.anline.cn)**
 
+**程序最新开源仓库地址为：码云平台**
+
+码云：[https://gitee.com/jiankian/AI-OpenAPI-CMS.git](https://gitee.com/jiankian/AI-OpenAPI-CMS.git)
+
 #AI官网 
-[http://ai.anline.cn](http://ai.anline.cn)
+[http://ai.anline.cn](http://ai.anline.cn) （演示地址配置低，服务器跑不动会不稳定）
 
 后台：
 
